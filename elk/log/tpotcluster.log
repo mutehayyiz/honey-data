@@ -94,3 +94,6 @@
 [2022-03-25T04:30:13,366][INFO ][o.e.i.g.DatabaseNodeService] [tpotcluster-node-01] successfully reloaded changed geoip database file [/tmp/geoip-databases/t9hfPgy_RyC9LOJUxQUrSQ/GeoLite2-City.mmdb]
 [2022-03-25T04:30:31,153][INFO ][o.e.c.m.MetadataIndexTemplateService] [tpotcluster-node-01] removing template [logstash]
 [2022-03-25T04:30:31,598][INFO ][o.e.c.m.MetadataIndexTemplateService] [tpotcluster-node-01] adding template [logstash] for index patterns [logstash-*]
+[2022-03-25T04:31:43,007][INFO ][o.e.t.LoggingTaskListener] [tpotcluster-node-01] 499 finished with response BulkByScrollResponse[took=1s,timed_out=false,sliceId=null,updated=17,created=0,deleted=0,batches=1,versionConflicts=0,noops=0,retries=0,throttledUntil=0s,bulk_failures=[],search_failures=[]]
+[2022-03-25T04:31:43,767][INFO ][o.e.t.LoggingTaskListener] [tpotcluster-node-01] 495 finished with response BulkByScrollResponse[took=5.9s,timed_out=false,sliceId=null,updated=1037,created=0,deleted=0,batches=2,versionConflicts=0,noops=0,retries=0,throttledUntil=0s,bulk_failures=[],search_failures=[]]
+[2022-03-25T04:31:54,737][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [tpotcluster-node-01] updating index lifecycle policy [.alerts-ilm-policy]
