@@ -3,4 +3,4 @@
 git status
 git add .
 git commit -m "$(date)"
-git push -u origin main
+git push origin main
