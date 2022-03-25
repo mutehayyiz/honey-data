@@ -6,214 +6,187 @@ Changes not staged for commit:
   (use "git add/rm <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
-	modified:   conpot/log/conpot_IEC104.json
 	modified:   conpot/log/conpot_IEC104.log
 	modified:   cowrie/log/cowrie.json
-	deleted:    elk/data/nodes/0/_state/segments_2mi
-	deleted:    elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/_state/retention-leases-95.st
-	deleted:    elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_58_2.fnm
-	deleted:    elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_58_2_Lucene80_0.dvd
-	deleted:    elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_58_2_Lucene80_0.dvm
-	modified:   elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/translog/translog-48.tlog
-	modified:   elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/_state/retention-leases-310.st
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1tp.fdm
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1tp.fdt
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1tp.fdx
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1tp.fnm
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1tp.kdd
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1tp.kdi
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1tp.kdm
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1tp.si
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1tp_Lucene80_0.dvd
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1tp_Lucene80_0.dvm
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1tp_Lucene84_0.doc
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1tp_Lucene84_0.pos
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1tp_Lucene84_0.tim
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1tp_Lucene84_0.tip
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1tp_Lucene84_0.tmd
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1u0.cfe
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1u0.cfs
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1u0.si
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1u1.cfe
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1u1.cfs
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1u1.si
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1u2.cfe
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1u2.cfs
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1u2.si
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1u3.cfe
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1u3.cfs
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1u3.si
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1u4.cfe
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1u4.cfs
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1u4.si
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1u5.fdm
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1u5.fdt
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1u5_Lucene85FieldsIndex-doc_ids_f0.tmp
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1u5_Lucene85FieldsIndexfile_pointers_f1.tmp
+	deleted:    elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/_state/retention-leases-97.st
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/_state/retention-leases-312.st
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj.fdm
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj.fdt
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj.fdx
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj.fnm
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj.kdd
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj.kdi
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj.kdm
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj.si
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj_Lucene80_0.dvd
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj_Lucene80_0.dvm
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj_Lucene84_0.doc
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj_Lucene84_0.pos
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj_Lucene84_0.tim
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj_Lucene84_0.tip
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj_Lucene84_0.tmd
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uk.cfe
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uk.cfs
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uk.si
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1ul.cfe
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1ul.cfs
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1ul.si
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1um.cfe
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1um.cfs
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1um.si
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1un.cfe
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1un.cfs
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1un.si
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uo.fdm
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uo.fdt
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uo_Lucene85FieldsIndex-doc_ids_g2.tmp
+	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uo_Lucene85FieldsIndexfile_pointers_g3.tmp
 	modified:   elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/translog/translog-8.tlog
 	modified:   elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/_state/state-81.st
-	deleted:    elk/data/nodes/0/indices/nqRL0KmTRKaeoYjjO8TK1w/0/_state/retention-leases-161.st
-	modified:   elk/data/nodes/0/indices/nqRL0KmTRKaeoYjjO8TK1w/0/translog/translog-71.tlog
-	modified:   elk/data/nodes/0/indices/nqRL0KmTRKaeoYjjO8TK1w/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/_state/retention-leases-1344.st
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f0u.fdm
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f0u.fdt
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f0u.fdx
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f0u.fnm
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f0u.kdd
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f0u.kdi
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f0u.kdm
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f0u.nvd
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f0u.nvm
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f0u.si
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f0u_3.fnm
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f0u_3_Lucene80_0.dvd
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f0u_3_Lucene80_0.dvm
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f0u_Lucene80_0.dvd
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f0u_Lucene80_0.dvm
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f0u_Lucene84_0.doc
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f0u_Lucene84_0.pos
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f0u_Lucene84_0.tim
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f0u_Lucene84_0.tip
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f0u_Lucene84_0.tmd
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f14_3.fnm
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f14_3_Lucene80_0.dvd
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f14_3_Lucene80_0.dvm
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f15.cfe
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f15.cfs
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f15.si
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f16.cfe
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f16.cfs
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f16.si
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f16_1.fnm
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f16_1_Lucene80_0.dvd
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f16_1_Lucene80_0.dvm
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f17.cfe
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f17.cfs
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f17.si
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f17_2.fnm
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f17_2_Lucene80_0.dvd
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f17_2_Lucene80_0.dvm
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f18.cfe
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f18.cfs
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f18.si
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f18_1.fnm
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f18_1_Lucene80_0.dvd
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f18_1_Lucene80_0.dvm
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f19.cfe
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f19.cfs
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f19.si
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f19_1.fnm
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f19_1_Lucene80_0.dvd
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f19_1_Lucene80_0.dvm
+	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/_state/retention-leases-1346.st
+	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f14.fdm
+	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f14.fdt
+	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f14.fdx
+	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f14.fnm
+	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f14.kdd
+	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f14.kdi
+	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f14.kdm
+	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f14.nvd
+	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f14.nvm
+	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f14.si
+	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f14_4.fnm
+	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f14_4_Lucene80_0.dvd
+	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f14_4_Lucene80_0.dvm
+	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f14_Lucene80_0.dvd
+	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f14_Lucene80_0.dvm
+	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f14_Lucene84_0.doc
+	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f14_Lucene84_0.pos
+	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f14_Lucene84_0.tim
+	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f14_Lucene84_0.tip
+	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f14_Lucene84_0.tmd
 	modified:   elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/translog/translog-33.tlog
 	modified:   elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/translog/translog.ckp
-	modified:   elk/log/tpotcluster.log
-	modified:   elk/log/tpotcluster_server.json
 	modified:   fatt/log/fatt.log
 	modified:   git_backup.log
-	modified:   honeytrap/log/attacker.log
-	modified:   honeytrap/log/attackers.json
 	modified:   honeytrap/log/honeytrap.log
-	modified:   nginx/log/access.log
 	modified:   p0f/log/p0f.json
 	modified:   suricata/log/eve.json
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	elk/data/nodes/0/_state/_2ha_1.liv
-	elk/data/nodes/0/_state/_2hu.cfe
-	elk/data/nodes/0/_state/_2hu.cfs
-	elk/data/nodes/0/_state/_2hu.si
-	elk/data/nodes/0/_state/segments_2mk
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/_state/retention-leases-97.st
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_58_4.fnm
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_58_4_Lucene80_0.dvd
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_58_4_Lucene80_0.dvm
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_5s_2.fnm
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_5s_2_Lucene80_0.dvd
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_5s_2_Lucene80_0.dvm
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_5t.cfe
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_5t.cfs
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_5t.si
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_5u.cfe
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_5u.cfs
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_5u.si
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_5u_1.fnm
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_5u_1_Lucene80_0.dvd
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_5u_1_Lucene80_0.dvm
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_5v.cfe
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_5v.cfs
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_5v.si
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_5w.cfe
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_5w.cfs
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_5w.si
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_5x.cfe
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_5x.cfs
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_5x.si
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_5y.cfe
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_5y.cfs
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/index/_5y.si
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/_state/retention-leases-312.st
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj.fdm
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj.fdt
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj.fdx
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj.fnm
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj.kdd
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj.kdi
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj.kdm
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj.si
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj_Lucene80_0.dvd
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj_Lucene80_0.dvm
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj_Lucene84_0.doc
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj_Lucene84_0.pos
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj_Lucene84_0.tim
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj_Lucene84_0.tip
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uj_Lucene84_0.tmd
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uk.cfe
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uk.cfs
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uk.si
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1ul.cfe
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1ul.cfs
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1ul.si
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1um.cfe
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1um.cfs
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1um.si
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1un.cfe
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1un.cfs
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1un.si
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uo.fdm
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uo.fdt
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uo_Lucene85FieldsIndex-doc_ids_g2.tmp
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uo_Lucene85FieldsIndexfile_pointers_g3.tmp
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/_state/state-83.st
-	elk/data/nodes/0/indices/nqRL0KmTRKaeoYjjO8TK1w/0/_state/retention-leases-163.st
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/_state/retention-leases-1346.st
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f14_4.fnm
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f14_4_Lucene80_0.dvd
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f14_4_Lucene80_0.dvm
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f1y.fdm
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f1y.fdt
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f1y.fdx
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f1y.fnm
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f1y.kdd
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f1y.kdi
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f1y.kdm
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f1y.nvd
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f1y.nvm
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f1y.si
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f1y_Lucene80_0.dvd
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f1y_Lucene80_0.dvm
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f1y_Lucene84_0.doc
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f1y_Lucene84_0.pos
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f1y_Lucene84_0.tim
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f1y_Lucene84_0.tip
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f1y_Lucene84_0.tmd
-	honeytrap/attacks/from_port_2376-tcp_219_2022-03-25_md5_8f2dfcbfa9dbabc6e968fe86d138b304
-	honeytrap/attacks/from_port_8065-tcp_226_2022-03-25_md5_aa8b880bc757d13ea06cdceeaee35228
-	honeytrap/attacks/from_port_8065-tcp_229_2022-03-25_md5_68378a909715e53d43cfef52d0d262cd
+	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/_state/retention-leases-98.st
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/_state/retention-leases-314.st
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1ut.fdm
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1ut.fdt
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1ut.fdx
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1ut.fnm
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1ut.kdd
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1ut.kdi
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1ut.kdm
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1ut.si
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1ut_Lucene80_0.dvd
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1ut_Lucene80_0.dvm
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1ut_Lucene84_0.doc
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1ut_Lucene84_0.pos
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1ut_Lucene84_0.tim
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1ut_Lucene84_0.tip
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1ut_Lucene84_0.tmd
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uu.cfe
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uu.cfs
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uu.si
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uv.cfe
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uv.cfs
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uv.si
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uw.cfe
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uw.cfs
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uw.si
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1ux.cfe
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1ux.cfs
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1ux.si
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uy.cfe
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uy.cfs
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uy.si
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uz.cfe
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uz.cfs
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1uz.si
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1v0.cfe
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1v0.cfs
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1v0.si
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1v1.cfe
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1v1.cfs
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1v1.si
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1v2.cfe
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1v2.cfs
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1v2.si
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1v3.fdm
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1v3.fdt
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1v3.fdx
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1v3.fnm
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1v3.kdd
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1v3.kdi
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1v3.kdm
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1v3.si
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1v3_Lucene80_0.dvd
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1v3_Lucene80_0.dvm
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1v3_Lucene84_0.doc
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1v3_Lucene84_0.pos
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1v3_Lucene84_0.tim
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1v3_Lucene84_0.tip
+	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/index/_1v3_Lucene84_0.tmd
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/_state/retention-leases-1348.st
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f1y_3.fnm
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f1y_3_Lucene80_0.dvd
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f1y_3_Lucene80_0.dvm
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2i.fdm
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2i.fdt
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2i.fdx
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2i.fnm
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2i.kdd
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2i.kdi
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2i.kdm
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2i.nvd
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2i.nvm
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2i.si
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2i_2.fnm
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2i_2_Lucene80_0.dvd
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2i_2_Lucene80_0.dvm
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2i_Lucene80_0.dvd
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2i_Lucene80_0.dvm
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2i_Lucene84_0.doc
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2i_Lucene84_0.pos
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2i_Lucene84_0.tim
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2i_Lucene84_0.tip
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2i_Lucene84_0.tmd
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2j.cfe
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2j.cfs
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2j.si
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2j_2.fnm
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2j_2_Lucene80_0.dvd
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2j_2_Lucene80_0.dvm
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2k.cfe
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2k.cfs
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2k.si
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2k_1.fnm
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2k_1_Lucene80_0.dvd
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2k_1_Lucene80_0.dvm
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2l.cfe
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2l.cfs
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2l.si
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2l_1.fnm
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2l_1_Lucene80_0.dvd
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2l_1_Lucene80_0.dvm
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2m.cfe
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2m.cfs
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2m.si
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2m_1.fnm
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2m_1_Lucene80_0.dvd
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2m_1_Lucene80_0.dvm
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2n.cfe
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2n.cfs
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2n.si
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2n_1.fnm
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2n_1_Lucene80_0.dvd
+	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_f2n_1_Lucene80_0.dvm
 
 no changes added to commit (use "git add" and/or "git commit -a")
