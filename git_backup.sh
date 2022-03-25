@@ -1,6 +1,6 @@
 #!/bin/bash
 
 git status
-git add .
+git add /data/
 git commit -m "$(date)"
 git push origin main
