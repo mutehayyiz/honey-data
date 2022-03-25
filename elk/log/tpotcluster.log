@@ -78,3 +78,19 @@
 [2022-03-25T04:29:59,942][INFO ][o.e.c.s.ClusterApplierService] [tpotcluster-node-01] master node changed {previous [], current [{tpotcluster-node-01}{t9hfPgy_RyC9LOJUxQUrSQ}{RcnV1uSZTnC2pOfRPPPP9A}{127.0.0.1}{127.0.0.1:9300}{cdfhimrstw}]}, term: 112, version: 3165, reason: Publication{term=112, version=3165}
 [2022-03-25T04:30:00,099][INFO ][o.e.h.AbstractHttpServerTransport] [tpotcluster-node-01] publish_address {192.168.48.2:9200}, bound_addresses {0.0.0.0:9200}
 [2022-03-25T04:30:00,102][INFO ][o.e.n.Node               ] [tpotcluster-node-01] started
+[2022-03-25T04:30:01,965][INFO ][o.e.l.LicenseService     ] [tpotcluster-node-01] license [06f03395-4097-4495-8e63-b3dc92f4de14] mode [basic] - valid
+[2022-03-25T04:30:01,982][INFO ][o.e.g.GatewayService     ] [tpotcluster-node-01] recovered [27] indices into cluster_state
+[2022-03-25T04:30:03,733][INFO ][o.e.i.g.GeoIpDownloader  ] [tpotcluster-node-01] updating geoip databases
+[2022-03-25T04:30:03,734][INFO ][o.e.i.g.GeoIpDownloader  ] [tpotcluster-node-01] fetching geoip databases overview from [https://geoip.elastic.co/v1/database?elastic_geoip_service_tos=agree]
+[2022-03-25T04:30:05,038][INFO ][o.e.i.g.GeoIpDownloader  ] [tpotcluster-node-01] geoip database [GeoLite2-ASN.mmdb] is up to date, updated timestamp
+[2022-03-25T04:30:05,395][INFO ][o.e.i.g.GeoIpDownloader  ] [tpotcluster-node-01] geoip database [GeoLite2-City.mmdb] is up to date, updated timestamp
+[2022-03-25T04:30:06,124][INFO ][o.e.i.g.GeoIpDownloader  ] [tpotcluster-node-01] geoip database [GeoLite2-Country.mmdb] is up to date, updated timestamp
+[2022-03-25T04:30:06,211][INFO ][o.e.i.g.DatabaseNodeService] [tpotcluster-node-01] downloading geoip database [GeoLite2-Country.mmdb] to [/tmp/geoip-databases/t9hfPgy_RyC9LOJUxQUrSQ/GeoLite2-Country.mmdb.tmp.gz]
+[2022-03-25T04:30:06,225][INFO ][o.e.i.g.DatabaseNodeService] [tpotcluster-node-01] downloading geoip database [GeoLite2-ASN.mmdb] to [/tmp/geoip-databases/t9hfPgy_RyC9LOJUxQUrSQ/GeoLite2-ASN.mmdb.tmp.gz]
+[2022-03-25T04:30:06,231][INFO ][o.e.i.g.DatabaseNodeService] [tpotcluster-node-01] downloading geoip database [GeoLite2-City.mmdb] to [/tmp/geoip-databases/t9hfPgy_RyC9LOJUxQUrSQ/GeoLite2-City.mmdb.tmp.gz]
+[2022-03-25T04:30:07,701][INFO ][o.e.i.g.DatabaseNodeService] [tpotcluster-node-01] successfully reloaded changed geoip database file [/tmp/geoip-databases/t9hfPgy_RyC9LOJUxQUrSQ/GeoLite2-Country.mmdb]
+[2022-03-25T04:30:07,872][INFO ][o.e.i.g.DatabaseNodeService] [tpotcluster-node-01] successfully reloaded changed geoip database file [/tmp/geoip-databases/t9hfPgy_RyC9LOJUxQUrSQ/GeoLite2-ASN.mmdb]
+[2022-03-25T04:30:12,662][INFO ][o.e.c.r.a.AllocationService] [tpotcluster-node-01] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[.kibana-event-log-7.16.2-000001][0]]]).
+[2022-03-25T04:30:13,366][INFO ][o.e.i.g.DatabaseNodeService] [tpotcluster-node-01] successfully reloaded changed geoip database file [/tmp/geoip-databases/t9hfPgy_RyC9LOJUxQUrSQ/GeoLite2-City.mmdb]
+[2022-03-25T04:30:31,153][INFO ][o.e.c.m.MetadataIndexTemplateService] [tpotcluster-node-01] removing template [logstash]
+[2022-03-25T04:30:31,598][INFO ][o.e.c.m.MetadataIndexTemplateService] [tpotcluster-node-01] adding template [logstash] for index patterns [logstash-*]
