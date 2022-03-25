@@ -1,5 +1,7 @@
 #!/bin/bash
 
+## every 4 hours
+## 0 */4 * * * /data/git_backup.sh > /data/git_backup.log
 echo "backup service is running"
 
 cd /data
