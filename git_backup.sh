@@ -8,5 +8,6 @@ git config --system core.longpaths true
 
 git status		
 git add /data/
+git status
 git commit -m "$(date)"
 git push origin main
