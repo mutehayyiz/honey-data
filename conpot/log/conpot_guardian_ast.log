@@ -10,3 +10,17 @@
 2022-03-27 17:46:33,461 Found and enabled guardian_ast protocol.
 2022-03-27 17:46:33,462 No proxy template found. Service will remain unconfigured/stopped.
 2022-03-27 17:46:33,462 GuardianAST server started on: ('0.0.0.0', 10001)
+2022-03-28 04:06:25,671 New guardian_ast session from 123.160.221.21 (eda7800a-dfe1-4ed8-862f-196a18bf8c08)
+2022-03-28 04:06:25,673 New GuardianAST connection from 123.160.221.21:16620. (eda7800a-dfe1-4ed8-862f-196a18bf8c08)
+2022-03-28 04:06:25,921 Non ^A command attempt 123.160.221.21:16620. (eda7800a-dfe1-4ed8-862f-196a18bf8c08)
+2022-03-28 04:06:25,921 GuardianAST client disconnected 123.160.221.21:16620. (eda7800a-dfe1-4ed8-862f-196a18bf8c08)
+2022-03-28 04:06:47,862 New GuardianAST connection from 123.160.221.21:38230. (eda7800a-dfe1-4ed8-862f-196a18bf8c08)
+2022-03-28 04:06:49,362 Unknown Error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/conpot/protocols/guardian_ast/guardian_ast_server.py", line 327, in handle
+    request += sock.recv(4096)
+  File "/usr/lib/python3.9/site-packages/gevent/_socketcommon.py", line 657, in recv
+    return self._sock.recv(*args)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2022-03-28 04:06:49,367 GuardianAST client disconnected 123.160.221.21:38230. (eda7800a-dfe1-4ed8-862f-196a18bf8c08)
+2022-03-28 04:07:19,390 Session timed out: eda7800a-dfe1-4ed8-862f-196a18bf8c08
