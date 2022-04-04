@@ -1,35 +1,53 @@
-2022-04-02 18:49:58,455 (root) Initializing Heralding version 1.0.7
-2022-04-02 18:49:58,662 (heralding.honeypot) Using default wordlist file: "/usr/lib/python3.9/site-packages/heralding/wordlist.txt", if you want to customize values please copy this file to the current working directory
-2022-04-02 18:49:58,685 (heralding.reporting.file_logger) File logger: Using /var/log/heralding/auth.csv to log authentication attempts in CSV format.
-2022-04-02 18:49:58,685 (heralding.reporting.file_logger) File logger: Using /var/log/heralding/session.csv to log unified session data in CSV format.
-2022-04-02 18:49:58,686 (heralding.reporting.file_logger) File logger: Using /var/log/heralding/log_session.json to log complete session data in JSON format.
-2022-04-02 18:50:05,060 (heralding.honeypot) Found public ip: 34.121.180.85
-2022-04-02 18:50:05,062 (heralding.honeypot) Started RDP capability listening on port 3389
-2022-04-02 18:50:05,062 (heralding.honeypot) Started Telnet capability listening on port 23
-2022-04-02 18:50:05,063 (heralding.honeypot) Started Pop3 capability listening on port 110
-2022-04-02 18:50:07,508 (heralding.honeypot) Started Pop3S capability listening on port 995
-2022-04-02 18:50:07,509 (heralding.honeypot) Started Http capability listening on port 80
-2022-04-02 18:50:07,510 (heralding.honeypot) Started Imap capability listening on port 143
-2022-04-02 18:50:07,510 (heralding.honeypot) Started MySQL capability listening on port 3306
-2022-04-02 18:50:07,511 (heralding.honeypot) Started Vnc capability listening on port 5900
-2022-04-02 18:50:07,511 (heralding.honeypot) Started PostgreSQL capability listening on port 5432
-2022-04-02 18:50:07,512 (heralding.honeypot) Started smtp capability listening on port 25
-2022-04-02 18:50:10,540 (heralding.honeypot) Started https capability listening on port 443
-2022-04-02 18:50:10,541 (heralding.honeypot) Started Socks5 capability listening on port 1080
-2022-04-02 18:50:13,624 (heralding.honeypot) Started Imaps capability listening on port 993
-2022-04-02 18:50:18,513 (heralding.honeypot) Started SSH capability listening on port 22
-2022-04-02 18:50:20,235 (heralding.honeypot) Started smtps capability listening on port 465
-2022-04-02 18:50:20,236 (heralding.honeypot) Started ftp capability listening on port 21
-2022-04-02 19:50:05,317 (heralding.honeypot) Found public ip: 34.121.180.85
-2022-04-02 22:25:20,848 (heralding.honeypot) Found public ip: 34.121.180.85
-2022-04-03 01:55:33,167 (heralding.honeypot) Found public ip: 34.121.180.85
-2022-04-03 03:45:27,265 (heralding.honeypot) Found public ip: 34.121.180.85
-2022-04-03 04:54:50,572 (heralding.honeypot) Could not request public ip from ipify, error: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc0fb89a190>: Failed to establish a new connection: [Errno -3] Try again'))
-2022-04-03 06:39:30,685 (heralding.honeypot) Could not request public ip from ipify, error: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc0fb8926d0>: Failed to establish a new connection: [Errno -3] Try again'))
-2022-04-03 09:30:08,820 (heralding.honeypot) Could not request public ip from ipify, error: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc0fb892760>: Failed to establish a new connection: [Errno -3] Try again'))
-2022-04-03 11:11:19,086 (heralding.honeypot) Found public ip: 34.121.180.85
-2022-04-03 12:21:47,542 (heralding.honeypot) Could not request public ip from ipify, error: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc0fb89a1f0>: Failed to establish a new connection: [Errno -3] Try again'))
-2022-04-03 13:23:03,107 (heralding.honeypot) Could not request public ip from ipify, error: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc0fb89a4f0>: Failed to establish a new connection: [Errno -3] Try again'))
-2022-04-03 15:20:59,702 (heralding.honeypot) Found public ip: 34.121.180.85
-2022-04-03 17:04:52,021 (heralding.honeypot) Found public ip: 34.121.180.85
-2022-04-03 18:17:52,500 (heralding.honeypot) Could not request public ip from ipify, error: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc0fb89abb0>: Failed to establish a new connection: [Errno -3] Try again'))
+2022-04-03 20:34:38,620 (root) Initializing Heralding version 1.0.7
+2022-04-03 20:34:38,909 (heralding.honeypot) Using default wordlist file: "/usr/lib/python3.9/site-packages/heralding/wordlist.txt", if you want to customize values please copy this file to the current working directory
+2022-04-03 20:34:38,943 (heralding.reporting.file_logger) File logger: Using /var/log/heralding/auth.csv to log authentication attempts in CSV format.
+2022-04-03 20:34:38,945 (heralding.reporting.file_logger) File logger: Using /var/log/heralding/session.csv to log unified session data in CSV format.
+2022-04-03 20:34:38,946 (heralding.reporting.file_logger) File logger: Using /var/log/heralding/log_session.json to log complete session data in JSON format.
+2022-04-03 20:34:48,618 (heralding.honeypot) Found public ip: 34.121.180.85
+2022-04-03 20:34:48,619 (heralding.honeypot) Started RDP capability listening on port 3389
+2022-04-03 20:34:48,620 (heralding.honeypot) Started Telnet capability listening on port 23
+2022-04-03 20:34:48,621 (heralding.honeypot) Started Pop3 capability listening on port 110
+2022-04-03 20:34:49,621 (heralding.honeypot) Started Pop3S capability listening on port 995
+2022-04-03 20:34:49,621 (heralding.honeypot) Started Http capability listening on port 80
+2022-04-03 20:34:49,622 (heralding.honeypot) Started Imap capability listening on port 143
+2022-04-03 20:34:49,622 (heralding.honeypot) Started MySQL capability listening on port 3306
+2022-04-03 20:34:49,623 (heralding.honeypot) Started Vnc capability listening on port 5900
+2022-04-03 20:34:49,624 (heralding.honeypot) Started PostgreSQL capability listening on port 5432
+2022-04-03 20:34:49,624 (heralding.honeypot) Started smtp capability listening on port 25
+2022-04-03 20:34:51,550 (heralding.honeypot) Started https capability listening on port 443
+2022-04-03 20:34:51,551 (heralding.honeypot) Started Socks5 capability listening on port 1080
+2022-04-03 20:34:55,636 (heralding.honeypot) Started Imaps capability listening on port 993
+2022-04-03 20:34:57,343 (heralding.honeypot) Started SSH capability listening on port 22
+2022-04-03 20:34:58,926 (heralding.honeypot) Started smtps capability listening on port 465
+2022-04-03 20:34:58,927 (heralding.honeypot) Started ftp capability listening on port 21
+2022-04-03 21:18:24,029 (asyncio) Task exception was never retrieved
+future: <Task finished name='Task-43' coro=<HandlerBase.handle_session() done, defined at /usr/lib/python3.9/site-packages/heralding/capabilities/handlerbase.py:74> exception=SSLError(1, '[SSL: UNEXPECTED_RECORD] unexpected record (_ssl.c:2633)')>
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/heralding/capabilities/handlerbase.py", line 86, in handle_session
+    await asyncio.wait_for(
+  File "/usr/lib/python3.9/asyncio/tasks.py", line 481, in wait_for
+    return fut.result()
+  File "/usr/lib/python3.9/site-packages/heralding/capabilities/smtp.py", line 210, in execute_capability
+    await smtp_task
+  File "/usr/lib/python3.9/site-packages/aiosmtpd/smtp.py", line 759, in _handle_client
+    await self.push(status)
+  File "/usr/lib/python3.9/site-packages/heralding/capabilities/smtp.py", line 62, in push
+    await self._writer.drain()
+  File "/usr/lib/python3.9/asyncio/streams.py", line 375, in drain
+    raise exc
+  File "/usr/lib/python3.9/site-packages/aiosmtpd/smtp.py", line 624, in _handle_client
+    line: bytes = await self._reader.readuntil()
+  File "/usr/lib/python3.9/asyncio/streams.py", line 632, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/usr/lib/python3.9/asyncio/streams.py", line 517, in _wait_for_data
+    await self._waiter
+  File "/usr/lib/python3.9/asyncio/sslproto.py", line 528, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/usr/lib/python3.9/asyncio/sslproto.py", line 199, in feed_ssldata
+    chunk = self._sslobj.read(self.max_size)
+  File "/usr/lib/python3.9/ssl.py", line 888, in read
+    v = self._sslobj.read(len)
+ssl.SSLError: [SSL: UNEXPECTED_RECORD] unexpected record (_ssl.c:2633)
+2022-04-03 21:34:51,161 (heralding.honeypot) Found public ip: 34.121.180.85
+2022-04-03 23:36:45,452 (heralding.honeypot) Found public ip: 34.121.180.85
+2022-04-04 01:10:30,923 (heralding.honeypot) Found public ip: 34.121.180.85
