@@ -10480,3 +10480,744 @@
 {"type": "server", "timestamp": "2022-04-05T09:39:46,954Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [5.8m/351428ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
 {"type": "server", "timestamp": "2022-04-05T09:42:58,276Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [5.8m/351906372750ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
 {"type": "server", "timestamp": "2022-04-05T09:45:37,387Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [6m/360799ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:51:50,012Z", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "version[7.17.0], pid[1], build[default/tar/bee86328705acaa9a6daede7140defd4d9ec56bd/2022-01-28T08:36:04.875279988Z], OS[Linux/4.19.0-20-cloud-amd64/amd64], JVM[Alpine/OpenJDK 64-Bit Server VM/16.0.2/16.0.2+7-alpine-r1]" }
+{"type": "server", "timestamp": "2022-04-05T09:51:50,083Z", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "JVM home [/usr/lib/jvm/java-16-openjdk], using bundled JDK [false]" }
+{"type": "server", "timestamp": "2022-04-05T09:51:50,088Z", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "JVM arguments [-Xshare:auto, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -XX:+ShowCodeDetailsInExceptionMessages, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dio.netty.allocator.numDirectArenas=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j2.formatMsgNoLookups=true, -Djava.locale.providers=SPI,COMPAT, --add-opens=java.base/java.io=ALL-UNNAMED, -XX:+UseG1GC, -Djava.io.tmpdir=/tmp, -XX:+HeapDumpOnOutOfMemoryError, -XX:+ExitOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -Xms2048m, -Xmx2048m, -XX:MaxDirectMemorySize=1073741824, -XX:G1HeapRegionSize=4m, -XX:InitiatingHeapOccupancyPercent=30, -XX:G1ReservePercent=15, -Des.path.home=/usr/share/elasticsearch, -Des.path.conf=/usr/share/elasticsearch/config, -Des.distribution.flavor=default, -Des.distribution.type=tar, -Des.bundled_jdk=true]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,606Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [aggs-matrix-stats]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,607Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [analysis-common]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,608Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [constant-keyword]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,609Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [frozen-indices]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,609Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [ingest-common]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,610Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [ingest-geoip]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,611Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [ingest-user-agent]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,612Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [kibana]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,613Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [lang-expression]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,614Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [lang-mustache]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,615Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [lang-painless]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,616Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [legacy-geo]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,617Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [mapper-extras]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,618Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [mapper-version]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,619Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [parent-join]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,620Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [percolator]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,621Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [rank-eval]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,621Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [reindex]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,622Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [repositories-metering-api]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,624Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [repository-encrypted]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,625Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [repository-url]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,627Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [runtime-fields-common]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,627Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [search-business-rules]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,628Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [searchable-snapshots]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,629Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [snapshot-repo-test-kit]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,630Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [spatial]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,631Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [transform]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,632Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [transport-netty4]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,633Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [unsigned-long]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,634Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [vector-tile]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,635Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [vectors]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,636Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [wildcard]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,636Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [x-pack-aggregate-metric]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,637Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [x-pack-analytics]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,638Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [x-pack-async]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,639Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [x-pack-async-search]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,640Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [x-pack-autoscaling]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,641Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [x-pack-ccr]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,642Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [x-pack-core]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,643Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [x-pack-data-streams]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,644Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [x-pack-deprecation]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,645Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [x-pack-enrich]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,646Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [x-pack-eql]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,647Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [x-pack-fleet]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,648Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [x-pack-graph]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,648Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [x-pack-identity-provider]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,649Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [x-pack-ilm]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,650Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [x-pack-logstash]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,651Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [x-pack-monitoring]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,652Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [x-pack-ql]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,653Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [x-pack-rollup]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,654Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [x-pack-security]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,655Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [x-pack-shutdown]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,656Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [x-pack-sql]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,657Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [x-pack-stack]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,658Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [x-pack-text-structure]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,658Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [x-pack-voting-only-node]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,659Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "loaded module [x-pack-watcher]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,661Z", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "no plugins loaded" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,811Z", "level": "INFO", "component": "o.e.e.NodeEnvironment", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "using [1] data paths, mounts [[/data (/dev/sda1)]], net usable_space [105.3gb], net total_space [125.8gb], types [ext4]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:05,814Z", "level": "INFO", "component": "o.e.e.NodeEnvironment", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "heap size [2gb], compressed ordinary object pointers [true]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:06,504Z", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "node name [tpotcluster-node-01], node ID [t9hfPgy_RyC9LOJUxQUrSQ], cluster name [tpotcluster], roles [transform, data_frozen, master, remote_cluster_client, data, data_content, data_hot, data_warm, data_cold, ingest]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:34,844Z", "level": "INFO", "component": "o.e.i.g.ConfigDatabases", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "initialized default databases [[GeoLite2-Country.mmdb, GeoLite2-City.mmdb, GeoLite2-ASN.mmdb]], config databases [[]] and watching [/usr/share/elasticsearch/config/ingest-geoip] for changes" }
+{"type": "server", "timestamp": "2022-04-05T09:52:34,849Z", "level": "INFO", "component": "o.e.i.g.DatabaseNodeService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "initialized database registry, using geoip-databases directory [/tmp/geoip-databases/t9hfPgy_RyC9LOJUxQUrSQ]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:37,554Z", "level": "INFO", "component": "o.e.t.NettyAllocator", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "creating NettyAllocator with the following configs: [name=elasticsearch_configured, chunk_size=1mb, suggested_max_allocation_size=1mb, factors={es.unsafe.use_netty_default_chunk_and_page_size=false, g1gc_enabled=true, g1gc_region_size=4mb}]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:37,815Z", "level": "INFO", "component": "o.e.d.DiscoveryModule", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "using discovery type [single-node] and seed hosts providers [settings]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:39,651Z", "level": "INFO", "component": "o.e.g.DanglingIndicesState", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "gateway.auto_import_dangling_indices is disabled, dangling indices will not be automatically detected or imported and must be managed manually" }
+{"type": "server", "timestamp": "2022-04-05T09:52:41,250Z", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "initialized" }
+{"type": "server", "timestamp": "2022-04-05T09:52:41,251Z", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "starting ..." }
+{"type": "server", "timestamp": "2022-04-05T09:52:41,312Z", "level": "INFO", "component": "o.e.x.s.c.f.PersistentCache", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "persistent cache index loaded" }
+{"type": "server", "timestamp": "2022-04-05T09:52:41,313Z", "level": "INFO", "component": "o.e.x.d.l.DeprecationIndexingComponent", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "deprecation component started" }
+{"type": "server", "timestamp": "2022-04-05T09:52:41,637Z", "level": "INFO", "component": "o.e.t.TransportService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}" }
+{"type": "server", "timestamp": "2022-04-05T09:52:45,821Z", "level": "INFO", "component": "o.e.c.c.Coordinator", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "cluster UUID [Qbw2pof0QzSXC1OvK0aFSw]" }
+{"type": "server", "timestamp": "2022-04-05T09:52:46,076Z", "level": "INFO", "component": "o.e.c.s.MasterService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "elected-as-master ([1] nodes joined)[{tpotcluster-node-01}{t9hfPgy_RyC9LOJUxQUrSQ}{hjLbyJANTw6fTgK6GIzd5g}{127.0.0.1}{127.0.0.1:9300}{cdfhimrstw} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 205, version: 7416, delta: master node changed {previous [], current [{tpotcluster-node-01}{t9hfPgy_RyC9LOJUxQUrSQ}{hjLbyJANTw6fTgK6GIzd5g}{127.0.0.1}{127.0.0.1:9300}{cdfhimrstw}]}" }
+{"type": "server", "timestamp": "2022-04-05T09:52:46,593Z", "level": "INFO", "component": "o.e.c.s.ClusterApplierService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "master node changed {previous [], current [{tpotcluster-node-01}{t9hfPgy_RyC9LOJUxQUrSQ}{hjLbyJANTw6fTgK6GIzd5g}{127.0.0.1}{127.0.0.1:9300}{cdfhimrstw}]}, term: 205, version: 7416, reason: Publication{term=205, version=7416}" }
+{"type": "server", "timestamp": "2022-04-05T09:52:46,959Z", "level": "INFO", "component": "o.e.h.AbstractHttpServerTransport", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "publish_address {192.168.48.2:9200}, bound_addresses {0.0.0.0:9200}", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:52:46,961Z", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "started", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:52:51,915Z", "level": "INFO", "component": "o.e.l.LicenseService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "license [06f03395-4097-4495-8e63-b3dc92f4de14] mode [basic] - valid", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:52:51,922Z", "level": "INFO", "component": "o.e.g.GatewayService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "recovered [39] indices into cluster_state", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:52:52,525Z", "level": "WARN", "component": "r.suppressed", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "path: /.kibana_task_manager/_search, params: {ignore_unavailable=true, index=.kibana_task_manager, track_total_hits=true}", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ" , 
+"stacktrace": ["org.elasticsearch.action.search.SearchPhaseExecutionException: all shards failed",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseFailure(AbstractSearchAsyncAction.java:725) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.executeNextPhase(AbstractSearchAsyncAction.java:412) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseDone(AbstractSearchAsyncAction.java:757) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:509) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.performPhaseOnShard(AbstractSearchAsyncAction.java:320) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.run(AbstractSearchAsyncAction.java:256) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.executePhase(AbstractSearchAsyncAction.java:466) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.start(AbstractSearchAsyncAction.java:211) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.TransportSearchAction.executeSearch(TransportSearchAction.java:1048) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.TransportSearchAction.executeLocalSearch(TransportSearchAction.java:763) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.TransportSearchAction.lambda$executeRequest$6(TransportSearchAction.java:399) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListener$1.onResponse(ActionListener.java:136) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.index.query.Rewriteable.rewriteAndFetch(Rewriteable.java:112) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.index.query.Rewriteable.rewriteAndFetch(Rewriteable.java:77) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.TransportSearchAction.executeRequest(TransportSearchAction.java:487) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.TransportSearchAction.doExecute(TransportSearchAction.java:285) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.TransportSearchAction.doExecute(TransportSearchAction.java:101) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.support.TransportAction$RequestFilterChain.proceed(TransportAction.java:179) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:154) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:82) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.client.node.NodeClient.executeLocally(NodeClient.java:95) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.rest.action.RestCancellableNodeClient.doExecute(RestCancellableNodeClient.java:81) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:407) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.rest.action.search.RestSearchAction.lambda$prepareRequest$2(RestSearchAction.java:122) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:109) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:327) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.rest.RestController.tryAllHandlers(RestController.java:393) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:245) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.http.AbstractHttpServerTransport.dispatchRequest(AbstractHttpServerTransport.java:382) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.http.AbstractHttpServerTransport.handleIncomingRequest(AbstractHttpServerTransport.java:461) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.http.AbstractHttpServerTransport.incomingRequest(AbstractHttpServerTransport.java:357) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.http.netty4.Netty4HttpRequestHandler.channelRead0(Netty4HttpRequestHandler.java:32) [transport-netty4-client-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.http.netty4.Netty4HttpRequestHandler.channelRead0(Netty4HttpRequestHandler.java:18) [transport-netty4-client-7.17.0.jar:7.17.0]",
+"at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at org.elasticsearch.http.netty4.Netty4HttpPipeliningHandler.channelRead(Netty4HttpPipeliningHandler.java:48) [transport-netty4-client-7.17.0.jar:7.17.0]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) [netty-codec-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) [netty-codec-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111) [netty-codec-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) [netty-codec-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) [netty-codec-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) [netty-codec-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) [netty-codec-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [netty-handler-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) [netty-codec-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:620) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:583) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.66.Final.jar:4.1.66.Final]",
+"at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.66.Final.jar:4.1.66.Final]",
+"at java.lang.Thread.run(Thread.java:831) [?:?]",
+"Caused by: org.elasticsearch.action.NoShardAvailableActionException",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:544) ~[elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:491) [elasticsearch-7.17.0.jar:7.17.0]",
+"... 79 more"] }
+{"type": "server", "timestamp": "2022-04-05T09:52:53,708Z", "level": "WARN", "component": "r.suppressed", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "path: /.kibana_7.17.0/_doc/space%3Adefault, params: {index=.kibana_7.17.0, id=space:default}", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ" , 
+"stacktrace": ["org.elasticsearch.action.NoShardAvailableActionException: No shard available for [get [.kibana_7.17.0][_doc][space:default]: routing [null]]",
+"at org.elasticsearch.action.support.single.shard.TransportSingleShardAction$AsyncSingleAction.perform(TransportSingleShardAction.java:217) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.support.single.shard.TransportSingleShardAction$AsyncSingleAction.onFailure(TransportSingleShardAction.java:202) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.support.single.shard.TransportSingleShardAction$AsyncSingleAction.access$1100(TransportSingleShardAction.java:130) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.support.single.shard.TransportSingleShardAction$AsyncSingleAction$2.handleException(TransportSingleShardAction.java:258) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleException(TransportService.java:1481) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:1590) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:1564) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TaskTransportChannel.sendResponse(TaskTransportChannel.java:50) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportChannel.sendErrorResponse(TransportChannel.java:45) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.support.ChannelActionListener.onFailure(ChannelActionListener.java:41) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionRunnable.onFailure(ActionRunnable.java:77) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:765) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:28) [elasticsearch-7.17.0.jar:7.17.0]",
+"at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]",
+"at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]",
+"at java.lang.Thread.run(Thread.java:831) [?:?]",
+"Caused by: org.elasticsearch.transport.RemoteTransportException: [tpotcluster-node-01][127.0.0.1:9300][indices:data/read/get[s]]",
+"Caused by: org.elasticsearch.index.shard.IllegalIndexShardStateException: CurrentState[RECOVERING] operations only allowed when shard state is one of [POST_RECOVERY, STARTED]",
+"at org.elasticsearch.index.shard.IndexShard.readAllowed(IndexShard.java:2195) ~[elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.index.shard.IndexShard.get(IndexShard.java:1256) ~[elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.index.get.ShardGetService.innerGet(ShardGetService.java:194) ~[elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.index.get.ShardGetService.get(ShardGetService.java:101) ~[elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.index.get.ShardGetService.get(ShardGetService.java:84) ~[elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.get.TransportGetAction.shardOperation(TransportGetAction.java:118) ~[elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.get.TransportGetAction.shardOperation(TransportGetAction.java:35) ~[elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.support.single.shard.TransportSingleShardAction.lambda$asyncShardOperation$0(TransportSingleShardAction.java:104) ~[elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionRunnable.lambda$supply$0(ActionRunnable.java:47) ~[elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionRunnable$2.doRun(ActionRunnable.java:62) ~[elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:777) ~[elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:26) ~[elasticsearch-7.17.0.jar:7.17.0]",
+"... 3 more"] }
+{"type": "server", "timestamp": "2022-04-05T09:52:54,265Z", "level": "INFO", "component": "o.e.i.g.GeoIpDownloader", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "updating geoip databases", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:52:54,273Z", "level": "INFO", "component": "o.e.i.g.GeoIpDownloader", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "fetching geoip databases overview from [https://geoip.elastic.co/v1/database?elastic_geoip_service_tos=agree]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:52:54,747Z", "level": "WARN", "component": "r.suppressed", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "path: /.kibana_task_manager/_search, params: {ignore_unavailable=true, index=.kibana_task_manager, track_total_hits=true}", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ" , 
+"stacktrace": ["org.elasticsearch.action.search.SearchPhaseExecutionException: all shards failed",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseFailure(AbstractSearchAsyncAction.java:725) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.executeNextPhase(AbstractSearchAsyncAction.java:412) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseDone(AbstractSearchAsyncAction.java:757) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:509) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.access$000(AbstractSearchAsyncAction.java:64) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction$1.onFailure(AbstractSearchAsyncAction.java:343) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListener$Delegating.onFailure(ActionListener.java:66) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListenerResponseHandler.handleException(ActionListenerResponseHandler.java:48) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.SearchTransportService$ConnectionCountingHandler.handleException(SearchTransportService.java:651) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$4.handleException(TransportService.java:853) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleException(TransportService.java:1481) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:1590) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:1564) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TaskTransportChannel.sendResponse(TaskTransportChannel.java:50) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportChannel.sendErrorResponse(TransportChannel.java:45) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.support.ChannelActionListener.onFailure(ChannelActionListener.java:41) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionRunnable.onFailure(ActionRunnable.java:77) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:765) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:28) [elasticsearch-7.17.0.jar:7.17.0]",
+"at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]",
+"at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]",
+"at java.lang.Thread.run(Thread.java:831) [?:?]",
+"Caused by: org.elasticsearch.action.NoShardAvailableActionException: [tpotcluster-node-01][127.0.0.1:9300][indices:data/read/search[phase/query]]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:544) ~[elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:491) [elasticsearch-7.17.0.jar:7.17.0]",
+"... 18 more"] }
+{"type": "server", "timestamp": "2022-04-05T09:52:55,480Z", "level": "WARN", "component": "r.suppressed", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "path: /.kibana_task_manager/_search, params: {ignore_unavailable=true, index=.kibana_task_manager, track_total_hits=true}", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ" , 
+"stacktrace": ["org.elasticsearch.action.search.SearchPhaseExecutionException: all shards failed",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseFailure(AbstractSearchAsyncAction.java:725) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.executeNextPhase(AbstractSearchAsyncAction.java:412) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseDone(AbstractSearchAsyncAction.java:757) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:509) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.access$000(AbstractSearchAsyncAction.java:64) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction$1.onFailure(AbstractSearchAsyncAction.java:343) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListener$Delegating.onFailure(ActionListener.java:66) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListenerResponseHandler.handleException(ActionListenerResponseHandler.java:48) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.SearchTransportService$ConnectionCountingHandler.handleException(SearchTransportService.java:651) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$4.handleException(TransportService.java:853) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleException(TransportService.java:1481) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:1590) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:1564) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TaskTransportChannel.sendResponse(TaskTransportChannel.java:50) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportChannel.sendErrorResponse(TransportChannel.java:45) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.support.ChannelActionListener.onFailure(ChannelActionListener.java:41) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionRunnable.onFailure(ActionRunnable.java:77) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:765) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:28) [elasticsearch-7.17.0.jar:7.17.0]",
+"at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]",
+"at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]",
+"at java.lang.Thread.run(Thread.java:831) [?:?]",
+"Caused by: org.elasticsearch.action.NoShardAvailableActionException: [tpotcluster-node-01][127.0.0.1:9300][indices:data/read/search[phase/query]]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:544) ~[elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:491) [elasticsearch-7.17.0.jar:7.17.0]",
+"... 18 more"] }
+{"type": "server", "timestamp": "2022-04-05T09:52:55,553Z", "level": "WARN", "component": "r.suppressed", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "path: /.kibana_task_manager/_update_by_query, params: {ignore_unavailable=true, refresh=true, conflicts=proceed, index=.kibana_task_manager}", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ" , 
+"stacktrace": ["org.elasticsearch.action.search.SearchPhaseExecutionException: all shards failed",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseFailure(AbstractSearchAsyncAction.java:725) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.executeNextPhase(AbstractSearchAsyncAction.java:412) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseDone(AbstractSearchAsyncAction.java:757) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:509) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.access$000(AbstractSearchAsyncAction.java:64) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction$1.onFailure(AbstractSearchAsyncAction.java:343) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListener$Delegating.onFailure(ActionListener.java:66) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListenerResponseHandler.handleException(ActionListenerResponseHandler.java:48) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.SearchTransportService$ConnectionCountingHandler.handleException(SearchTransportService.java:651) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$4.handleException(TransportService.java:853) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleException(TransportService.java:1481) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:1590) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:1564) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TaskTransportChannel.sendResponse(TaskTransportChannel.java:50) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportChannel.sendErrorResponse(TransportChannel.java:45) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.support.ChannelActionListener.onFailure(ChannelActionListener.java:41) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionRunnable.onFailure(ActionRunnable.java:77) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:765) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:28) [elasticsearch-7.17.0.jar:7.17.0]",
+"at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]",
+"at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]",
+"at java.lang.Thread.run(Thread.java:831) [?:?]",
+"Caused by: org.elasticsearch.action.NoShardAvailableActionException: [tpotcluster-node-01][127.0.0.1:9300][indices:data/read/search[phase/query]]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:544) ~[elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:491) [elasticsearch-7.17.0.jar:7.17.0]",
+"... 18 more"] }
+{"type": "server", "timestamp": "2022-04-05T09:52:55,612Z", "level": "WARN", "component": "r.suppressed", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "path: /.kibana_task_manager/_search, params: {ignore_unavailable=true, index=.kibana_task_manager, track_total_hits=true}", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ" , 
+"stacktrace": ["org.elasticsearch.action.search.SearchPhaseExecutionException: all shards failed",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseFailure(AbstractSearchAsyncAction.java:725) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.executeNextPhase(AbstractSearchAsyncAction.java:412) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseDone(AbstractSearchAsyncAction.java:757) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:509) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.access$000(AbstractSearchAsyncAction.java:64) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction$1.onFailure(AbstractSearchAsyncAction.java:343) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListener$Delegating.onFailure(ActionListener.java:66) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListenerResponseHandler.handleException(ActionListenerResponseHandler.java:48) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.SearchTransportService$ConnectionCountingHandler.handleException(SearchTransportService.java:651) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$4.handleException(TransportService.java:853) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleException(TransportService.java:1481) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:1590) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:1564) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TaskTransportChannel.sendResponse(TaskTransportChannel.java:50) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportChannel.sendErrorResponse(TransportChannel.java:45) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.support.ChannelActionListener.onFailure(ChannelActionListener.java:41) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionRunnable.onFailure(ActionRunnable.java:77) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:765) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:28) [elasticsearch-7.17.0.jar:7.17.0]",
+"at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]",
+"at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]",
+"at java.lang.Thread.run(Thread.java:831) [?:?]",
+"Caused by: org.elasticsearch.action.NoShardAvailableActionException: [tpotcluster-node-01][127.0.0.1:9300][indices:data/read/search[phase/query]]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:544) ~[elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:491) [elasticsearch-7.17.0.jar:7.17.0]",
+"... 18 more"] }
+{"type": "server", "timestamp": "2022-04-05T09:52:55,619Z", "level": "WARN", "component": "r.suppressed", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "path: /.kibana_task_manager/_update_by_query, params: {ignore_unavailable=true, refresh=true, conflicts=proceed, index=.kibana_task_manager}", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ" , 
+"stacktrace": ["org.elasticsearch.action.search.SearchPhaseExecutionException: all shards failed",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseFailure(AbstractSearchAsyncAction.java:725) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.executeNextPhase(AbstractSearchAsyncAction.java:412) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseDone(AbstractSearchAsyncAction.java:757) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:509) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.access$000(AbstractSearchAsyncAction.java:64) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction$1.onFailure(AbstractSearchAsyncAction.java:343) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListener$Delegating.onFailure(ActionListener.java:66) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListenerResponseHandler.handleException(ActionListenerResponseHandler.java:48) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.SearchTransportService$ConnectionCountingHandler.handleException(SearchTransportService.java:651) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$4.handleException(TransportService.java:853) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleException(TransportService.java:1481) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:1590) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:1564) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TaskTransportChannel.sendResponse(TaskTransportChannel.java:50) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportChannel.sendErrorResponse(TransportChannel.java:45) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.support.ChannelActionListener.onFailure(ChannelActionListener.java:41) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionRunnable.onFailure(ActionRunnable.java:77) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:765) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:28) [elasticsearch-7.17.0.jar:7.17.0]",
+"at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]",
+"at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]",
+"at java.lang.Thread.run(Thread.java:831) [?:?]",
+"Caused by: org.elasticsearch.action.NoShardAvailableActionException: [tpotcluster-node-01][127.0.0.1:9300][indices:data/read/search[phase/query]]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:544) ~[elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:491) [elasticsearch-7.17.0.jar:7.17.0]",
+"... 18 more"] }
+{"type": "server", "timestamp": "2022-04-05T09:52:55,655Z", "level": "WARN", "component": "r.suppressed", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "path: /.kibana_task_manager/_update_by_query, params: {ignore_unavailable=true, refresh=true, conflicts=proceed, index=.kibana_task_manager}", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ" , 
+"stacktrace": ["org.elasticsearch.action.search.SearchPhaseExecutionException: all shards failed",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseFailure(AbstractSearchAsyncAction.java:725) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.executeNextPhase(AbstractSearchAsyncAction.java:412) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseDone(AbstractSearchAsyncAction.java:757) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:509) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.access$000(AbstractSearchAsyncAction.java:64) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction$1.onFailure(AbstractSearchAsyncAction.java:343) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListener$Delegating.onFailure(ActionListener.java:66) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListenerResponseHandler.handleException(ActionListenerResponseHandler.java:48) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.SearchTransportService$ConnectionCountingHandler.handleException(SearchTransportService.java:651) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$4.handleException(TransportService.java:853) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleException(TransportService.java:1481) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:1590) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:1564) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TaskTransportChannel.sendResponse(TaskTransportChannel.java:50) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportChannel.sendErrorResponse(TransportChannel.java:45) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.support.ChannelActionListener.onFailure(ChannelActionListener.java:41) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionRunnable.onFailure(ActionRunnable.java:77) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:765) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:28) [elasticsearch-7.17.0.jar:7.17.0]",
+"at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]",
+"at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]",
+"at java.lang.Thread.run(Thread.java:831) [?:?]",
+"Caused by: org.elasticsearch.action.NoShardAvailableActionException: [tpotcluster-node-01][127.0.0.1:9300][indices:data/read/search[phase/query]]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:544) ~[elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:491) [elasticsearch-7.17.0.jar:7.17.0]",
+"... 18 more"] }
+{"type": "server", "timestamp": "2022-04-05T09:52:55,690Z", "level": "WARN", "component": "r.suppressed", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "path: /.kibana_task_manager/_update_by_query, params: {ignore_unavailable=true, refresh=true, conflicts=proceed, index=.kibana_task_manager}", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ" , 
+"stacktrace": ["org.elasticsearch.action.search.SearchPhaseExecutionException: all shards failed",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseFailure(AbstractSearchAsyncAction.java:725) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.executeNextPhase(AbstractSearchAsyncAction.java:412) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseDone(AbstractSearchAsyncAction.java:757) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:509) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.access$000(AbstractSearchAsyncAction.java:64) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction$1.onFailure(AbstractSearchAsyncAction.java:343) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListener$Delegating.onFailure(ActionListener.java:66) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListenerResponseHandler.handleException(ActionListenerResponseHandler.java:48) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.SearchTransportService$ConnectionCountingHandler.handleException(SearchTransportService.java:651) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$4.handleException(TransportService.java:853) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleException(TransportService.java:1481) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:1590) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:1564) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TaskTransportChannel.sendResponse(TaskTransportChannel.java:50) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportChannel.sendErrorResponse(TransportChannel.java:45) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.support.ChannelActionListener.onFailure(ChannelActionListener.java:41) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionRunnable.onFailure(ActionRunnable.java:77) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:765) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:28) [elasticsearch-7.17.0.jar:7.17.0]",
+"at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]",
+"at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]",
+"at java.lang.Thread.run(Thread.java:831) [?:?]",
+"Caused by: org.elasticsearch.action.NoShardAvailableActionException: [tpotcluster-node-01][127.0.0.1:9300][indices:data/read/search[phase/query]]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:544) ~[elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:491) [elasticsearch-7.17.0.jar:7.17.0]",
+"... 18 more"] }
+{"type": "server", "timestamp": "2022-04-05T09:52:56,621Z", "level": "INFO", "component": "o.e.i.g.GeoIpDownloader", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "geoip database [GeoLite2-ASN.mmdb] is up to date, updated timestamp", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:52:57,219Z", "level": "INFO", "component": "o.e.i.g.DatabaseNodeService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "downloading geoip database [GeoLite2-Country.mmdb] to [/tmp/geoip-databases/t9hfPgy_RyC9LOJUxQUrSQ/GeoLite2-Country.mmdb.tmp.gz]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:52:57,242Z", "level": "INFO", "component": "o.e.i.g.DatabaseNodeService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "downloading geoip database [GeoLite2-ASN.mmdb] to [/tmp/geoip-databases/t9hfPgy_RyC9LOJUxQUrSQ/GeoLite2-ASN.mmdb.tmp.gz]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:52:57,246Z", "level": "INFO", "component": "o.e.i.g.DatabaseNodeService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "downloading geoip database [GeoLite2-City.mmdb] to [/tmp/geoip-databases/t9hfPgy_RyC9LOJUxQUrSQ/GeoLite2-City.mmdb.tmp.gz]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:52:57,682Z", "level": "INFO", "component": "o.e.i.g.GeoIpDownloader", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "geoip database [GeoLite2-City.mmdb] is up to date, updated timestamp", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:52:57,839Z", "level": "WARN", "component": "r.suppressed", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "path: /.kibana_task_manager/_update_by_query, params: {ignore_unavailable=true, refresh=true, conflicts=proceed, index=.kibana_task_manager}", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ" , 
+"stacktrace": ["org.elasticsearch.action.search.SearchPhaseExecutionException: all shards failed",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseFailure(AbstractSearchAsyncAction.java:725) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.executeNextPhase(AbstractSearchAsyncAction.java:412) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseDone(AbstractSearchAsyncAction.java:757) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:509) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.access$000(AbstractSearchAsyncAction.java:64) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction$1.onFailure(AbstractSearchAsyncAction.java:343) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListener$Delegating.onFailure(ActionListener.java:66) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListenerResponseHandler.handleException(ActionListenerResponseHandler.java:48) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.SearchTransportService$ConnectionCountingHandler.handleException(SearchTransportService.java:651) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$4.handleException(TransportService.java:853) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleException(TransportService.java:1481) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:1590) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:1564) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TaskTransportChannel.sendResponse(TaskTransportChannel.java:50) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportChannel.sendErrorResponse(TransportChannel.java:45) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.support.ChannelActionListener.onFailure(ChannelActionListener.java:41) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionRunnable.onFailure(ActionRunnable.java:77) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:765) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:28) [elasticsearch-7.17.0.jar:7.17.0]",
+"at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]",
+"at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]",
+"at java.lang.Thread.run(Thread.java:831) [?:?]",
+"Caused by: org.elasticsearch.action.NoShardAvailableActionException: [tpotcluster-node-01][127.0.0.1:9300][indices:data/read/search[phase/query]]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:544) ~[elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:491) [elasticsearch-7.17.0.jar:7.17.0]",
+"... 18 more"] }
+{"type": "server", "timestamp": "2022-04-05T09:52:57,903Z", "level": "WARN", "component": "r.suppressed", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "path: /.kibana_task_manager/_update_by_query, params: {ignore_unavailable=true, refresh=true, conflicts=proceed, index=.kibana_task_manager}", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ" , 
+"stacktrace": ["org.elasticsearch.action.search.SearchPhaseExecutionException: all shards failed",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseFailure(AbstractSearchAsyncAction.java:725) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.executeNextPhase(AbstractSearchAsyncAction.java:412) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseDone(AbstractSearchAsyncAction.java:757) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:509) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.access$000(AbstractSearchAsyncAction.java:64) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction$1.onFailure(AbstractSearchAsyncAction.java:343) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListener$Delegating.onFailure(ActionListener.java:66) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListenerResponseHandler.handleException(ActionListenerResponseHandler.java:48) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.SearchTransportService$ConnectionCountingHandler.handleException(SearchTransportService.java:651) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$4.handleException(TransportService.java:853) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleException(TransportService.java:1481) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:1590) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:1564) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TaskTransportChannel.sendResponse(TaskTransportChannel.java:50) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportChannel.sendErrorResponse(TransportChannel.java:45) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.support.ChannelActionListener.onFailure(ChannelActionListener.java:41) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionRunnable.onFailure(ActionRunnable.java:77) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:765) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:28) [elasticsearch-7.17.0.jar:7.17.0]",
+"at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]",
+"at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]",
+"at java.lang.Thread.run(Thread.java:831) [?:?]",
+"Caused by: org.elasticsearch.action.NoShardAvailableActionException: [tpotcluster-node-01][127.0.0.1:9300][indices:data/read/search[phase/query]]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:544) ~[elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:491) [elasticsearch-7.17.0.jar:7.17.0]",
+"... 18 more"] }
+{"type": "server", "timestamp": "2022-04-05T09:52:57,936Z", "level": "WARN", "component": "r.suppressed", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "path: /.kibana_task_manager/_update_by_query, params: {ignore_unavailable=true, refresh=true, conflicts=proceed, index=.kibana_task_manager}", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ" , 
+"stacktrace": ["org.elasticsearch.action.search.SearchPhaseExecutionException: all shards failed",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseFailure(AbstractSearchAsyncAction.java:725) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.executeNextPhase(AbstractSearchAsyncAction.java:412) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseDone(AbstractSearchAsyncAction.java:757) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:509) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.access$000(AbstractSearchAsyncAction.java:64) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction$1.onFailure(AbstractSearchAsyncAction.java:343) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListener$Delegating.onFailure(ActionListener.java:66) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListenerResponseHandler.handleException(ActionListenerResponseHandler.java:48) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.SearchTransportService$ConnectionCountingHandler.handleException(SearchTransportService.java:651) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$4.handleException(TransportService.java:853) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleException(TransportService.java:1481) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:1590) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:1564) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TaskTransportChannel.sendResponse(TaskTransportChannel.java:50) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportChannel.sendErrorResponse(TransportChannel.java:45) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.support.ChannelActionListener.onFailure(ChannelActionListener.java:41) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionRunnable.onFailure(ActionRunnable.java:77) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:765) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:28) [elasticsearch-7.17.0.jar:7.17.0]",
+"at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]",
+"at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]",
+"at java.lang.Thread.run(Thread.java:831) [?:?]",
+"Caused by: org.elasticsearch.action.NoShardAvailableActionException: [tpotcluster-node-01][127.0.0.1:9300][indices:data/read/search[phase/query]]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:544) ~[elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:491) [elasticsearch-7.17.0.jar:7.17.0]",
+"... 18 more"] }
+{"type": "server", "timestamp": "2022-04-05T09:52:57,986Z", "level": "WARN", "component": "r.suppressed", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "path: /.kibana_task_manager/_update_by_query, params: {ignore_unavailable=true, refresh=true, conflicts=proceed, index=.kibana_task_manager}", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ" , 
+"stacktrace": ["org.elasticsearch.action.search.SearchPhaseExecutionException: all shards failed",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseFailure(AbstractSearchAsyncAction.java:725) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.executeNextPhase(AbstractSearchAsyncAction.java:412) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseDone(AbstractSearchAsyncAction.java:757) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:509) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.access$000(AbstractSearchAsyncAction.java:64) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction$1.onFailure(AbstractSearchAsyncAction.java:343) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListener$Delegating.onFailure(ActionListener.java:66) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListenerResponseHandler.handleException(ActionListenerResponseHandler.java:48) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.SearchTransportService$ConnectionCountingHandler.handleException(SearchTransportService.java:651) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$4.handleException(TransportService.java:853) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleException(TransportService.java:1481) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:1590) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:1564) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TaskTransportChannel.sendResponse(TaskTransportChannel.java:50) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportChannel.sendErrorResponse(TransportChannel.java:45) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.support.ChannelActionListener.onFailure(ChannelActionListener.java:41) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionRunnable.onFailure(ActionRunnable.java:77) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:765) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:28) [elasticsearch-7.17.0.jar:7.17.0]",
+"at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]",
+"at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]",
+"at java.lang.Thread.run(Thread.java:831) [?:?]",
+"Caused by: org.elasticsearch.action.NoShardAvailableActionException: [tpotcluster-node-01][127.0.0.1:9300][indices:data/read/search[phase/query]]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:544) ~[elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:491) [elasticsearch-7.17.0.jar:7.17.0]",
+"... 18 more"] }
+{"type": "server", "timestamp": "2022-04-05T09:52:58,268Z", "level": "INFO", "component": "o.e.i.g.DatabaseNodeService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "successfully reloaded changed geoip database file [/tmp/geoip-databases/t9hfPgy_RyC9LOJUxQUrSQ/GeoLite2-Country.mmdb]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:52:58,645Z", "level": "INFO", "component": "o.e.i.g.DatabaseNodeService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "successfully reloaded changed geoip database file [/tmp/geoip-databases/t9hfPgy_RyC9LOJUxQUrSQ/GeoLite2-ASN.mmdb]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:52:58,825Z", "level": "INFO", "component": "o.e.i.g.GeoIpDownloader", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "geoip database [GeoLite2-Country.mmdb] is up to date, updated timestamp", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:53:00,833Z", "level": "WARN", "component": "r.suppressed", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "path: /.kibana_task_manager/_update_by_query, params: {ignore_unavailable=true, refresh=true, conflicts=proceed, index=.kibana_task_manager}", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ" , 
+"stacktrace": ["org.elasticsearch.action.search.SearchPhaseExecutionException: all shards failed",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseFailure(AbstractSearchAsyncAction.java:725) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.executeNextPhase(AbstractSearchAsyncAction.java:412) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseDone(AbstractSearchAsyncAction.java:757) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:509) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.access$000(AbstractSearchAsyncAction.java:64) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction$1.onFailure(AbstractSearchAsyncAction.java:343) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListener$Delegating.onFailure(ActionListener.java:66) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListenerResponseHandler.handleException(ActionListenerResponseHandler.java:48) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.SearchTransportService$ConnectionCountingHandler.handleException(SearchTransportService.java:651) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$4.handleException(TransportService.java:853) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleException(TransportService.java:1481) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:1590) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:1564) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TaskTransportChannel.sendResponse(TaskTransportChannel.java:50) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportChannel.sendErrorResponse(TransportChannel.java:45) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.support.ChannelActionListener.onFailure(ChannelActionListener.java:41) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionRunnable.onFailure(ActionRunnable.java:77) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:765) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:28) [elasticsearch-7.17.0.jar:7.17.0]",
+"at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]",
+"at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]",
+"at java.lang.Thread.run(Thread.java:831) [?:?]",
+"Caused by: org.elasticsearch.action.NoShardAvailableActionException: [tpotcluster-node-01][127.0.0.1:9300][indices:data/read/search[phase/query]]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:544) ~[elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:491) [elasticsearch-7.17.0.jar:7.17.0]",
+"... 18 more"] }
+{"type": "server", "timestamp": "2022-04-05T09:53:00,873Z", "level": "WARN", "component": "r.suppressed", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "path: /.kibana_task_manager/_update_by_query, params: {ignore_unavailable=true, refresh=true, conflicts=proceed, index=.kibana_task_manager}", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ" , 
+"stacktrace": ["org.elasticsearch.action.search.SearchPhaseExecutionException: all shards failed",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseFailure(AbstractSearchAsyncAction.java:725) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.executeNextPhase(AbstractSearchAsyncAction.java:412) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseDone(AbstractSearchAsyncAction.java:757) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:509) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.access$000(AbstractSearchAsyncAction.java:64) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction$1.onFailure(AbstractSearchAsyncAction.java:343) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListener$Delegating.onFailure(ActionListener.java:66) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListenerResponseHandler.handleException(ActionListenerResponseHandler.java:48) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.SearchTransportService$ConnectionCountingHandler.handleException(SearchTransportService.java:651) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$4.handleException(TransportService.java:853) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleException(TransportService.java:1481) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:1590) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:1564) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TaskTransportChannel.sendResponse(TaskTransportChannel.java:50) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportChannel.sendErrorResponse(TransportChannel.java:45) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.support.ChannelActionListener.onFailure(ChannelActionListener.java:41) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionRunnable.onFailure(ActionRunnable.java:77) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:765) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:28) [elasticsearch-7.17.0.jar:7.17.0]",
+"at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]",
+"at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]",
+"at java.lang.Thread.run(Thread.java:831) [?:?]",
+"Caused by: org.elasticsearch.action.NoShardAvailableActionException: [tpotcluster-node-01][127.0.0.1:9300][indices:data/read/search[phase/query]]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:544) ~[elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:491) [elasticsearch-7.17.0.jar:7.17.0]",
+"... 18 more"] }
+{"type": "server", "timestamp": "2022-04-05T09:53:00,910Z", "level": "WARN", "component": "r.suppressed", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "path: /.kibana_task_manager/_update_by_query, params: {ignore_unavailable=true, refresh=true, conflicts=proceed, index=.kibana_task_manager}", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ" , 
+"stacktrace": ["org.elasticsearch.action.search.SearchPhaseExecutionException: all shards failed",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseFailure(AbstractSearchAsyncAction.java:725) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.executeNextPhase(AbstractSearchAsyncAction.java:412) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseDone(AbstractSearchAsyncAction.java:757) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:509) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.access$000(AbstractSearchAsyncAction.java:64) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction$1.onFailure(AbstractSearchAsyncAction.java:343) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListener$Delegating.onFailure(ActionListener.java:66) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListenerResponseHandler.handleException(ActionListenerResponseHandler.java:48) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.SearchTransportService$ConnectionCountingHandler.handleException(SearchTransportService.java:651) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$4.handleException(TransportService.java:853) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleException(TransportService.java:1481) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:1590) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:1564) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TaskTransportChannel.sendResponse(TaskTransportChannel.java:50) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportChannel.sendErrorResponse(TransportChannel.java:45) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.support.ChannelActionListener.onFailure(ChannelActionListener.java:41) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionRunnable.onFailure(ActionRunnable.java:77) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:765) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:28) [elasticsearch-7.17.0.jar:7.17.0]",
+"at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]",
+"at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]",
+"at java.lang.Thread.run(Thread.java:831) [?:?]",
+"Caused by: org.elasticsearch.action.NoShardAvailableActionException: [tpotcluster-node-01][127.0.0.1:9300][indices:data/read/search[phase/query]]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:544) ~[elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:491) [elasticsearch-7.17.0.jar:7.17.0]",
+"... 18 more"] }
+{"type": "server", "timestamp": "2022-04-05T09:53:00,942Z", "level": "WARN", "component": "r.suppressed", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "path: /.kibana_task_manager/_update_by_query, params: {ignore_unavailable=true, refresh=true, conflicts=proceed, index=.kibana_task_manager}", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ" , 
+"stacktrace": ["org.elasticsearch.action.search.SearchPhaseExecutionException: all shards failed",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseFailure(AbstractSearchAsyncAction.java:725) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.executeNextPhase(AbstractSearchAsyncAction.java:412) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onPhaseDone(AbstractSearchAsyncAction.java:757) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:509) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.access$000(AbstractSearchAsyncAction.java:64) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction$1.onFailure(AbstractSearchAsyncAction.java:343) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListener$Delegating.onFailure(ActionListener.java:66) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionListenerResponseHandler.handleException(ActionListenerResponseHandler.java:48) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.SearchTransportService$ConnectionCountingHandler.handleException(SearchTransportService.java:651) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$4.handleException(TransportService.java:853) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleException(TransportService.java:1481) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:1590) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:1564) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TaskTransportChannel.sendResponse(TaskTransportChannel.java:50) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.transport.TransportChannel.sendErrorResponse(TransportChannel.java:45) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.support.ChannelActionListener.onFailure(ChannelActionListener.java:41) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.ActionRunnable.onFailure(ActionRunnable.java:77) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:765) [elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:28) [elasticsearch-7.17.0.jar:7.17.0]",
+"at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]",
+"at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]",
+"at java.lang.Thread.run(Thread.java:831) [?:?]",
+"Caused by: org.elasticsearch.action.NoShardAvailableActionException: [tpotcluster-node-01][127.0.0.1:9300][indices:data/read/search[phase/query]]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:544) ~[elasticsearch-7.17.0.jar:7.17.0]",
+"at org.elasticsearch.action.search.AbstractSearchAsyncAction.onShardFailure(AbstractSearchAsyncAction.java:491) [elasticsearch-7.17.0.jar:7.17.0]",
+"... 18 more"] }
+{"type": "server", "timestamp": "2022-04-05T09:53:05,181Z", "level": "INFO", "component": "o.e.i.g.DatabaseNodeService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "successfully reloaded changed geoip database file [/tmp/geoip-databases/t9hfPgy_RyC9LOJUxQUrSQ/GeoLite2-City.mmdb]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:53:15,888Z", "level": "INFO", "component": "o.e.c.r.a.AllocationService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[logstash-2022.04.05][0]]]).", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:54:01,626Z", "level": "INFO", "component": "o.e.c.m.MetadataMappingService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "[logstash-2022.04.05/SW7PcCANRW2HpJ810Rh22A] update_mapping [_doc]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:54:01,820Z", "level": "INFO", "component": "o.e.c.m.MetadataMappingService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "[logstash-2022.04.05/SW7PcCANRW2HpJ810Rh22A] update_mapping [_doc]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:54:01,835Z", "level": "INFO", "component": "o.e.c.m.MetadataMappingService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "[logstash-2022.04.05/SW7PcCANRW2HpJ810Rh22A] update_mapping [_doc]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:54:01,857Z", "level": "INFO", "component": "o.e.c.m.MetadataMappingService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "[logstash-2022.04.05/SW7PcCANRW2HpJ810Rh22A] update_mapping [_doc]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:54:02,462Z", "level": "INFO", "component": "o.e.c.m.MetadataMappingService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "[logstash-2022.04.05/SW7PcCANRW2HpJ810Rh22A] update_mapping [_doc]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:54:04,238Z", "level": "INFO", "component": "o.e.c.m.MetadataMappingService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "[logstash-2022.04.05/SW7PcCANRW2HpJ810Rh22A] update_mapping [_doc]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:54:07,486Z", "level": "INFO", "component": "o.e.c.m.MetadataMappingService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "[logstash-2022.04.05/SW7PcCANRW2HpJ810Rh22A] update_mapping [_doc]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:54:08,039Z", "level": "INFO", "component": "o.e.c.m.MetadataMappingService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "[logstash-2022.04.05/SW7PcCANRW2HpJ810Rh22A] update_mapping [_doc]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:54:08,317Z", "level": "INFO", "component": "o.e.c.m.MetadataMappingService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "[logstash-2022.04.05/SW7PcCANRW2HpJ810Rh22A] update_mapping [_doc]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:54:08,392Z", "level": "INFO", "component": "o.e.c.m.MetadataMappingService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "[logstash-2022.04.05/SW7PcCANRW2HpJ810Rh22A] update_mapping [_doc]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:59:30,616Z", "level": "WARN", "component": "o.e.h.AbstractHttpServerTransport", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "handling request [null][POST][/_bulk][Netty4HttpChannel{localAddress=/192.168.48.2:9200, remoteAddress=/192.168.48.3:48246}] took [10587ms] which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:59:30,327Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "execution of [ReschedulingRunnable{runnable=org.elasticsearch.monitor.jvm.JvmGcMonitorService$1@6f00e177, interval=1s}] took [11360ms] which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:59:30,616Z", "level": "WARN", "component": "o.e.h.AbstractHttpServerTransport", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "handling request [null][POST][/_bulk][Netty4HttpChannel{localAddress=/192.168.48.2:9200, remoteAddress=/192.168.48.3:48260}] took [11783ms] which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:59:30,616Z", "level": "WARN", "component": "o.e.h.AbstractHttpServerTransport", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "handling request [null][POST][/_bulk][Netty4HttpChannel{localAddress=/192.168.48.2:9200, remoteAddress=/192.168.48.3:48262}] took [11783ms] which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T09:59:49,484Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "execution of [ReschedulingRunnable{runnable=org.elasticsearch.monitor.jvm.JvmGcMonitorService$1@6f00e177, interval=1s}] took [7961ms] which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:00:04,650Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "execution of [ReschedulingRunnable{runnable=org.elasticsearch.monitor.jvm.JvmGcMonitorService$1@6f00e177, interval=1s}] took [7603ms] which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:00:32,616Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "execution of [org.elasticsearch.cluster.InternalClusterInfoService$RefreshScheduler$$Lambda$5095/0x00000008017ddbb8@12c69513] took [5815ms] which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:00:41,139Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "execution of [ReschedulingRunnable{runnable=org.elasticsearch.monitor.jvm.JvmGcMonitorService$1@6f00e177, interval=1s}] took [5080ms] which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:02:06,612Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "execution of [ReschedulingRunnable{runnable=org.elasticsearch.monitor.jvm.JvmGcMonitorService$1@6f00e177, interval=1s}] took [37772ms] which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:02:38,106Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "execution of [ReschedulingRunnable{runnable=org.elasticsearch.watcher.ResourceWatcherService$ResourceMonitor@6df867ee, interval=5s}] took [8004ms] which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:02:56,630Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [8s/8005ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:08:12,736Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [8s/8004308381ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:08:34,571Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [6m/361941ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:08:49,855Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [6m/361941647802ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:08:59,834Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [25.7s/25750ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:09:08,172Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [25.7s/25749265576ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:09:48,588Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [48.3s/48310ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:10:02,243Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [48.3s/48310209441ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:10:23,107Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [31.4s/31472ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:10:26,042Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "execution of [ReschedulingRunnable{runnable=org.elasticsearch.monitor.jvm.JvmGcMonitorService$1@6f00e177, interval=1s}] took [79782ms] which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:10:47,091Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [31.4s/31472658248ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:11:02,361Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [42.4s/42452ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:11:13,213Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [42.4s/42452054665ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:11:27,326Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [24.2s/24216ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:11:34,180Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [24.2s/24215503781ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:11:33,767Z", "level": "WARN", "component": "o.e.c.InternalClusterInfoService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "failed to retrieve shard stats from node [t9hfPgy_RyC9LOJUxQUrSQ]: [tpotcluster-node-01][127.0.0.1:9300][indices:monitor/stats[n]] request_id [3165] timed out after [15518ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:11:37,877Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [11.8s/11887ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:11:33,607Z", "level": "WARN", "component": "o.e.m.f.FsHealthService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "health check of [/data/elk/data/nodes/0] took [24216ms] which is above the warn threshold of [5s]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:11:43,335Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [11.8s/11887045418ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:11:56,516Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [15.1s/15113ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:11:59,537Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [15.1s/15113094909ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:12:05,880Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [12.6s/12673ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:12:05,920Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "execution of [ReschedulingRunnable{runnable=org.elasticsearch.monitor.jvm.JvmGcMonitorService$1@6f00e177, interval=1s}] took [12672ms] which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:12:13,367Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [12.6s/12672546777ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:12:23,789Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "execution of [ReschedulingRunnable{runnable=org.elasticsearch.indices.IndexingMemoryController$ShardsIndicesStatusChecker@41116094, interval=5s}] took [18179ms] which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:12:23,789Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [18.1s/18179ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:12:33,235Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [18.1s/18179660905ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:12:45,055Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [20.2s/20291ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:12:46,442Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "execution of [ReschedulingRunnable{runnable=org.elasticsearch.monitor.jvm.JvmGcMonitorService$1@6f00e177, interval=1s}] took [20290ms] which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:12:54,104Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [20.2s/20290656662ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:13:05,900Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [21.7s/21742ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:13:15,757Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [21.7s/21742236102ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:13:28,917Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [22.2s/22283ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:13:39,040Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [22.2s/22282422735ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:13:48,880Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [20.2s/20226ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:13:58,712Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [20.2s/20225900272ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:14:09,280Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [20.5s/20579ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:14:20,379Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [20.5s/20579244266ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:14:36,098Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [24.9s/24996ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:14:51,496Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "execution of [ReschedulingRunnable{runnable=org.elasticsearch.monitor.jvm.JvmGcMonitorService$1@6f00e177, interval=1s}] took [24996ms] which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:14:52,158Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [24.9s/24996261364ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:16:09,366Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [1.5m/94444ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:16:44,879Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [1.5m/94444162314ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:16:43,235Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "execution of [ReschedulingRunnable{runnable=org.elasticsearch.indices.IndexingMemoryController$ShardsIndicesStatusChecker@41116094, interval=5s}] took [94444ms] which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:18:02,670Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [1.8m/112308ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:18:30,927Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [1.8m/112308027300ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:19:07,883Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [1.1m/66268ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:20:45,229Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [1.1m/66267765956ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:24:43,805Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [5.5m/333375ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:28:44,891Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [5.5m/333374620619ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:34:02,492Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [8.9m/537911ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:35:49,673Z", "level": "WARN", "component": "o.e.h.AbstractHttpServerTransport", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "handling request [null][POST][/_bulk][Netty4HttpChannel{localAddress=/192.168.48.2:9200, remoteAddress=/192.168.48.3:48246}] took [537743ms] which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:36:56,836Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [8.9m/537743003572ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:41:50,817Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [8m/485169ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:45:31,923Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [8m/485017909327ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:50:04,294Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [8.2m/497163ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:53:01,281Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [8.2m/497017414314ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:56:08,340Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [6m/364744ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:53:01,097Z", "level": "WARN", "component": "o.e.m.f.FsHealthService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "health check of [/data/elk/data/nodes/0] took [497018ms] which is above the warn threshold of [5s]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T10:59:57,583Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [6m/364614555888ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T11:03:11,843Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [7m/422017ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T11:08:08,150Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [7m/422245499410ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T11:14:26,731Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [11.1m/667129ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T11:17:26,621Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [11.1m/667033066702ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T11:28:06,203Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [13.8m/828447ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T11:29:18,024Z", "level": "WARN", "component": "o.e.h.AbstractHttpServerTransport", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "handling request [null][POST][/.kibana_7.17.0/_search?from=0&rest_total_hits_as_int=true&size=100][Netty4HttpChannel{localAddress=/192.168.48.2:9200, remoteAddress=/192.168.48.4:36592}] took [828188ms] which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T11:35:36,505Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [13.8m/828188691815ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T11:38:17,692Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [9.9m/599680ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T11:30:43,603Z", "level": "WARN", "component": "o.e.h.AbstractHttpServerTransport", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "handling request [null][POST][/.kibana_7.17.0/_search?from=0&rest_total_hits_as_int=true&size=100][Netty4HttpChannel{localAddress=/192.168.48.2:9200, remoteAddress=/192.168.48.4:36588}] took [828188ms] which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T11:43:34,663Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [10m/600399817307ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T12:14:15,173Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [22m/1322644ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T12:19:41,240Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [22m/1322309002177ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T12:23:30,431Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [23.3m/1401277ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T12:23:56,290Z", "level": "WARN", "component": "o.e.h.AbstractHttpServerTransport", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "handling request [null][GET][/_nodes?filter_path=nodes.*.version%2Cnodes.*.http.publish_address%2Cnodes.*.ip][Netty4HttpChannel{localAddress=/192.168.48.2:9200, remoteAddress=/192.168.48.4:36576}] took [1401613ms] which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T12:26:29,317Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [23.3m/1401612451559ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T12:29:52,527Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [6.3m/382488ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T12:30:47,203Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "execution of [ReschedulingRunnable{runnable=org.elasticsearch.monitor.jvm.JvmGcMonitorService$1@6f00e177, interval=1s}] took [381969ms] which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T12:33:10,122Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [6.3m/381969794130ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T12:36:53,249Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [6.9m/419454ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T12:39:47,798Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [6.9m/419971820307ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T12:42:26,604Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [5.3m/321257ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T12:48:37,658Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [5.3m/320876541552ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T12:51:52,454Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [9.6m/578436ms] on absolute clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T12:53:42,492Z", "level": "WARN", "component": "o.e.c.InternalClusterInfoService", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "failed to retrieve shard stats from node [t9hfPgy_RyC9LOJUxQUrSQ]: [tpotcluster-node-01][127.0.0.1:9300][indices:monitor/stats[n]] request_id [3359] timed out after [5033651ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
+{"type": "server", "timestamp": "2022-04-05T12:59:33,806Z", "level": "WARN", "component": "o.e.t.ThreadPool", "cluster.name": "tpotcluster", "node.name": "tpotcluster-node-01", "message": "timer thread slept for [9.6m/578817041362ns] on relative clock which is above the warn threshold of [5000ms]", "cluster.uuid": "Qbw2pof0QzSXC1OvK0aFSw", "node.id": "t9hfPgy_RyC9LOJUxQUrSQ"  }
