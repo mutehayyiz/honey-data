@@ -1,0 +1,15 @@
+REGISTER sip:34.121.180.85:5080 SIP/2.0
+Via: SIP/2.0/TCP 10.3.0.4:6250;branch=z9hG4bK-524287-1---024b2e63a11bbb7d;rport
+Max-Forwards: 70
+Contact: <sip:1001@10.3.0.4:6250;transport=tcp>;+sip.instance="<urn:uuid:FDB511E2-AF5A-8194-4771-0E94C6C2F2A0>"
+To: "1001"<sip:1001@34.121.180.85:5080>
+From: "1001"<sip:1001@34.121.180.85:5080>;tag=e507e006
+Call-ID: 4WpcJwDn5w3WfhVedIrFug..
+CSeq: 1 REGISTER
+Expires: 120
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, NOTIFY, MESSAGE, REGISTER, SUBSCRIBE, INFO, PUBLISH
+Supported: replaces, outbound, path
+User-Agent: PortSIP VoIP SDK 11.2
+Allow-Events: hold, talk, conference
+Content-Length: 0
+
