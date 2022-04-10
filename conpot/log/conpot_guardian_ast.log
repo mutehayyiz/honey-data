@@ -14,3 +14,25 @@
 2022-04-09 19:57:08,953 New GuardianAST connection from 94.102.61.25:45800. (cba59b62-92ca-4216-85f9-8b4146a3d25a)
 2022-04-09 20:22:09,869 GuardianAST client disconnected 94.102.61.25:45800. (cba59b62-92ca-4216-85f9-8b4146a3d25a)
 2022-04-09 20:39:23,678 Session timed out: cba59b62-92ca-4216-85f9-8b4146a3d25a
+2022-04-10 00:32:49,336 New guardian_ast session from 43.129.36.145 (a588711f-76a7-4907-a2f8-78f024d903aa)
+2022-04-10 00:32:51,423 New GuardianAST connection from 43.129.36.145:53130. (a588711f-76a7-4907-a2f8-78f024d903aa)
+2022-04-10 00:32:57,777 Non ^A command attempt 43.129.36.145:53130. (a588711f-76a7-4907-a2f8-78f024d903aa)
+2022-04-10 00:33:01,638 GuardianAST client disconnected 43.129.36.145:53130. (a588711f-76a7-4907-a2f8-78f024d903aa)
+2022-04-10 00:33:07,092 New GuardianAST connection from 43.129.36.145:15256. (a588711f-76a7-4907-a2f8-78f024d903aa)
+2022-04-10 00:33:13,431 Non ^A command attempt 43.129.36.145:15256. (a588711f-76a7-4907-a2f8-78f024d903aa)
+2022-04-10 00:33:18,557 GuardianAST client disconnected 43.129.36.145:15256. (a588711f-76a7-4907-a2f8-78f024d903aa)
+2022-04-10 00:33:29,803 New GuardianAST connection from 43.129.36.145:26302. (a588711f-76a7-4907-a2f8-78f024d903aa)
+2022-04-10 00:33:35,592 Unknown Error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/conpot/protocols/guardian_ast/guardian_ast_server.py", line 327, in handle
+    request += sock.recv(4096)
+  File "/usr/lib/python3.9/site-packages/gevent/_socketcommon.py", line 657, in recv
+    return self._sock.recv(*args)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2022-04-10 00:33:48,891 GuardianAST client disconnected 43.129.36.145:26302. (a588711f-76a7-4907-a2f8-78f024d903aa)
+2022-04-10 00:38:06,044 Session timed out: a588711f-76a7-4907-a2f8-78f024d903aa
+2022-04-10 02:08:37,936 New guardian_ast session from 160.116.22.21 (bfda7ab3-a314-49ad-a641-98387ebf40ed)
+2022-04-10 02:08:42,317 New GuardianAST connection from 160.116.22.21:54784. (bfda7ab3-a314-49ad-a641-98387ebf40ed)
+2022-04-10 02:08:45,599 Non ^A command attempt 160.116.22.21:54784. (bfda7ab3-a314-49ad-a641-98387ebf40ed)
+2022-04-10 02:08:49,044 GuardianAST client disconnected 160.116.22.21:54784. (bfda7ab3-a314-49ad-a641-98387ebf40ed)
+2022-04-10 02:09:26,383 Session timed out: bfda7ab3-a314-49ad-a641-98387ebf40ed
