@@ -3,14 +3,11 @@ On branch main
 Your branch is up to date with 'origin/main'.
 
 Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
+  (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
 	modified:   adbhoney/log/adbhoney.json
 	modified:   adbhoney/log/adbhoney.log
-	modified:   citrixhoneypot/logs/server.log
-	modified:   conpot/log/conpot_IEC104.log
-	modified:   conpot/log/conpot_ipmi.log
 	modified:   cowrie/log/cowrie.json
 	modified:   elk/log/tpotcluster.log
 	modified:   elk/log/tpotcluster_server.json
@@ -19,9 +16,6 @@ Changes not staged for commit:
 	modified:   heralding/log/heralding.log
 	modified:   heralding/log/log_session.json
 	modified:   heralding/log/session.csv
-	deleted:    honeytrap/attacks/from_port_22999-tcp_5224_2022-04-12
-	deleted:    honeytrap/attacks/from_port_6001-tcp_5226_2022-04-12
-	deleted:    honeytrap/attacks/from_port_8099-tcp_5222_2022-04-12
 	modified:   honeytrap/log/attacker.log
 	modified:   honeytrap/log/attackers.json
 	modified:   honeytrap/log/honeytrap.log
@@ -31,104 +25,10 @@ Changes not staged for commit:
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	honeytrap/attacks/from_port_10255-tcp_5235_2022-04-12_md5_7f0b97edf97ff83dfdd83e4fa916a674
-	honeytrap/attacks/from_port_11101-tcp_5277_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_12110-tcp_5607_2022-04-12_md5_d02b3a973f2c822b12acfbd30492d260
-	honeytrap/attacks/from_port_12149-tcp_5559_2022-04-12_md5_22889cd3ab2c81dcb96402da394f48c4
-	honeytrap/attacks/from_port_12149-tcp_5561_2022-04-12_md5_1effd323f95c25d36fbd3909463e3ec8
-	honeytrap/attacks/from_port_12172-tcp_5579_2022-04-12_md5_3433f04b1aceca2ae3be61a16f0068fa
-	honeytrap/attacks/from_port_12172-tcp_5581_2022-04-12_md5_804b5129425343ddb56526343e9b49cf
-	honeytrap/attacks/from_port_12195-tcp_5342_2022-04-12_md5_e96429f0ee8e168e3e85bbced35f67ea
-	honeytrap/attacks/from_port_12399-tcp_5450_2022-04-12_md5_385a534c7282d04094e26b6b4b23bc77
-	honeytrap/attacks/from_port_12571-tcp_5535_2022-04-12_md5_0ca966386747c8799306ad2c25ab28c0
-	honeytrap/attacks/from_port_12571-tcp_5537_2022-04-12_md5_97fb607cd28878a2b619972d3f9bf03a
-	honeytrap/attacks/from_port_13310-tcp_5528_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_1503-tcp_5942_2022-04-12_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_1542-tcp_6311_2022-04-12_md5_1a1557d50d9b9695bfb233e71cb9446a
-	honeytrap/attacks/from_port_16094-tcp_5634_2022-04-12_md5_bcd035f4f2dbf91cd1a6f9abb0a7fa5c
-	honeytrap/attacks/from_port_1730-tcp_5438_2022-04-12_md5_4cacf6ab7717e73441efc30f797fd387
-	honeytrap/attacks/from_port_17344-tcp_5377_2022-04-12_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_17777-tcp_5920_2022-04-12_md5_4cacf6ab7717e73441efc30f797fd387
-	honeytrap/attacks/from_port_18888-tcp_5457_2022-04-12_md5_25b761aa4c5ca85d986358a9878d64cf
-	honeytrap/attacks/from_port_1900-tcp_5550_2022-04-12_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_1935-tcp_5975_2022-04-12_md5_a0c6a82a5975894468cb20f0d591fb22
-	honeytrap/attacks/from_port_1962-tcp_5326_2022-04-12_md5_4cacf6ab7717e73441efc30f797fd387
-	honeytrap/attacks/from_port_1974-tcp_5938_2022-04-12_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_2001-tcp_6201_2022-04-12_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_2003-tcp_6275_2022-04-12_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_20088-tcp_5849_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_20088-tcp_5851_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_20120-tcp_5373_2022-04-12_md5_2cc90aca66546343f136d71ae44c0378
-	honeytrap/attacks/from_port_20443-tcp_5839_2022-04-12_md5_6a68b118da23385454183be64de49367
-	honeytrap/attacks/from_port_2105-tcp_5241_2022-04-12_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_2135-tcp_5601_2022-04-12_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_2160-tcp_5584_2022-04-12_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_2179-tcp_5598_2022-04-12_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_22999-tcp_5224_2022-04-12_md5_63c143e2a91e15c34bd162d2bb39202e
-	honeytrap/attacks/from_port_24242-tcp_5346_2022-04-12_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_24329-tcp_5804_2022-04-12_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_25443-tcp_6568_2022-04-12_md5_4cacf6ab7717e73441efc30f797fd387
-	honeytrap/attacks/from_port_2561-tcp_6079_2022-04-12_md5_4cacf6ab7717e73441efc30f797fd387
-	honeytrap/attacks/from_port_26256-tcp_6134_2022-04-12_md5_001185275b1f41a3ddb39020e086434d
-	honeytrap/attacks/from_port_26256-tcp_6145_2022-04-12_md5_393ab6bb2627b64d5cca62c712bfd329
-	honeytrap/attacks/from_port_26256-tcp_6159_2022-04-12_md5_cb492b7df9b5c170d7c87527940eff3b
-	honeytrap/attacks/from_port_26256-tcp_6166_2022-04-12_md5_474d78aa261484a44787c44975fe3410
-	honeytrap/attacks/from_port_3128-tcp_5393_2022-04-12_md5_4cacf6ab7717e73441efc30f797fd387
-	honeytrap/attacks/from_port_40183-tcp_5304_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_40183-tcp_5308_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_4023-tcp_5240_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_4163-tcp_5508_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_4200-tcp_6089_2022-04-12_md5_79fe25dcdb2043b0bf5803e6639f03d8
-	honeytrap/attacks/from_port_4561-tcp_6270_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_4561-tcp_6279_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_4643-tcp_6573_2022-04-12_md5_9524549cfea9ea6a25aca3966f861cb8
-	honeytrap/attacks/from_port_46665-tcp_6428_2022-04-12_md5_230ada79b254701e15aa7a11c890215b
-	honeytrap/attacks/from_port_46665-tcp_6548_2022-04-12_md5_19b893b938ace1defe7d090e510f0618
-	honeytrap/attacks/from_port_47772-tcp_6446_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_49562-tcp_5813_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_49562-tcp_5819_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_50997-tcp_5492_2022-04-12_md5_cceb6fd07bae61298f950915ebcb2ddf
-	honeytrap/attacks/from_port_5172-tcp_5623_2022-04-12_md5_a0df53b627fa8190a55bd9cb37e5b7f8
-	honeytrap/attacks/from_port_5671-tcp_5382_2022-04-12_md5_37f0b009984e378c56093bb188502bb8
-	honeytrap/attacks/from_port_5672-tcp_5384_2022-04-12_md5_016cfeac4e8d39ab489c6536ff6b843c
-	honeytrap/attacks/from_port_5672-tcp_5394_2022-04-12_md5_c0580da7dfada4e7b6240fb6cb544f3f
-	honeytrap/attacks/from_port_5672-tcp_5988_2022-04-12_md5_016cfeac4e8d39ab489c6536ff6b843c
-	honeytrap/attacks/from_port_57032-tcp_6520_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_57032-tcp_6530_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_6001-tcp_5226_2022-04-12_md5_f970039a853c5f5148ad4edda399a200
-	honeytrap/attacks/from_port_61869-tcp_5407_2022-04-12_md5_206aac1c097e917b33685c24385bf360
-	honeytrap/attacks/from_port_61869-tcp_5411_2022-04-12_md5_19b893b938ace1defe7d090e510f0618
-	honeytrap/attacks/from_port_61869-tcp_5421_2022-04-12_md5_37bdcd86c8f5172ae797850872d1b8a7
-	honeytrap/attacks/from_port_6363-tcp_5287_2022-04-12_md5_f94318e463358fd3fd1310f426a769d5
-	honeytrap/attacks/from_port_6379-tcp_5444_2022-04-12_md5_d236b9fe584cd4552b4b368761891a50
-	honeytrap/attacks/from_port_6379-tcp_5453_2022-04-12_md5_cdf95fd30e8ee9da3bb871f710f20208
-	honeytrap/attacks/from_port_6379-tcp_6001_2022-04-12_md5_efd7c8e9aa906a97022dbed05369bf6a
-	honeytrap/attacks/from_port_6402-tcp_5321_2022-04-12_md5_feaa6618a94962c12da779e7071312b5
-	honeytrap/attacks/from_port_6402-tcp_5323_2022-04-12_md5_981432759e0c5f06edea946cbeee0774
-	honeytrap/attacks/from_port_7002-tcp_5349_2022-04-12_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_7071-tcp_5356_2022-04-12_md5_4a9fa9f053e4bddd839241e870f82dfd
-	honeytrap/attacks/from_port_7776-tcp_5593_2022-04-12_md5_86ced59ee02c9cfdf9259ffd25ec7713
-	honeytrap/attacks/from_port_7776-tcp_5595_2022-04-12_md5_8d24ba5671d826a3d8debf5cbcad9f09
-	honeytrap/attacks/from_port_7912-tcp_6216_2022-04-12_md5_7d2ce29b4868d5271c2424e33bd42c2c
-	honeytrap/attacks/from_port_8021-tcp_5475_2022-04-12_md5_4cacf6ab7717e73441efc30f797fd387
-	honeytrap/attacks/from_port_8026-tcp_5950_2022-04-12_md5_4cacf6ab7717e73441efc30f797fd387
-	honeytrap/attacks/from_port_8081-tcp_5565_2022-04-12_md5_50508a34f9627f01ab96b56dc06926d4
-	honeytrap/attacks/from_port_8089-tcp_6263_2022-04-12_md5_4cacf6ab7717e73441efc30f797fd387
-	honeytrap/attacks/from_port_8099-tcp_5222_2022-04-12_md5_9814d75168653f7d04e33a2c93e5daed
-	honeytrap/attacks/from_port_8099-tcp_5230_2022-04-12_md5_224e6bf02acabe20153f6b7210fc91b4
-	honeytrap/attacks/from_port_8099-tcp_5232_2022-04-12_md5_756c7b779f38e1f20b5c7979cbcdc447
-	honeytrap/attacks/from_port_8126-tcp_6093_2022-04-12_md5_446501053769c06c565094b26d26e8ef
-	honeytrap/attacks/from_port_8186-tcp_5570_2022-04-12_md5_fabba25f08d57b08b127adc07c20d59b
-	honeytrap/attacks/from_port_8248-tcp_5483_2022-04-12_md5_250a219c9bea98046a27b70b4dbda074
-	honeytrap/attacks/from_port_8333-tcp_5640_2022-04-12_md5_691b27535aa51c2c188c26fc12bbad22
-	honeytrap/attacks/from_port_8444-tcp_5514_2022-04-12_md5_c49d529c65302382439e01702d2d5ce2
-	honeytrap/attacks/from_port_8444-tcp_5516_2022-04-12_md5_7189b81c23001a935d23ecd9013238ae
-	honeytrap/attacks/from_port_8880-tcp_6160_2022-04-12_md5_756c7b779f38e1f20b5c7979cbcdc447
-	honeytrap/attacks/from_port_8880-tcp_6171_2022-04-12_md5_32bf01db5bc11e6c535e3f4cf1edfdba
-	honeytrap/attacks/from_port_8887-tcp_5801_2022-04-12_md5_4cacf6ab7717e73441efc30f797fd387
-	honeytrap/attacks/from_port_9150-tcp_6429_2022-04-12_md5_4cacf6ab7717e73441efc30f797fd387
-	honeytrap/attacks/from_port_9300-tcp_5705_2022-04-12_md5_cadd47e71e4a90151d14aaf5f046a964
-	honeytrap/attacks/from_port_9875-tcp_6184_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_9875-tcp_6188_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
+	honeytrap/attacks/from_port_18049-tcp_6594_2022-04-12_md5_f66c8d5d42cec2ce70f42a770ed12193
+	honeytrap/attacks/from_port_18049-tcp_6596_2022-04-12_md5_2831fc40be0ee92f2590ba1a6ccc51b3
+	honeytrap/attacks/from_port_51035-tcp_6585_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
+	honeytrap/attacks/from_port_63341-tcp_6587_2022-04-12_md5_c1896a67f5b92c47df9185f85bcaaf22
+	honeytrap/attacks/from_port_8321-tcp_6589_2022-04-12_md5_c1896a67f5b92c47df9185f85bcaaf22
 
 no changes added to commit (use "git add" and/or "git commit -a")
