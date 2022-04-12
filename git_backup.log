@@ -8,320 +8,10 @@ Changes not staged for commit:
 
 	modified:   adbhoney/log/adbhoney.json
 	modified:   adbhoney/log/adbhoney.log
-	modified:   ciscoasa/log/ciscoasa.log
 	modified:   citrixhoneypot/logs/server.log
-	modified:   conpot/log/conpot_IEC104.json
 	modified:   conpot/log/conpot_IEC104.log
-	modified:   conpot/log/conpot_kamstrup_382.log
+	modified:   conpot/log/conpot_ipmi.log
 	modified:   cowrie/log/cowrie.json
-	deleted:    elk/data/nodes/0/_state/_6yp.cfe
-	deleted:    elk/data/nodes/0/_state/_6yp.cfs
-	deleted:    elk/data/nodes/0/_state/_6yp.si
-	deleted:    elk/data/nodes/0/_state/_6yp_6.liv
-	deleted:    elk/data/nodes/0/_state/_6yr.cfe
-	deleted:    elk/data/nodes/0/_state/_6yr.cfs
-	deleted:    elk/data/nodes/0/_state/_6yr.si
-	deleted:    elk/data/nodes/0/_state/_6ys.cfe
-	deleted:    elk/data/nodes/0/_state/_6ys.cfs
-	deleted:    elk/data/nodes/0/_state/_6ys.si
-	deleted:    elk/data/nodes/0/_state/_6yt.cfe
-	deleted:    elk/data/nodes/0/_state/_6yt.cfs
-	deleted:    elk/data/nodes/0/_state/_6yt.si
-	deleted:    elk/data/nodes/0/_state/_6yv.cfe
-	deleted:    elk/data/nodes/0/_state/_6yv.cfs
-	deleted:    elk/data/nodes/0/_state/_6yv.si
-	deleted:    elk/data/nodes/0/_state/_6yx.cfe
-	deleted:    elk/data/nodes/0/_state/_6yx.cfs
-	deleted:    elk/data/nodes/0/_state/_6yx.si
-	deleted:    elk/data/nodes/0/_state/_6yy.cfe
-	deleted:    elk/data/nodes/0/_state/_6yy.cfs
-	deleted:    elk/data/nodes/0/_state/_6yy.si
-	deleted:    elk/data/nodes/0/_state/_6yy_1.liv
-	deleted:    elk/data/nodes/0/_state/_6yz.cfe
-	deleted:    elk/data/nodes/0/_state/_6yz.cfs
-	deleted:    elk/data/nodes/0/_state/_6yz.si
-	deleted:    elk/data/nodes/0/_state/_6z0.cfe
-	deleted:    elk/data/nodes/0/_state/_6z0.cfs
-	deleted:    elk/data/nodes/0/_state/_6z0.si
-	deleted:    elk/data/nodes/0/_state/_6z2.cfe
-	deleted:    elk/data/nodes/0/_state/_6z2.cfs
-	deleted:    elk/data/nodes/0/_state/_6z2.si
-	deleted:    elk/data/nodes/0/_state/_6z3.cfe
-	deleted:    elk/data/nodes/0/_state/_6z3.cfs
-	deleted:    elk/data/nodes/0/_state/_6z3.si
-	deleted:    elk/data/nodes/0/_state/_6z4.fdm
-	deleted:    elk/data/nodes/0/_state/_6z4.fdt
-	deleted:    elk/data/nodes/0/_state/_6z4.fdx
-	deleted:    elk/data/nodes/0/_state/_6z4_Lucene84_0.doc
-	deleted:    elk/data/nodes/0/_state/_6z4_Lucene84_0.tim
-	deleted:    elk/data/nodes/0/_state/_6z4_Lucene84_0.tip
-	deleted:    elk/data/nodes/0/_state/_6z4_Lucene84_0.tmd
-	deleted:    elk/data/nodes/0/_state/manifest-193.st
-	deleted:    elk/data/nodes/0/_state/node-193.st
-	deleted:    elk/data/nodes/0/_state/segments_78w
-	deleted:    elk/data/nodes/0/indices/4CNLAl-yQqmObSIQcEvFWA/0/_state/retention-leases-448.st
-	deleted:    elk/data/nodes/0/indices/4CNLAl-yQqmObSIQcEvFWA/0/_state/state-48.st
-	deleted:    elk/data/nodes/0/indices/4CNLAl-yQqmObSIQcEvFWA/0/translog/translog-59.tlog
-	modified:   elk/data/nodes/0/indices/4CNLAl-yQqmObSIQcEvFWA/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/4CNLAl-yQqmObSIQcEvFWA/_state/state-167.st
-	deleted:    elk/data/nodes/0/indices/59keLA9MRRa_eAdTFbHcbQ/0/_state/retention-leases-446.st
-	deleted:    elk/data/nodes/0/indices/59keLA9MRRa_eAdTFbHcbQ/0/_state/state-101.st
-	deleted:    elk/data/nodes/0/indices/59keLA9MRRa_eAdTFbHcbQ/0/translog/translog-108.tlog
-	modified:   elk/data/nodes/0/indices/59keLA9MRRa_eAdTFbHcbQ/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/59keLA9MRRa_eAdTFbHcbQ/_state/state-286.st
-	deleted:    elk/data/nodes/0/indices/5KJd-gq-TVWbUnHd0iTG-A/0/_state/retention-leases-198.st
-	deleted:    elk/data/nodes/0/indices/5KJd-gq-TVWbUnHd0iTG-A/0/_state/state-8.st
-	deleted:    elk/data/nodes/0/indices/5KJd-gq-TVWbUnHd0iTG-A/0/translog/translog-12.tlog
-	modified:   elk/data/nodes/0/indices/5KJd-gq-TVWbUnHd0iTG-A/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/5KJd-gq-TVWbUnHd0iTG-A/_state/state-91.st
-	deleted:    elk/data/nodes/0/indices/6xka8VyYRh-FX6RgQ_UwRQ/0/_state/retention-leases-148.st
-	deleted:    elk/data/nodes/0/indices/6xka8VyYRh-FX6RgQ_UwRQ/0/_state/state-82.st
-	deleted:    elk/data/nodes/0/indices/6xka8VyYRh-FX6RgQ_UwRQ/0/translog/translog-115.tlog
-	modified:   elk/data/nodes/0/indices/6xka8VyYRh-FX6RgQ_UwRQ/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/6xka8VyYRh-FX6RgQ_UwRQ/_state/state-169.st
-	deleted:    elk/data/nodes/0/indices/7uXba1rNQCCUquvsNbvH5A/0/_state/retention-leases-532.st
-	deleted:    elk/data/nodes/0/indices/7uXba1rNQCCUquvsNbvH5A/0/_state/state-53.st
-	deleted:    elk/data/nodes/0/indices/7uXba1rNQCCUquvsNbvH5A/0/translog/translog-59.tlog
-	modified:   elk/data/nodes/0/indices/7uXba1rNQCCUquvsNbvH5A/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/7uXba1rNQCCUquvsNbvH5A/_state/state-192.st
-	deleted:    elk/data/nodes/0/indices/Ar5rwK2ERAKmIwiJqKwAEQ/0/_state/retention-leases-589.st
-	deleted:    elk/data/nodes/0/indices/Ar5rwK2ERAKmIwiJqKwAEQ/0/_state/state-110.st
-	deleted:    elk/data/nodes/0/indices/Ar5rwK2ERAKmIwiJqKwAEQ/0/translog/translog-117.tlog
-	modified:   elk/data/nodes/0/indices/Ar5rwK2ERAKmIwiJqKwAEQ/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/Ar5rwK2ERAKmIwiJqKwAEQ/_state/state-306.st
-	deleted:    elk/data/nodes/0/indices/AtyuaIs2QvWDGICCX0r1vg/0/_state/retention-leases-220.st
-	deleted:    elk/data/nodes/0/indices/AtyuaIs2QvWDGICCX0r1vg/0/_state/state-138.st
-	deleted:    elk/data/nodes/0/indices/AtyuaIs2QvWDGICCX0r1vg/0/translog/translog-270.tlog
-	modified:   elk/data/nodes/0/indices/AtyuaIs2QvWDGICCX0r1vg/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/AtyuaIs2QvWDGICCX0r1vg/_state/state-277.st
-	deleted:    elk/data/nodes/0/indices/C9HYupHOQgOkWD6INDalqQ/0/_state/retention-leases-192.st
-	deleted:    elk/data/nodes/0/indices/C9HYupHOQgOkWD6INDalqQ/0/_state/state-12.st
-	deleted:    elk/data/nodes/0/indices/C9HYupHOQgOkWD6INDalqQ/0/translog/translog-18.tlog
-	modified:   elk/data/nodes/0/indices/C9HYupHOQgOkWD6INDalqQ/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/C9HYupHOQgOkWD6INDalqQ/_state/state-89.st
-	deleted:    elk/data/nodes/0/indices/FOWGJKYJT02TQ7PmDdYqPQ/0/_state/retention-leases-92.st
-	deleted:    elk/data/nodes/0/indices/FOWGJKYJT02TQ7PmDdYqPQ/0/_state/state-59.st
-	deleted:    elk/data/nodes/0/indices/FOWGJKYJT02TQ7PmDdYqPQ/0/translog/translog-94.tlog
-	modified:   elk/data/nodes/0/indices/FOWGJKYJT02TQ7PmDdYqPQ/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/FOWGJKYJT02TQ7PmDdYqPQ/_state/state-130.st
-	deleted:    elk/data/nodes/0/indices/FQiwbbdTTwWMmdTPs7wGgg/0/_state/retention-leases-316.st
-	deleted:    elk/data/nodes/0/indices/FQiwbbdTTwWMmdTPs7wGgg/0/_state/state-84.st
-	deleted:    elk/data/nodes/0/indices/FQiwbbdTTwWMmdTPs7wGgg/0/translog/translog-94.tlog
-	modified:   elk/data/nodes/0/indices/FQiwbbdTTwWMmdTPs7wGgg/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/FQiwbbdTTwWMmdTPs7wGgg/_state/state-244.st
-	deleted:    elk/data/nodes/0/indices/GCKIj688RASofDkHUffs-w/0/_state/retention-leases-389.st
-	deleted:    elk/data/nodes/0/indices/GCKIj688RASofDkHUffs-w/0/_state/state-97.st
-	deleted:    elk/data/nodes/0/indices/GCKIj688RASofDkHUffs-w/0/translog/translog-102.tlog
-	modified:   elk/data/nodes/0/indices/GCKIj688RASofDkHUffs-w/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/GCKIj688RASofDkHUffs-w/_state/state-269.st
-	deleted:    elk/data/nodes/0/indices/HPB6fZf2RRqxlSCxE9k2Cg/0/_state/retention-leases-377.st
-	deleted:    elk/data/nodes/0/indices/HPB6fZf2RRqxlSCxE9k2Cg/0/_state/state-61.st
-	deleted:    elk/data/nodes/0/indices/HPB6fZf2RRqxlSCxE9k2Cg/0/translog/translog-68.tlog
-	modified:   elk/data/nodes/0/indices/HPB6fZf2RRqxlSCxE9k2Cg/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/HPB6fZf2RRqxlSCxE9k2Cg/_state/state-206.st
-	deleted:    elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/_state/retention-leases-116.st
-	deleted:    elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/_state/state-1.st
-	deleted:    elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_z9.fdm
-	deleted:    elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_z9.fdt
-	deleted:    elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_z9_Lucene85FieldsIndex-doc_ids_0.tmp
-	deleted:    elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_z9_Lucene85FieldsIndexfile_pointers_1.tmp
-	deleted:    elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/segments_2
-	deleted:    elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/translog/translog-2.ckp
-	deleted:    elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/translog/translog-2.tlog
-	deleted:    elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/translog/translog-3.ckp
-	deleted:    elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/translog/translog-3.tlog
-	deleted:    elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/translog/translog-4.tlog
-	modified:   elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/_state/state-53.st
-	deleted:    elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/_state/retention-leases-316.st
-	deleted:    elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/_state/state-104.st
-	deleted:    elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/translog/translog-203.tlog
-	modified:   elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/_state/state-208.st
-	deleted:    elk/data/nodes/0/indices/JVagMwc9QG-yikeKGX0vWg/0/_state/retention-leases-2.st
-	deleted:    elk/data/nodes/0/indices/JVagMwc9QG-yikeKGX0vWg/0/_state/state-1.st
-	deleted:    elk/data/nodes/0/indices/JVagMwc9QG-yikeKGX0vWg/0/translog/translog-4.tlog
-	modified:   elk/data/nodes/0/indices/JVagMwc9QG-yikeKGX0vWg/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/JVagMwc9QG-yikeKGX0vWg/_state/state-7.st
-	deleted:    elk/data/nodes/0/indices/Lx7u_woySQuQ_zD8F6Y2bw/0/_state/retention-leases-436.st
-	deleted:    elk/data/nodes/0/indices/Lx7u_woySQuQ_zD8F6Y2bw/0/_state/state-42.st
-	deleted:    elk/data/nodes/0/indices/Lx7u_woySQuQ_zD8F6Y2bw/0/translog/translog-52.tlog
-	modified:   elk/data/nodes/0/indices/Lx7u_woySQuQ_zD8F6Y2bw/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/Lx7u_woySQuQ_zD8F6Y2bw/_state/state-170.st
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/_state/retention-leases-996.st
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/_state/state-71.st
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/translog/translog-86.tlog
-	modified:   elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/_state/state-231.st
-	deleted:    elk/data/nodes/0/indices/Nk1KcHqvRYuyh3Unq0RySw/0/_state/retention-leases-148.st
-	deleted:    elk/data/nodes/0/indices/Nk1KcHqvRYuyh3Unq0RySw/0/_state/state-146.st
-	deleted:    elk/data/nodes/0/indices/Nk1KcHqvRYuyh3Unq0RySw/0/translog/translog-146.tlog
-	modified:   elk/data/nodes/0/indices/Nk1KcHqvRYuyh3Unq0RySw/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/Nk1KcHqvRYuyh3Unq0RySw/_state/state-286.st
-	deleted:    elk/data/nodes/0/indices/Pgu02-jyRmaN4VudrzNA3A/0/_state/retention-leases-337.st
-	deleted:    elk/data/nodes/0/indices/Pgu02-jyRmaN4VudrzNA3A/0/_state/state-88.st
-	deleted:    elk/data/nodes/0/indices/Pgu02-jyRmaN4VudrzNA3A/0/translog/translog-99.tlog
-	modified:   elk/data/nodes/0/indices/Pgu02-jyRmaN4VudrzNA3A/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/Pgu02-jyRmaN4VudrzNA3A/_state/state-249.st
-	deleted:    elk/data/nodes/0/indices/Pi-t4yTjRH-ka7LlkzkQmQ/0/_state/retention-leases-240.st
-	deleted:    elk/data/nodes/0/indices/Pi-t4yTjRH-ka7LlkzkQmQ/0/_state/state-13.st
-	deleted:    elk/data/nodes/0/indices/Pi-t4yTjRH-ka7LlkzkQmQ/0/translog/translog-16.tlog
-	modified:   elk/data/nodes/0/indices/Pi-t4yTjRH-ka7LlkzkQmQ/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/Pi-t4yTjRH-ka7LlkzkQmQ/_state/state-88.st
-	deleted:    elk/data/nodes/0/indices/Q5kQWisbRFSYv5NPhAe6iA/0/_state/retention-leases-2.st
-	deleted:    elk/data/nodes/0/indices/Q5kQWisbRFSYv5NPhAe6iA/0/_state/state-1.st
-	deleted:    elk/data/nodes/0/indices/Q5kQWisbRFSYv5NPhAe6iA/0/translog/translog-3.tlog
-	modified:   elk/data/nodes/0/indices/Q5kQWisbRFSYv5NPhAe6iA/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/Q5kQWisbRFSYv5NPhAe6iA/_state/state-7.st
-	deleted:    elk/data/nodes/0/indices/QQZ9Vm1mRv6iv6z0MTqFNA/0/_state/retention-leases-337.st
-	deleted:    elk/data/nodes/0/indices/QQZ9Vm1mRv6iv6z0MTqFNA/0/_state/state-34.st
-	deleted:    elk/data/nodes/0/indices/QQZ9Vm1mRv6iv6z0MTqFNA/0/translog/translog-42.tlog
-	modified:   elk/data/nodes/0/indices/QQZ9Vm1mRv6iv6z0MTqFNA/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/QQZ9Vm1mRv6iv6z0MTqFNA/_state/state-141.st
-	deleted:    elk/data/nodes/0/indices/S38yI0ugTymquZSvwBDT_A/0/_state/retention-leases-146.st
-	deleted:    elk/data/nodes/0/indices/S38yI0ugTymquZSvwBDT_A/0/_state/state-143.st
-	deleted:    elk/data/nodes/0/indices/S38yI0ugTymquZSvwBDT_A/0/translog/translog-145.tlog
-	modified:   elk/data/nodes/0/indices/S38yI0ugTymquZSvwBDT_A/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/S38yI0ugTymquZSvwBDT_A/_state/state-283.st
-	deleted:    elk/data/nodes/0/indices/SW7PcCANRW2HpJ810Rh22A/0/_state/retention-leases-168.st
-	deleted:    elk/data/nodes/0/indices/SW7PcCANRW2HpJ810Rh22A/0/_state/state-19.st
-	deleted:    elk/data/nodes/0/indices/SW7PcCANRW2HpJ810Rh22A/0/translog/translog-26.tlog
-	modified:   elk/data/nodes/0/indices/SW7PcCANRW2HpJ810Rh22A/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/SW7PcCANRW2HpJ810Rh22A/_state/state-115.st
-	deleted:    elk/data/nodes/0/indices/UWlxhnUASOuXa1bSTSDPcQ/0/_state/retention-leases-176.st
-	deleted:    elk/data/nodes/0/indices/UWlxhnUASOuXa1bSTSDPcQ/0/_state/state-122.st
-	deleted:    elk/data/nodes/0/indices/UWlxhnUASOuXa1bSTSDPcQ/0/translog/translog-173.tlog
-	modified:   elk/data/nodes/0/indices/UWlxhnUASOuXa1bSTSDPcQ/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/UWlxhnUASOuXa1bSTSDPcQ/_state/state-255.st
-	deleted:    elk/data/nodes/0/indices/Vw2YDrmYSp6OExLmaGoHiA/0/_state/retention-leases-298.st
-	deleted:    elk/data/nodes/0/indices/Vw2YDrmYSp6OExLmaGoHiA/0/_state/state-78.st
-	deleted:    elk/data/nodes/0/indices/Vw2YDrmYSp6OExLmaGoHiA/0/translog/translog-84.tlog
-	modified:   elk/data/nodes/0/indices/Vw2YDrmYSp6OExLmaGoHiA/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/Vw2YDrmYSp6OExLmaGoHiA/_state/state-234.st
-	deleted:    elk/data/nodes/0/indices/WvlJlMFaQEyFBEKjPOWYlw/0/_state/retention-leases-327.st
-	deleted:    elk/data/nodes/0/indices/WvlJlMFaQEyFBEKjPOWYlw/0/_state/state-75.st
-	deleted:    elk/data/nodes/0/indices/WvlJlMFaQEyFBEKjPOWYlw/0/translog/translog-79.tlog
-	modified:   elk/data/nodes/0/indices/WvlJlMFaQEyFBEKjPOWYlw/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/WvlJlMFaQEyFBEKjPOWYlw/_state/state-223.st
-	deleted:    elk/data/nodes/0/indices/a2wbbW3JSrultjMfCS3dRQ/0/_state/retention-leases-170.st
-	deleted:    elk/data/nodes/0/indices/a2wbbW3JSrultjMfCS3dRQ/0/_state/state-56.st
-	deleted:    elk/data/nodes/0/indices/a2wbbW3JSrultjMfCS3dRQ/0/translog/translog-60.tlog
-	modified:   elk/data/nodes/0/indices/a2wbbW3JSrultjMfCS3dRQ/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/a2wbbW3JSrultjMfCS3dRQ/_state/state-177.st
-	deleted:    elk/data/nodes/0/indices/gNHTG2FUT022O0a44QuhMw/0/_state/retention-leases-186.st
-	deleted:    elk/data/nodes/0/indices/gNHTG2FUT022O0a44QuhMw/0/_state/state-25.st
-	deleted:    elk/data/nodes/0/indices/gNHTG2FUT022O0a44QuhMw/0/translog/translog-29.tlog
-	modified:   elk/data/nodes/0/indices/gNHTG2FUT022O0a44QuhMw/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/gNHTG2FUT022O0a44QuhMw/_state/state-117.st
-	deleted:    elk/data/nodes/0/indices/glFu8EL8QBe3Ih2vkfS-Tw/0/_state/retention-leases-302.st
-	deleted:    elk/data/nodes/0/indices/glFu8EL8QBe3Ih2vkfS-Tw/0/_state/state-28.st
-	deleted:    elk/data/nodes/0/indices/glFu8EL8QBe3Ih2vkfS-Tw/0/translog/translog-33.tlog
-	modified:   elk/data/nodes/0/indices/glFu8EL8QBe3Ih2vkfS-Tw/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/glFu8EL8QBe3Ih2vkfS-Tw/_state/state-124.st
-	deleted:    elk/data/nodes/0/indices/gql1LYRDRDCM8vLep2Y_bw/0/_state/retention-leases-11.st
-	deleted:    elk/data/nodes/0/indices/gql1LYRDRDCM8vLep2Y_bw/0/_state/state-7.st
-	deleted:    elk/data/nodes/0/indices/gql1LYRDRDCM8vLep2Y_bw/0/translog/translog-14.tlog
-	modified:   elk/data/nodes/0/indices/gql1LYRDRDCM8vLep2Y_bw/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/gql1LYRDRDCM8vLep2Y_bw/_state/state-21.st
-	deleted:    elk/data/nodes/0/indices/l3R046lCQL-s1_QtBR62fg/0/_state/retention-leases-372.st
-	deleted:    elk/data/nodes/0/indices/l3R046lCQL-s1_QtBR62fg/0/_state/state-79.st
-	deleted:    elk/data/nodes/0/indices/l3R046lCQL-s1_QtBR62fg/0/translog/translog-84.tlog
-	modified:   elk/data/nodes/0/indices/l3R046lCQL-s1_QtBR62fg/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/l3R046lCQL-s1_QtBR62fg/_state/state-245.st
-	deleted:    elk/data/nodes/0/indices/ne8Gc-xkQj-IS_wReS90Xw/0/_state/retention-leases-206.st
-	deleted:    elk/data/nodes/0/indices/ne8Gc-xkQj-IS_wReS90Xw/0/_state/state-10.st
-	deleted:    elk/data/nodes/0/indices/ne8Gc-xkQj-IS_wReS90Xw/0/translog/translog-14.tlog
-	modified:   elk/data/nodes/0/indices/ne8Gc-xkQj-IS_wReS90Xw/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/ne8Gc-xkQj-IS_wReS90Xw/_state/state-88.st
-	deleted:    elk/data/nodes/0/indices/nqRL0KmTRKaeoYjjO8TK1w/0/_state/retention-leases-284.st
-	deleted:    elk/data/nodes/0/indices/nqRL0KmTRKaeoYjjO8TK1w/0/_state/state-136.st
-	deleted:    elk/data/nodes/0/indices/nqRL0KmTRKaeoYjjO8TK1w/0/translog/translog-150.tlog
-	modified:   elk/data/nodes/0/indices/nqRL0KmTRKaeoYjjO8TK1w/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/nqRL0KmTRKaeoYjjO8TK1w/_state/state-266.st
-	deleted:    elk/data/nodes/0/indices/o-nx_DcMRyu_5IVOpWhpcA/0/_state/retention-leases-318.st
-	deleted:    elk/data/nodes/0/indices/o-nx_DcMRyu_5IVOpWhpcA/0/_state/state-103.st
-	deleted:    elk/data/nodes/0/indices/o-nx_DcMRyu_5IVOpWhpcA/0/translog/translog-107.tlog
-	modified:   elk/data/nodes/0/indices/o-nx_DcMRyu_5IVOpWhpcA/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/o-nx_DcMRyu_5IVOpWhpcA/_state/state-284.st
-	deleted:    elk/data/nodes/0/indices/oJ7NPlIfQtC67M0rYpN6Qw/0/_state/retention-leases-405.st
-	deleted:    elk/data/nodes/0/indices/oJ7NPlIfQtC67M0rYpN6Qw/0/_state/state-104.st
-	deleted:    elk/data/nodes/0/indices/oJ7NPlIfQtC67M0rYpN6Qw/0/translog/translog-109.tlog
-	modified:   elk/data/nodes/0/indices/oJ7NPlIfQtC67M0rYpN6Qw/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/oJ7NPlIfQtC67M0rYpN6Qw/_state/state-283.st
-	deleted:    elk/data/nodes/0/indices/qhs9qww4RieIW5ls_Vl9lg/0/_state/retention-leases-408.st
-	deleted:    elk/data/nodes/0/indices/qhs9qww4RieIW5ls_Vl9lg/0/_state/state-81.st
-	deleted:    elk/data/nodes/0/indices/qhs9qww4RieIW5ls_Vl9lg/0/translog/translog-86.tlog
-	modified:   elk/data/nodes/0/indices/qhs9qww4RieIW5ls_Vl9lg/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/qhs9qww4RieIW5ls_Vl9lg/_state/state-248.st
-	deleted:    elk/data/nodes/0/indices/qxvtljvZRN6l2pvop3mB7Q/0/_state/retention-leases-3306.st
-	deleted:    elk/data/nodes/0/indices/qxvtljvZRN6l2pvop3mB7Q/0/_state/state-159.st
-	deleted:    elk/data/nodes/0/indices/qxvtljvZRN6l2pvop3mB7Q/0/translog/translog-208.tlog
-	modified:   elk/data/nodes/0/indices/qxvtljvZRN6l2pvop3mB7Q/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/qxvtljvZRN6l2pvop3mB7Q/_state/state-316.st
-	deleted:    elk/data/nodes/0/indices/rVYd29SrQtOIx322WnLIUA/0/_state/retention-leases-209.st
-	deleted:    elk/data/nodes/0/indices/rVYd29SrQtOIx322WnLIUA/0/_state/state-5.st
-	deleted:    elk/data/nodes/0/indices/rVYd29SrQtOIx322WnLIUA/0/translog/translog-8.tlog
-	modified:   elk/data/nodes/0/indices/rVYd29SrQtOIx322WnLIUA/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/rVYd29SrQtOIx322WnLIUA/_state/state-76.st
-	deleted:    elk/data/nodes/0/indices/tUSTz2IQQqK4Qgqcy42nbw/0/_state/retention-leases-190.st
-	deleted:    elk/data/nodes/0/indices/tUSTz2IQQqK4Qgqcy42nbw/0/_state/state-124.st
-	deleted:    elk/data/nodes/0/indices/tUSTz2IQQqK4Qgqcy42nbw/0/translog/translog-145.tlog
-	modified:   elk/data/nodes/0/indices/tUSTz2IQQqK4Qgqcy42nbw/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/tUSTz2IQQqK4Qgqcy42nbw/_state/state-256.st
-	deleted:    elk/data/nodes/0/indices/tkp11sUORgmM1kxBaPXbIg/0/_state/retention-leases-278.st
-	deleted:    elk/data/nodes/0/indices/tkp11sUORgmM1kxBaPXbIg/0/_state/state-30.st
-	deleted:    elk/data/nodes/0/indices/tkp11sUORgmM1kxBaPXbIg/0/translog/translog-35.tlog
-	modified:   elk/data/nodes/0/indices/tkp11sUORgmM1kxBaPXbIg/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/tkp11sUORgmM1kxBaPXbIg/_state/state-126.st
-	deleted:    elk/data/nodes/0/indices/v-Uz2SH7QdSZNhi67jbUEw/0/_state/retention-leases-238.st
-	deleted:    elk/data/nodes/0/indices/v-Uz2SH7QdSZNhi67jbUEw/0/_state/state-159.st
-	deleted:    elk/data/nodes/0/indices/v-Uz2SH7QdSZNhi67jbUEw/0/translog/translog-208.tlog
-	modified:   elk/data/nodes/0/indices/v-Uz2SH7QdSZNhi67jbUEw/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/v-Uz2SH7QdSZNhi67jbUEw/_state/state-316.st
-	deleted:    elk/data/nodes/0/indices/v4bczHaoQv-pJewc4WPiyA/0/_state/retention-leases-178.st
-	deleted:    elk/data/nodes/0/indices/v4bczHaoQv-pJewc4WPiyA/0/_state/state-122.st
-	deleted:    elk/data/nodes/0/indices/v4bczHaoQv-pJewc4WPiyA/0/translog/translog-129.tlog
-	modified:   elk/data/nodes/0/indices/v4bczHaoQv-pJewc4WPiyA/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/v4bczHaoQv-pJewc4WPiyA/_state/state-252.st
-	deleted:    elk/data/nodes/0/indices/vLkRx7-eRoKY42x4GZAiCw/0/_state/retention-leases-409.st
-	deleted:    elk/data/nodes/0/indices/vLkRx7-eRoKY42x4GZAiCw/0/_state/state-93.st
-	deleted:    elk/data/nodes/0/indices/vLkRx7-eRoKY42x4GZAiCw/0/translog/translog-96.tlog
-	modified:   elk/data/nodes/0/indices/vLkRx7-eRoKY42x4GZAiCw/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/vLkRx7-eRoKY42x4GZAiCw/_state/state-257.st
-	deleted:    elk/data/nodes/0/indices/wEdvpaoYSXeRKrjiLgl3Ig/0/_state/retention-leases-124.st
-	deleted:    elk/data/nodes/0/indices/wEdvpaoYSXeRKrjiLgl3Ig/0/_state/state-21.st
-	deleted:    elk/data/nodes/0/indices/wEdvpaoYSXeRKrjiLgl3Ig/0/translog/translog-29.tlog
-	modified:   elk/data/nodes/0/indices/wEdvpaoYSXeRKrjiLgl3Ig/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/wEdvpaoYSXeRKrjiLgl3Ig/_state/state-105.st
-	deleted:    elk/data/nodes/0/indices/wi6GZ7veSuG1Ssj80JDlZw/0/_state/retention-leases-1990.st
-	deleted:    elk/data/nodes/0/indices/wi6GZ7veSuG1Ssj80JDlZw/0/_state/state-191.st
-	deleted:    elk/data/nodes/0/indices/wi6GZ7veSuG1Ssj80JDlZw/0/translog/translog-805.tlog
-	modified:   elk/data/nodes/0/indices/wi6GZ7veSuG1Ssj80JDlZw/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/wi6GZ7veSuG1Ssj80JDlZw/_state/state-389.st
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/_state/retention-leases-7057.st
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/_state/state-104.st
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_246d.fdm
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_246d.fdt
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_246d.fdx
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_246d.fnm
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_246d.kdd
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_246d.kdi
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_246d.kdm
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_246d.nvd
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_246d.nvm
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_246d.si
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_246d_Lucene80_0.dvd
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_246d_Lucene80_0.dvm
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_246d_Lucene84_0.doc
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_246d_Lucene84_0.pos
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_246d_Lucene84_0.tim
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_246d_Lucene84_0.tip
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_246d_Lucene84_0.tmd
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/segments_34
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/translog/translog-171.tlog
-	modified:   elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/translog/translog.ckp
-	deleted:    elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/_state/state-204.st
-	deleted:    elk/data/nodes/0/snapshot_cache/segments_5u
 	modified:   elk/log/tpotcluster.log
 	modified:   elk/log/tpotcluster_server.json
 	modified:   fatt/log/fatt.log
@@ -329,766 +19,116 @@ Changes not staged for commit:
 	modified:   heralding/log/heralding.log
 	modified:   heralding/log/log_session.json
 	modified:   heralding/log/session.csv
-	deleted:    honeytrap/attacks/from_port_12250-tcp_2424_2022-04-11
-	deleted:    honeytrap/attacks/from_port_12250-tcp_2427_2022-04-11
-	deleted:    honeytrap/attacks/from_port_12394-tcp_2323_2022-04-11
-	deleted:    honeytrap/attacks/from_port_1250-tcp_2433_2022-04-11
-	deleted:    honeytrap/attacks/from_port_15443-tcp_2268_2022-04-11
-	deleted:    honeytrap/attacks/from_port_1604-tcp_2356_2022-04-11
-	deleted:    honeytrap/attacks/from_port_17381-tcp_2365_2022-04-11
-	deleted:    honeytrap/attacks/from_port_2083-tcp_2480_2022-04-11
-	deleted:    honeytrap/attacks/from_port_33945-tcp_2371_2022-04-11
-	deleted:    honeytrap/attacks/from_port_33945-tcp_2376_2022-04-11
-	deleted:    honeytrap/attacks/from_port_3662-tcp_2314_2022-04-11
-	deleted:    honeytrap/attacks/from_port_4180-tcp_2341_2022-04-11
-	deleted:    honeytrap/attacks/from_port_4201-tcp_2464_2022-04-11
-	deleted:    honeytrap/attacks/from_port_55943-tcp_2472_2022-04-11
-	deleted:    honeytrap/attacks/from_port_6379-tcp_2419_2022-04-11
-	deleted:    honeytrap/attacks/from_port_7679-tcp_2318_2022-04-11
-	deleted:    honeytrap/attacks/from_port_8134-tcp_2589_2022-04-11
-	deleted:    honeytrap/attacks/from_port_8333-tcp_2439_2022-04-11
-	deleted:    honeytrap/attacks/from_port_8545-tcp_2540_2022-04-11
-	deleted:    honeytrap/attacks/from_port_8810-tcp_2408_2022-04-11
-	deleted:    honeytrap/attacks/from_port_9068-tcp_2465_2022-04-11
-	deleted:    honeytrap/attacks/from_port_9088-tcp_2387_2022-04-11
-	deleted:    honeytrap/attacks/from_port_9099-tcp_2440_2022-04-11
-	deleted:    honeytrap/attacks/from_port_9446-tcp_2282_2022-04-11
-	deleted:    honeytrap/attacks/from_port_9527-tcp_2291_2022-04-11
-	deleted:    honeytrap/attacks/from_port_9527-tcp_2294_2022-04-11
-	deleted:    honeytrap/attacks/from_port_9527-tcp_2297_2022-04-11
+	deleted:    honeytrap/attacks/from_port_22999-tcp_5224_2022-04-12
+	deleted:    honeytrap/attacks/from_port_6001-tcp_5226_2022-04-12
+	deleted:    honeytrap/attacks/from_port_8099-tcp_5222_2022-04-12
 	modified:   honeytrap/log/attacker.log
 	modified:   honeytrap/log/attackers.json
 	modified:   honeytrap/log/honeytrap.log
-	modified:   mailoney/log/commands.log
 	modified:   p0f/log/p0f.json
-	modified:   rdpy/log/rdpy.log
 	modified:   suricata/log/eve.json
-	modified:   tanner/log/tanner_report.json
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	cowrie/log/cowrie.json.2022-04-11
-	cowrie/log/tty/1b8e9705a9018c350033fb702dd743af072ab646d056043c7b3edb7276f75661
-	cowrie/log/tty/28ba533b0f3c4df63d6b4a5ead73860697bdf735bb353e4ca928474889eb8a15
-	cowrie/log/tty/37f4a4aa83cf19220e194cd10498058e83f51ae9d579f4783ea7198600427223
-	cowrie/log/tty/52a532334011a67d1c41a57eea38ed25893bff4b6c264c748c3f2df576a47f4a
-	cowrie/log/tty/78392f0cbc7098dbc05c32d2b1846e0868928e2cd7d72c825ad5ac709bebe36b
-	cowrie/log/tty/b32feee26222c9f295c90e632ad0279f76e06b0d94df855cfbbe86d2f8065d7a
-	cowrie/log/tty/c0f1e5d98a83935d9cb41a1ccacde4cae62272ae59f3f8163e2d97adb3cf47e9
-	cowrie/log/tty/db86909fa7661a6ea9461ec8ce31cecb3eeeff27a20b12c06e89811ffd68b876
-	cowrie/log/tty/f7875f8aa9281065cca1a7de5b7431e2877da19c163e9c1b35829287d54beda2
-	elk/data/nodes/0/_state/_70z.cfe
-	elk/data/nodes/0/_state/_70z.cfs
-	elk/data/nodes/0/_state/_70z.si
-	elk/data/nodes/0/_state/_710.cfe
-	elk/data/nodes/0/_state/_710.cfs
-	elk/data/nodes/0/_state/_710.si
-	elk/data/nodes/0/_state/_712.cfe
-	elk/data/nodes/0/_state/_712.cfs
-	elk/data/nodes/0/_state/_712.si
-	elk/data/nodes/0/_state/_713.cfe
-	elk/data/nodes/0/_state/_713.cfs
-	elk/data/nodes/0/_state/_713.si
-	elk/data/nodes/0/_state/_716.cfe
-	elk/data/nodes/0/_state/_716.cfs
-	elk/data/nodes/0/_state/_716.si
-	elk/data/nodes/0/_state/_718.cfe
-	elk/data/nodes/0/_state/_718.cfs
-	elk/data/nodes/0/_state/_718.si
-	elk/data/nodes/0/_state/_71a.cfe
-	elk/data/nodes/0/_state/_71a.cfs
-	elk/data/nodes/0/_state/_71a.si
-	elk/data/nodes/0/_state/_71b.cfe
-	elk/data/nodes/0/_state/_71b.cfs
-	elk/data/nodes/0/_state/_71b.si
-	elk/data/nodes/0/_state/_71c.cfe
-	elk/data/nodes/0/_state/_71c.cfs
-	elk/data/nodes/0/_state/_71c.si
-	elk/data/nodes/0/_state/_71f.cfe
-	elk/data/nodes/0/_state/_71f.cfs
-	elk/data/nodes/0/_state/_71f.si
-	elk/data/nodes/0/_state/_71g.cfe
-	elk/data/nodes/0/_state/_71g.cfs
-	elk/data/nodes/0/_state/_71g.si
-	elk/data/nodes/0/_state/_71h.cfe
-	elk/data/nodes/0/_state/_71h.cfs
-	elk/data/nodes/0/_state/_71h.si
-	elk/data/nodes/0/_state/_71j.cfe
-	elk/data/nodes/0/_state/_71j.cfs
-	elk/data/nodes/0/_state/_71j.si
-	elk/data/nodes/0/_state/_71k.cfe
-	elk/data/nodes/0/_state/_71k.cfs
-	elk/data/nodes/0/_state/_71k.si
-	elk/data/nodes/0/_state/_71m.cfe
-	elk/data/nodes/0/_state/_71m.cfs
-	elk/data/nodes/0/_state/_71m.si
-	elk/data/nodes/0/_state/_71o.cfe
-	elk/data/nodes/0/_state/_71o.cfs
-	elk/data/nodes/0/_state/_71o.si
-	elk/data/nodes/0/_state/_71p.cfe
-	elk/data/nodes/0/_state/_71p.cfs
-	elk/data/nodes/0/_state/_71p.si
-	elk/data/nodes/0/_state/_71q.cfe
-	elk/data/nodes/0/_state/_71q.cfs
-	elk/data/nodes/0/_state/_71q.si
-	elk/data/nodes/0/_state/_71s.cfe
-	elk/data/nodes/0/_state/_71s.cfs
-	elk/data/nodes/0/_state/_71s.si
-	elk/data/nodes/0/_state/_71t.cfe
-	elk/data/nodes/0/_state/_71t.cfs
-	elk/data/nodes/0/_state/_71t.si
-	elk/data/nodes/0/_state/_71u.cfe
-	elk/data/nodes/0/_state/_71u.cfs
-	elk/data/nodes/0/_state/_71u.si
-	elk/data/nodes/0/_state/_71w.cfe
-	elk/data/nodes/0/_state/_71w.cfs
-	elk/data/nodes/0/_state/_71w.si
-	elk/data/nodes/0/_state/_71x.cfe
-	elk/data/nodes/0/_state/_71x.cfs
-	elk/data/nodes/0/_state/_71x.si
-	elk/data/nodes/0/_state/_71y.cfe
-	elk/data/nodes/0/_state/_71y.cfs
-	elk/data/nodes/0/_state/_71y.si
-	elk/data/nodes/0/_state/_71z.cfe
-	elk/data/nodes/0/_state/_71z.cfs
-	elk/data/nodes/0/_state/_71z.si
-	elk/data/nodes/0/_state/_721.cfe
-	elk/data/nodes/0/_state/_721.cfs
-	elk/data/nodes/0/_state/_721.si
-	elk/data/nodes/0/_state/_722.cfe
-	elk/data/nodes/0/_state/_722.cfs
-	elk/data/nodes/0/_state/_722.si
-	elk/data/nodes/0/_state/_723.cfe
-	elk/data/nodes/0/_state/_723.cfs
-	elk/data/nodes/0/_state/_723.si
-	elk/data/nodes/0/_state/_725.cfe
-	elk/data/nodes/0/_state/_725.cfs
-	elk/data/nodes/0/_state/_725.si
-	elk/data/nodes/0/_state/_726.cfe
-	elk/data/nodes/0/_state/_726.cfs
-	elk/data/nodes/0/_state/_726.si
-	elk/data/nodes/0/_state/_728.cfe
-	elk/data/nodes/0/_state/_728.cfs
-	elk/data/nodes/0/_state/_728.si
-	elk/data/nodes/0/_state/_729.cfe
-	elk/data/nodes/0/_state/_729.cfs
-	elk/data/nodes/0/_state/_729.si
-	elk/data/nodes/0/_state/_72b.cfe
-	elk/data/nodes/0/_state/_72b.cfs
-	elk/data/nodes/0/_state/_72b.si
-	elk/data/nodes/0/_state/_72f.cfe
-	elk/data/nodes/0/_state/_72f.cfs
-	elk/data/nodes/0/_state/_72f.si
-	elk/data/nodes/0/_state/_72f_1.liv
-	elk/data/nodes/0/_state/_72x.cfe
-	elk/data/nodes/0/_state/_72x.cfs
-	elk/data/nodes/0/_state/_72x.si
-	elk/data/nodes/0/_state/manifest-195.st
-	elk/data/nodes/0/_state/node-195.st
-	elk/data/nodes/0/_state/segments_7cs
-	elk/data/nodes/0/indices/4CNLAl-yQqmObSIQcEvFWA/0/_state/retention-leases-451.st
-	elk/data/nodes/0/indices/4CNLAl-yQqmObSIQcEvFWA/0/_state/state-50.st
-	elk/data/nodes/0/indices/4CNLAl-yQqmObSIQcEvFWA/0/translog/translog-61.tlog
-	elk/data/nodes/0/indices/4CNLAl-yQqmObSIQcEvFWA/_state/state-171.st
-	elk/data/nodes/0/indices/59keLA9MRRa_eAdTFbHcbQ/0/_state/retention-leases-448.st
-	elk/data/nodes/0/indices/59keLA9MRRa_eAdTFbHcbQ/0/_state/state-103.st
-	elk/data/nodes/0/indices/59keLA9MRRa_eAdTFbHcbQ/0/translog/translog-110.tlog
-	elk/data/nodes/0/indices/59keLA9MRRa_eAdTFbHcbQ/_state/state-290.st
-	elk/data/nodes/0/indices/5KJd-gq-TVWbUnHd0iTG-A/0/_state/retention-leases-201.st
-	elk/data/nodes/0/indices/5KJd-gq-TVWbUnHd0iTG-A/0/_state/state-10.st
-	elk/data/nodes/0/indices/5KJd-gq-TVWbUnHd0iTG-A/0/translog/translog-14.tlog
-	elk/data/nodes/0/indices/5KJd-gq-TVWbUnHd0iTG-A/_state/state-95.st
-	elk/data/nodes/0/indices/6xka8VyYRh-FX6RgQ_UwRQ/0/_state/retention-leases-150.st
-	elk/data/nodes/0/indices/6xka8VyYRh-FX6RgQ_UwRQ/0/_state/state-84.st
-	elk/data/nodes/0/indices/6xka8VyYRh-FX6RgQ_UwRQ/0/translog/translog-117.tlog
-	elk/data/nodes/0/indices/6xka8VyYRh-FX6RgQ_UwRQ/_state/state-173.st
-	elk/data/nodes/0/indices/7uXba1rNQCCUquvsNbvH5A/0/_state/retention-leases-535.st
-	elk/data/nodes/0/indices/7uXba1rNQCCUquvsNbvH5A/0/_state/state-55.st
-	elk/data/nodes/0/indices/7uXba1rNQCCUquvsNbvH5A/0/translog/translog-61.tlog
-	elk/data/nodes/0/indices/7uXba1rNQCCUquvsNbvH5A/_state/state-196.st
-	elk/data/nodes/0/indices/9Y6aaqQuTfir-K-bt-BQiw/
-	elk/data/nodes/0/indices/Ar5rwK2ERAKmIwiJqKwAEQ/0/_state/retention-leases-591.st
-	elk/data/nodes/0/indices/Ar5rwK2ERAKmIwiJqKwAEQ/0/_state/state-112.st
-	elk/data/nodes/0/indices/Ar5rwK2ERAKmIwiJqKwAEQ/0/translog/translog-119.tlog
-	elk/data/nodes/0/indices/Ar5rwK2ERAKmIwiJqKwAEQ/_state/state-310.st
-	elk/data/nodes/0/indices/AtyuaIs2QvWDGICCX0r1vg/0/_state/retention-leases-223.st
-	elk/data/nodes/0/indices/AtyuaIs2QvWDGICCX0r1vg/0/_state/state-140.st
-	elk/data/nodes/0/indices/AtyuaIs2QvWDGICCX0r1vg/0/translog/translog-272.tlog
-	elk/data/nodes/0/indices/AtyuaIs2QvWDGICCX0r1vg/_state/state-281.st
-	elk/data/nodes/0/indices/C9HYupHOQgOkWD6INDalqQ/0/_state/retention-leases-195.st
-	elk/data/nodes/0/indices/C9HYupHOQgOkWD6INDalqQ/0/_state/state-14.st
-	elk/data/nodes/0/indices/C9HYupHOQgOkWD6INDalqQ/0/translog/translog-20.tlog
-	elk/data/nodes/0/indices/C9HYupHOQgOkWD6INDalqQ/_state/state-93.st
-	elk/data/nodes/0/indices/FOWGJKYJT02TQ7PmDdYqPQ/0/_state/retention-leases-95.st
-	elk/data/nodes/0/indices/FOWGJKYJT02TQ7PmDdYqPQ/0/_state/state-61.st
-	elk/data/nodes/0/indices/FOWGJKYJT02TQ7PmDdYqPQ/0/translog/translog-96.tlog
-	elk/data/nodes/0/indices/FOWGJKYJT02TQ7PmDdYqPQ/_state/state-134.st
-	elk/data/nodes/0/indices/FQiwbbdTTwWMmdTPs7wGgg/0/_state/retention-leases-318.st
-	elk/data/nodes/0/indices/FQiwbbdTTwWMmdTPs7wGgg/0/_state/state-86.st
-	elk/data/nodes/0/indices/FQiwbbdTTwWMmdTPs7wGgg/0/translog/translog-96.tlog
-	elk/data/nodes/0/indices/FQiwbbdTTwWMmdTPs7wGgg/_state/state-248.st
-	elk/data/nodes/0/indices/GCKIj688RASofDkHUffs-w/0/_state/retention-leases-391.st
-	elk/data/nodes/0/indices/GCKIj688RASofDkHUffs-w/0/_state/state-99.st
-	elk/data/nodes/0/indices/GCKIj688RASofDkHUffs-w/0/translog/translog-104.tlog
-	elk/data/nodes/0/indices/GCKIj688RASofDkHUffs-w/_state/state-273.st
-	elk/data/nodes/0/indices/HPB6fZf2RRqxlSCxE9k2Cg/0/_state/retention-leases-380.st
-	elk/data/nodes/0/indices/HPB6fZf2RRqxlSCxE9k2Cg/0/_state/state-63.st
-	elk/data/nodes/0/indices/HPB6fZf2RRqxlSCxE9k2Cg/0/translog/translog-70.tlog
-	elk/data/nodes/0/indices/HPB6fZf2RRqxlSCxE9k2Cg/_state/state-210.st
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/_state/retention-leases-172.st
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/_state/state-3.st
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_193.fdm
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_193.fdt
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_193.fdx
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_193.fnm
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_193.kdd
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_193.kdi
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_193.kdm
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_193.si
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_193_Lucene80_0.dvd
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_193_Lucene80_0.dvm
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_193_Lucene84_0.doc
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_193_Lucene84_0.pos
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_193_Lucene84_0.tim
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_193_Lucene84_0.tip
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_193_Lucene84_0.tmd
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1ar.cfe
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1ar.cfs
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1ar.si
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bc.cfe
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bc.cfs
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bc.si
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bd.cfe
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bd.cfs
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bd.si
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1be.cfe
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1be.cfs
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1be.si
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bf.cfe
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bf.cfs
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bf.si
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bg.cfe
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bg.cfs
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bg.si
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bh.cfe
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bh.cfs
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bh.si
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bi.cfe
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bi.cfs
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bi.si
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bk.cfe
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bk.cfs
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bk.si
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bm.cfe
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bm.cfs
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bm.si
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bn.cfe
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bn.cfs
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bn.si
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bo.cfe
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bo.cfs
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bo.si
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bp.cfe
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bp.cfs
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bp.si
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bq.cfe
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bq.cfs
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bq.si
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1br.cfe
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1br.cfs
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1br.si
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bs.cfe
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bs.cfs
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bs.si
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bt.cfe
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bt.cfs
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bt.si
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bu.cfe
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bu.cfs
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bu.si
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bv.cfe
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bv.cfs
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bv.si
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bw.cfe
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bw.cfs
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bw.si
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bx.cfe
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bx.cfs
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bx.si
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1by.fdm
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1by.fdt
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1by.fdx
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1by_Lucene84_0.doc
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1by_Lucene84_0.pos
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1by_Lucene84_0.tim
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1by_Lucene84_0.tip
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1by_Lucene84_0.tmd
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bz.fdm
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bz.fdt
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bz_Lucene85FieldsIndex-doc_ids_pa.tmp
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1bz_Lucene85FieldsIndexfile_pointers_pe.tmp
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1c0.fdm
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1c0.fdt
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1c0_Lucene85FieldsIndex-doc_ids_pb.tmp
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1c0_Lucene85FieldsIndexfile_pointers_pf.tmp
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1c1.cfe
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1c1.cfs
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1c1.fdm
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1c1.fdt
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1c1.fdx
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1c1.fnm
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1c1.kdd
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1c1.kdi
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1c1.kdm
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1c1_Lucene80_0.dvd
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1c1_Lucene80_0.dvm
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1c1_Lucene84_0.doc
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1c1_Lucene84_0.pos
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1c1_Lucene84_0.tim
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1c1_Lucene84_0.tip
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/_1c1_Lucene84_0.tmd
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/index/segments_6
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/0/translog/translog-8.tlog
-	elk/data/nodes/0/indices/I4qSs1YcSCGPOEWZhQlVbw/_state/state-77.st
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/_state/retention-leases-319.st
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/_state/state-106.st
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/0/translog/translog-205.tlog
-	elk/data/nodes/0/indices/IVvzj9-6Q6uYfPXL98joHg/_state/state-212.st
-	elk/data/nodes/0/indices/JVagMwc9QG-yikeKGX0vWg/0/_state/retention-leases-5.st
-	elk/data/nodes/0/indices/JVagMwc9QG-yikeKGX0vWg/0/_state/state-3.st
-	elk/data/nodes/0/indices/JVagMwc9QG-yikeKGX0vWg/0/translog/translog-6.tlog
-	elk/data/nodes/0/indices/JVagMwc9QG-yikeKGX0vWg/_state/state-11.st
-	elk/data/nodes/0/indices/Lx7u_woySQuQ_zD8F6Y2bw/0/_state/retention-leases-439.st
-	elk/data/nodes/0/indices/Lx7u_woySQuQ_zD8F6Y2bw/0/_state/state-44.st
-	elk/data/nodes/0/indices/Lx7u_woySQuQ_zD8F6Y2bw/0/translog/translog-54.tlog
-	elk/data/nodes/0/indices/Lx7u_woySQuQ_zD8F6Y2bw/_state/state-174.st
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/_state/retention-leases-998.st
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/_state/state-73.st
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/0/translog/translog-88.tlog
-	elk/data/nodes/0/indices/MxSo4ICFRF2lkCe_AUkUNQ/_state/state-235.st
-	elk/data/nodes/0/indices/Nk1KcHqvRYuyh3Unq0RySw/0/_state/retention-leases-151.st
-	elk/data/nodes/0/indices/Nk1KcHqvRYuyh3Unq0RySw/0/_state/state-148.st
-	elk/data/nodes/0/indices/Nk1KcHqvRYuyh3Unq0RySw/0/translog/translog-148.tlog
-	elk/data/nodes/0/indices/Nk1KcHqvRYuyh3Unq0RySw/_state/state-290.st
-	elk/data/nodes/0/indices/Pgu02-jyRmaN4VudrzNA3A/0/_state/retention-leases-339.st
-	elk/data/nodes/0/indices/Pgu02-jyRmaN4VudrzNA3A/0/_state/state-90.st
-	elk/data/nodes/0/indices/Pgu02-jyRmaN4VudrzNA3A/0/translog/translog-101.tlog
-	elk/data/nodes/0/indices/Pgu02-jyRmaN4VudrzNA3A/_state/state-253.st
-	elk/data/nodes/0/indices/Pi-t4yTjRH-ka7LlkzkQmQ/0/_state/retention-leases-243.st
-	elk/data/nodes/0/indices/Pi-t4yTjRH-ka7LlkzkQmQ/0/_state/state-15.st
-	elk/data/nodes/0/indices/Pi-t4yTjRH-ka7LlkzkQmQ/0/translog/translog-18.tlog
-	elk/data/nodes/0/indices/Pi-t4yTjRH-ka7LlkzkQmQ/_state/state-92.st
-	elk/data/nodes/0/indices/Q5kQWisbRFSYv5NPhAe6iA/0/_state/retention-leases-5.st
-	elk/data/nodes/0/indices/Q5kQWisbRFSYv5NPhAe6iA/0/_state/state-3.st
-	elk/data/nodes/0/indices/Q5kQWisbRFSYv5NPhAe6iA/0/translog/translog-5.tlog
-	elk/data/nodes/0/indices/Q5kQWisbRFSYv5NPhAe6iA/_state/state-11.st
-	elk/data/nodes/0/indices/QQZ9Vm1mRv6iv6z0MTqFNA/0/_state/retention-leases-340.st
-	elk/data/nodes/0/indices/QQZ9Vm1mRv6iv6z0MTqFNA/0/_state/state-36.st
-	elk/data/nodes/0/indices/QQZ9Vm1mRv6iv6z0MTqFNA/0/translog/translog-44.tlog
-	elk/data/nodes/0/indices/QQZ9Vm1mRv6iv6z0MTqFNA/_state/state-145.st
-	elk/data/nodes/0/indices/S38yI0ugTymquZSvwBDT_A/0/_state/retention-leases-149.st
-	elk/data/nodes/0/indices/S38yI0ugTymquZSvwBDT_A/0/_state/state-145.st
-	elk/data/nodes/0/indices/S38yI0ugTymquZSvwBDT_A/0/translog/translog-147.tlog
-	elk/data/nodes/0/indices/S38yI0ugTymquZSvwBDT_A/_state/state-287.st
-	elk/data/nodes/0/indices/SW7PcCANRW2HpJ810Rh22A/0/_state/retention-leases-171.st
-	elk/data/nodes/0/indices/SW7PcCANRW2HpJ810Rh22A/0/_state/state-21.st
-	elk/data/nodes/0/indices/SW7PcCANRW2HpJ810Rh22A/0/translog/translog-28.tlog
-	elk/data/nodes/0/indices/SW7PcCANRW2HpJ810Rh22A/_state/state-119.st
-	elk/data/nodes/0/indices/UWlxhnUASOuXa1bSTSDPcQ/0/_state/retention-leases-178.st
-	elk/data/nodes/0/indices/UWlxhnUASOuXa1bSTSDPcQ/0/_state/state-124.st
-	elk/data/nodes/0/indices/UWlxhnUASOuXa1bSTSDPcQ/0/translog/translog-175.tlog
-	elk/data/nodes/0/indices/UWlxhnUASOuXa1bSTSDPcQ/_state/state-259.st
-	elk/data/nodes/0/indices/Vw2YDrmYSp6OExLmaGoHiA/0/_state/retention-leases-300.st
-	elk/data/nodes/0/indices/Vw2YDrmYSp6OExLmaGoHiA/0/_state/state-80.st
-	elk/data/nodes/0/indices/Vw2YDrmYSp6OExLmaGoHiA/0/translog/translog-86.tlog
-	elk/data/nodes/0/indices/Vw2YDrmYSp6OExLmaGoHiA/_state/state-238.st
-	elk/data/nodes/0/indices/WvlJlMFaQEyFBEKjPOWYlw/0/_state/retention-leases-329.st
-	elk/data/nodes/0/indices/WvlJlMFaQEyFBEKjPOWYlw/0/_state/state-77.st
-	elk/data/nodes/0/indices/WvlJlMFaQEyFBEKjPOWYlw/0/translog/translog-81.tlog
-	elk/data/nodes/0/indices/WvlJlMFaQEyFBEKjPOWYlw/_state/state-227.st
-	elk/data/nodes/0/indices/a2wbbW3JSrultjMfCS3dRQ/0/_state/retention-leases-173.st
-	elk/data/nodes/0/indices/a2wbbW3JSrultjMfCS3dRQ/0/_state/state-58.st
-	elk/data/nodes/0/indices/a2wbbW3JSrultjMfCS3dRQ/0/translog/translog-62.tlog
-	elk/data/nodes/0/indices/a2wbbW3JSrultjMfCS3dRQ/_state/state-181.st
-	elk/data/nodes/0/indices/gNHTG2FUT022O0a44QuhMw/0/_state/retention-leases-189.st
-	elk/data/nodes/0/indices/gNHTG2FUT022O0a44QuhMw/0/_state/state-27.st
-	elk/data/nodes/0/indices/gNHTG2FUT022O0a44QuhMw/0/translog/translog-31.tlog
-	elk/data/nodes/0/indices/gNHTG2FUT022O0a44QuhMw/_state/state-121.st
-	elk/data/nodes/0/indices/glFu8EL8QBe3Ih2vkfS-Tw/0/_state/retention-leases-305.st
-	elk/data/nodes/0/indices/glFu8EL8QBe3Ih2vkfS-Tw/0/_state/state-30.st
-	elk/data/nodes/0/indices/glFu8EL8QBe3Ih2vkfS-Tw/0/translog/translog-35.tlog
-	elk/data/nodes/0/indices/glFu8EL8QBe3Ih2vkfS-Tw/_state/state-128.st
-	elk/data/nodes/0/indices/gql1LYRDRDCM8vLep2Y_bw/0/_state/retention-leases-13.st
-	elk/data/nodes/0/indices/gql1LYRDRDCM8vLep2Y_bw/0/_state/state-9.st
-	elk/data/nodes/0/indices/gql1LYRDRDCM8vLep2Y_bw/0/translog/translog-16.tlog
-	elk/data/nodes/0/indices/gql1LYRDRDCM8vLep2Y_bw/_state/state-25.st
-	elk/data/nodes/0/indices/l3R046lCQL-s1_QtBR62fg/0/_state/retention-leases-374.st
-	elk/data/nodes/0/indices/l3R046lCQL-s1_QtBR62fg/0/_state/state-81.st
-	elk/data/nodes/0/indices/l3R046lCQL-s1_QtBR62fg/0/translog/translog-86.tlog
-	elk/data/nodes/0/indices/l3R046lCQL-s1_QtBR62fg/_state/state-249.st
-	elk/data/nodes/0/indices/ne8Gc-xkQj-IS_wReS90Xw/0/_state/retention-leases-209.st
-	elk/data/nodes/0/indices/ne8Gc-xkQj-IS_wReS90Xw/0/_state/state-12.st
-	elk/data/nodes/0/indices/ne8Gc-xkQj-IS_wReS90Xw/0/translog/translog-16.tlog
-	elk/data/nodes/0/indices/ne8Gc-xkQj-IS_wReS90Xw/_state/state-92.st
-	elk/data/nodes/0/indices/nqRL0KmTRKaeoYjjO8TK1w/0/_state/retention-leases-287.st
-	elk/data/nodes/0/indices/nqRL0KmTRKaeoYjjO8TK1w/0/_state/state-138.st
-	elk/data/nodes/0/indices/nqRL0KmTRKaeoYjjO8TK1w/0/translog/translog-152.tlog
-	elk/data/nodes/0/indices/nqRL0KmTRKaeoYjjO8TK1w/_state/state-270.st
-	elk/data/nodes/0/indices/o-nx_DcMRyu_5IVOpWhpcA/0/_state/retention-leases-320.st
-	elk/data/nodes/0/indices/o-nx_DcMRyu_5IVOpWhpcA/0/_state/state-105.st
-	elk/data/nodes/0/indices/o-nx_DcMRyu_5IVOpWhpcA/0/translog/translog-109.tlog
-	elk/data/nodes/0/indices/o-nx_DcMRyu_5IVOpWhpcA/_state/state-288.st
-	elk/data/nodes/0/indices/oJ7NPlIfQtC67M0rYpN6Qw/0/_state/retention-leases-407.st
-	elk/data/nodes/0/indices/oJ7NPlIfQtC67M0rYpN6Qw/0/_state/state-106.st
-	elk/data/nodes/0/indices/oJ7NPlIfQtC67M0rYpN6Qw/0/translog/translog-111.tlog
-	elk/data/nodes/0/indices/oJ7NPlIfQtC67M0rYpN6Qw/_state/state-287.st
-	elk/data/nodes/0/indices/qhs9qww4RieIW5ls_Vl9lg/0/_state/retention-leases-410.st
-	elk/data/nodes/0/indices/qhs9qww4RieIW5ls_Vl9lg/0/_state/state-83.st
-	elk/data/nodes/0/indices/qhs9qww4RieIW5ls_Vl9lg/0/translog/translog-88.tlog
-	elk/data/nodes/0/indices/qhs9qww4RieIW5ls_Vl9lg/_state/state-252.st
-	elk/data/nodes/0/indices/qxvtljvZRN6l2pvop3mB7Q/0/_state/retention-leases-3309.st
-	elk/data/nodes/0/indices/qxvtljvZRN6l2pvop3mB7Q/0/_state/state-161.st
-	elk/data/nodes/0/indices/qxvtljvZRN6l2pvop3mB7Q/0/translog/translog-210.tlog
-	elk/data/nodes/0/indices/qxvtljvZRN6l2pvop3mB7Q/_state/state-320.st
-	elk/data/nodes/0/indices/rVYd29SrQtOIx322WnLIUA/0/_state/retention-leases-212.st
-	elk/data/nodes/0/indices/rVYd29SrQtOIx322WnLIUA/0/_state/state-7.st
-	elk/data/nodes/0/indices/rVYd29SrQtOIx322WnLIUA/0/translog/translog-10.tlog
-	elk/data/nodes/0/indices/rVYd29SrQtOIx322WnLIUA/_state/state-80.st
-	elk/data/nodes/0/indices/tUSTz2IQQqK4Qgqcy42nbw/0/_state/retention-leases-192.st
-	elk/data/nodes/0/indices/tUSTz2IQQqK4Qgqcy42nbw/0/_state/state-126.st
-	elk/data/nodes/0/indices/tUSTz2IQQqK4Qgqcy42nbw/0/translog/translog-147.tlog
-	elk/data/nodes/0/indices/tUSTz2IQQqK4Qgqcy42nbw/_state/state-260.st
-	elk/data/nodes/0/indices/tkp11sUORgmM1kxBaPXbIg/0/_state/retention-leases-281.st
-	elk/data/nodes/0/indices/tkp11sUORgmM1kxBaPXbIg/0/_state/state-32.st
-	elk/data/nodes/0/indices/tkp11sUORgmM1kxBaPXbIg/0/translog/translog-37.tlog
-	elk/data/nodes/0/indices/tkp11sUORgmM1kxBaPXbIg/_state/state-130.st
-	elk/data/nodes/0/indices/v-Uz2SH7QdSZNhi67jbUEw/0/_state/retention-leases-241.st
-	elk/data/nodes/0/indices/v-Uz2SH7QdSZNhi67jbUEw/0/_state/state-161.st
-	elk/data/nodes/0/indices/v-Uz2SH7QdSZNhi67jbUEw/0/translog/translog-210.tlog
-	elk/data/nodes/0/indices/v-Uz2SH7QdSZNhi67jbUEw/_state/state-320.st
-	elk/data/nodes/0/indices/v4bczHaoQv-pJewc4WPiyA/0/_state/retention-leases-180.st
-	elk/data/nodes/0/indices/v4bczHaoQv-pJewc4WPiyA/0/_state/state-124.st
-	elk/data/nodes/0/indices/v4bczHaoQv-pJewc4WPiyA/0/translog/translog-131.tlog
-	elk/data/nodes/0/indices/v4bczHaoQv-pJewc4WPiyA/_state/state-256.st
-	elk/data/nodes/0/indices/vLkRx7-eRoKY42x4GZAiCw/0/_state/retention-leases-411.st
-	elk/data/nodes/0/indices/vLkRx7-eRoKY42x4GZAiCw/0/_state/state-95.st
-	elk/data/nodes/0/indices/vLkRx7-eRoKY42x4GZAiCw/0/translog/translog-98.tlog
-	elk/data/nodes/0/indices/vLkRx7-eRoKY42x4GZAiCw/_state/state-261.st
-	elk/data/nodes/0/indices/wEdvpaoYSXeRKrjiLgl3Ig/0/_state/retention-leases-127.st
-	elk/data/nodes/0/indices/wEdvpaoYSXeRKrjiLgl3Ig/0/_state/state-23.st
-	elk/data/nodes/0/indices/wEdvpaoYSXeRKrjiLgl3Ig/0/translog/translog-31.tlog
-	elk/data/nodes/0/indices/wEdvpaoYSXeRKrjiLgl3Ig/_state/state-109.st
-	elk/data/nodes/0/indices/wi6GZ7veSuG1Ssj80JDlZw/0/_state/retention-leases-1993.st
-	elk/data/nodes/0/indices/wi6GZ7veSuG1Ssj80JDlZw/0/_state/state-193.st
-	elk/data/nodes/0/indices/wi6GZ7veSuG1Ssj80JDlZw/0/translog/translog-807.tlog
-	elk/data/nodes/0/indices/wi6GZ7veSuG1Ssj80JDlZw/_state/state-393.st
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/_state/retention-leases-7102.st
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/_state/state-106.st
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24qv.fdx
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24qv.fnm
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24qv.nvd
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24qv.nvm
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24qv_Lucene84_0.doc
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24rp.fnm
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24rp.kdd
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24rp.nvd
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24rp.nvm
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24rp.si
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24rp_2_Lucene80_0.dvd
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24rp_Lucene84_0.doc
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24rr.cfs
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24rr_1_Lucene80_0.dvd
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24rs.cfs
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24rt.cfe
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24rt.si
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24rt_1_Lucene80_0.dvm
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24ru.cfe
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24rv_1.fnm
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24rw_1_Lucene80_0.dvd
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24rw_1_Lucene80_0.dvm
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24ry.fdm
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24ry.fdt
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24ry.fdx
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24ry.fnm
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24ry.kdd
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24ry.kdi
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24ry.kdm
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24ry.nvd
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24ry.nvm
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24ry.si
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24ry_Lucene80_0.dvd
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24ry_Lucene80_0.dvm
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24ry_Lucene84_0.doc
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24ry_Lucene84_0.pos
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24ry_Lucene84_0.tim
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24ry_Lucene84_0.tip
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/_24ry_Lucene84_0.tmd
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/index/segments_37
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/translog/translog-174.ckp
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/translog/translog-174.tlog
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/0/translog/translog-175.tlog
-	elk/data/nodes/0/indices/xgFQjYLmSTqGe8WdOqw9UQ/_state/state-208.st
-	elk/data/nodes/0/snapshot_cache/segments_5w
-	honeytrap/attacks/from_port_10037-tcp_3311_2022-04-11_md5_025f210f19f87233477fd87016e59c5d
-	honeytrap/attacks/from_port_10037-tcp_3313_2022-04-11_md5_ae4b7fdb66d361701994decbdb94f22a
-	honeytrap/attacks/from_port_10443-tcp_3621_2022-04-11_md5_65f4875fa8942844f89194fe3d8096c0
-	honeytrap/attacks/from_port_10443-tcp_3700_2022-04-11_md5_8b0716de58abc9c6e7379b5f09cc3a44
-	honeytrap/attacks/from_port_1096-tcp_3286_2022-04-11_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_1121-tcp_3901_2022-04-11_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_11211-tcp_4078_2022-04-11_md5_9b3386e838bf6cd0260f7f061f7a8f5b
-	honeytrap/attacks/from_port_11300-tcp_4629_2022-04-11_md5_7db3732ad9e47054a40979aca87f8963
-	honeytrap/attacks/from_port_1141-tcp_3331_2022-04-11_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_11680-tcp_3125_2022-04-11_md5_cf32cd17120f682390c29cfaf2053bcb
-	honeytrap/attacks/from_port_11680-tcp_3127_2022-04-11_md5_0e6427509f17624455089d7e43aed788
-	honeytrap/attacks/from_port_1169-tcp_3749_2022-04-11_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_12103-tcp_3211_2022-04-11_md5_a576e2e19c1f8b8bd4efb0dd710938a1
-	honeytrap/attacks/from_port_12103-tcp_3213_2022-04-11_md5_9b924134e35891a572d248ec7253611e
-	honeytrap/attacks/from_port_12116-tcp_3042_2022-04-11_md5_02ef192e1575f4d292434a8424c6f543
-	honeytrap/attacks/from_port_12116-tcp_3047_2022-04-11_md5_ca08c61120ae2034d59932b84ec41192
-	honeytrap/attacks/from_port_1212-tcp_4536_2022-04-11_md5_eacfa9fbd13ccefdb5ecb64f3ff6bc3a
-	honeytrap/attacks/from_port_12141-tcp_3165_2022-04-11_md5_4ed49a61960ea4c7a39d4b9017e450fe
-	honeytrap/attacks/from_port_1217-tcp_3738_2022-04-11_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_12203-tcp_3263_2022-04-11_md5_649de9db45253cc1e729625e97acc9d2
-	honeytrap/attacks/from_port_12216-tcp_3192_2022-04-11_md5_9b96777240febc9377083117f9eebb5f
-	honeytrap/attacks/from_port_12216-tcp_3194_2022-04-11_md5_eeb4a5385667c287c88ecf8a8d0add9f
-	honeytrap/attacks/from_port_12250-tcp_2424_2022-04-11_md5_7733c75680280e52f6465ad19dad7b39
-	honeytrap/attacks/from_port_12250-tcp_2427_2022-04-11_md5_ca8dce8f57f5b56f91ad197886c7736a
-	honeytrap/attacks/from_port_12263-tcp_3637_2022-04-11_md5_e57c8359a1213dc1873b0efa878a4e6f
-	honeytrap/attacks/from_port_12346-tcp_4948_2022-04-12_md5_a796e80568d9e97878b327e7b0ed0d10
-	honeytrap/attacks/from_port_12394-tcp_2323_2022-04-11_md5_c637ef085bdfc4295cd5a434bad31a60
-	honeytrap/attacks/from_port_12459-tcp_3973_2022-04-11_md5_dda52bdc64ec828b88fc247e513443c9
-	honeytrap/attacks/from_port_12459-tcp_3979_2022-04-11_md5_e1d7709764614c1bfade3e299c88cea5
-	honeytrap/attacks/from_port_12493-tcp_3052_2022-04-11_md5_00457bbb1345579ebc5ffb04fd796e5c
-	honeytrap/attacks/from_port_1250-tcp_2433_2022-04-11_md5_5ed3342275e0e56fb26532c4030b36c8
-	honeytrap/attacks/from_port_12503-tcp_3947_2022-04-11_md5_d24820457c104791f77b8e3c3775dc89
-	honeytrap/attacks/from_port_14077-tcp_2969_2022-04-11_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_14077-tcp_2971_2022-04-11_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_1417-tcp_3280_2022-04-11_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_14403-tcp_3593_2022-04-11_md5_7e271e946507ae5ec86b41dbc5b9f6d2
-	honeytrap/attacks/from_port_1443-tcp_3991_2022-04-11_md5_7773a0a7f296123faa5b0f1b95a02956
-	honeytrap/attacks/from_port_1455-tcp_3869_2022-04-11_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_15002-tcp_3322_2022-04-11_md5_09ab0f6528c45ac632977db3e832e757
-	honeytrap/attacks/from_port_15082-tcp_4690_2022-04-11_md5_d2a233bd9a8a76ad605019a2161017d0
-	honeytrap/attacks/from_port_15082-tcp_4692_2022-04-11_md5_5329d8b52d7d2da6ea84e7e0c5635937
-	honeytrap/attacks/from_port_15253-tcp_4560_2022-04-11_md5_bcb4564d43359c4481ace4a0cd0de879
-	honeytrap/attacks/from_port_15443-tcp_2268_2022-04-11_md5_54e29265240f2484108ea4df402f6244
-	honeytrap/attacks/from_port_1550-tcp_3172_2022-04-11_md5_5e9d2ddb4a684ebb7e06b1a165ca028f
-	honeytrap/attacks/from_port_1550-tcp_3174_2022-04-11_md5_19b893b938ace1defe7d090e510f0618
-	honeytrap/attacks/from_port_1550-tcp_3176_2022-04-11_md5_b9b49264d91183b01aaba917c6ed65bc
-	honeytrap/attacks/from_port_15588-tcp_4821_2022-04-11_md5_cbbbe9f70b5bf027427e5bdb84a59ef8
-	honeytrap/attacks/from_port_15588-tcp_4823_2022-04-11_md5_75431cfc68a8b193669d633ac7dcd8e8
-	honeytrap/attacks/from_port_16038-tcp_3011_2022-04-11_md5_856f5aa61afda0d6414e965a6096b468
-	honeytrap/attacks/from_port_16038-tcp_3015_2022-04-11_md5_0bc5f515fc2424324512fcd9684a7f9e
-	honeytrap/attacks/from_port_1604-tcp_2356_2022-04-11_md5_bad1875cd6a2185aec67e5aa76ea9530
-	honeytrap/attacks/from_port_16056-tcp_3804_2022-04-11_md5_1e08e5bb44ad4714bfe5d21c0e5d7e32
-	honeytrap/attacks/from_port_16056-tcp_3807_2022-04-11_md5_52c67a6414b955990ad2c22ef16c6117
-	honeytrap/attacks/from_port_16093-tcp_3681_2022-04-11_md5_cecc2d2ce81c7cd06cd86cb89f6d46f2
-	honeytrap/attacks/from_port_17381-tcp_2365_2022-04-11_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_17516-tcp_3887_2022-04-11_md5_2cbd712c5dc59a5024cabf52ba834438
-	honeytrap/attacks/from_port_17778-tcp_4048_2022-04-11_md5_43636945e011f685582e15abfd0e36ce
-	honeytrap/attacks/from_port_18027-tcp_2978_2022-04-11_md5_0d4f10773adbcbab5603d1c81c9b84b2
-	honeytrap/attacks/from_port_18076-tcp_2938_2022-04-11_md5_bb3aed0f033baa90e285b5267d1501e5
-	honeytrap/attacks/from_port_18076-tcp_2940_2022-04-11_md5_499f8e3bbb707c197408f242debd1ddb
-	honeytrap/attacks/from_port_18888-tcp_3626_2022-04-11_md5_9e438e9e300fe0cb80fdc0ec60644ddd
-	honeytrap/attacks/from_port_18888-tcp_3627_2022-04-11_md5_25b761aa4c5ca85d986358a9878d64cf
-	honeytrap/attacks/from_port_1911-tcp_2988_2022-04-11_md5_2e231f78363ddbd7a27c6d1135dfff3e
-	honeytrap/attacks/from_port_1935-tcp_4210_2022-04-11_md5_a796e80568d9e97878b327e7b0ed0d10
-	honeytrap/attacks/from_port_1980-tcp_3895_2022-04-11_md5_af1f91877eb50fd83226b2ed1ad010a8
-	honeytrap/attacks/from_port_1980-tcp_3898_2022-04-11_md5_081ca949fab754527d8245a3620b6702
-	honeytrap/attacks/from_port_1997-tcp_3510_2022-04-11_md5_4cacf6ab7717e73441efc30f797fd387
-	honeytrap/attacks/from_port_2000-tcp_3741_2022-04-11_md5_32dceb058d6d439d82f1acb13a83a265
-	honeytrap/attacks/from_port_20000-tcp_2906_2022-04-11_md5_2a83beb822adf368c504691f43cafb48
-	honeytrap/attacks/from_port_20000-tcp_4507_2022-04-11_md5_b5b4d7f0feced27264aa933f83c90915
-	honeytrap/attacks/from_port_2001-tcp_3118_2022-04-11_md5_8e232de181740f9a58575a198310652a
-	honeytrap/attacks/from_port_20182-tcp_3851_2022-04-11_md5_26b45ebfb8ffb618fb350c89a2129f46
-	honeytrap/attacks/from_port_20182-tcp_3853_2022-04-11_md5_88019732b0d8aff1b96cf579449e7b3c
-	honeytrap/attacks/from_port_2083-tcp_2480_2022-04-11_md5_1928895bbc560ec37818eb0abe611e63
-	honeytrap/attacks/from_port_21242-tcp_4064_2022-04-11_md5_e4347751b8c6adb6a84e091c81dd3865
-	honeytrap/attacks/from_port_22460-tcp_3103_2022-04-11_md5_9a88996b531a1f9efc3298442c8494aa
-	honeytrap/attacks/from_port_2260-tcp_2918_2022-04-11_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_22999-tcp_5224_2022-04-12
-	honeytrap/attacks/from_port_2356-tcp_4589_2022-04-11_md5_b2f5c39e7c5e9a35080665c481f846d7
-	honeytrap/attacks/from_port_2375-tcp_3960_2022-04-11_md5_6ccf6cf1373bc404c4a14cafb19c9f33
-	honeytrap/attacks/from_port_24300-tcp_4634_2022-04-11_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_24302-tcp_4788_2022-04-11_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_24307-tcp_3640_2022-04-11_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_24316-tcp_3921_2022-04-11_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_24319-tcp_4809_2022-04-11_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_2443-tcp_3633_2022-04-11_md5_16a407d637e94549bf662ad175bccc6d
-	honeytrap/attacks/from_port_24510-tcp_2875_2022-04-11_md5_b0d11e05f7317c0a4acafcc1a67f10d1
-	honeytrap/attacks/from_port_24510-tcp_2877_2022-04-11_md5_a2f8f09c761b2630a178d2e7b706bc71
-	honeytrap/attacks/from_port_2525-tcp_3788_2022-04-11_md5_9fba235188326db8c6ad6d8717d90638
-	honeytrap/attacks/from_port_25789-tcp_4830_2022-04-11_md5_446dbf39362c29c6473171d586335bb9
-	honeytrap/attacks/from_port_25939-tcp_4704_2022-04-11_md5_cf88e7787d157e487ce52b2fafb68f52
-	honeytrap/attacks/from_port_25939-tcp_4706_2022-04-11_md5_c1db1c36b9a5726e2eb21611e9610cd9
-	honeytrap/attacks/from_port_26443-tcp_3093_2022-04-11_md5_727a25760319f2186f1a8e0b67bebde6
-	honeytrap/attacks/from_port_26443-tcp_3095_2022-04-11_md5_9a623f1eb385a3d11065c87c079d6108
-	honeytrap/attacks/from_port_28818-tcp_2898_2022-04-11_md5_d6b4e5bf8b6774d90c03d17a81bfad1c
-	honeytrap/attacks/from_port_3000-tcp_3550_2022-04-11_md5_a7faf91df580f3f93f3c19f9565318c5
-	honeytrap/attacks/from_port_3018-tcp_4865_2022-04-12_md5_4cacf6ab7717e73441efc30f797fd387
-	honeytrap/attacks/from_port_3155-tcp_3299_2022-04-11_md5_83321bac8d121e184314ca6cb99a3b75
-	honeytrap/attacks/from_port_3155-tcp_3301_2022-04-11_md5_dd0ae0b4ed728c36d963b04ac0f4b8df
-	honeytrap/attacks/from_port_33054-tcp_3157_2022-04-11_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_33054-tcp_3159_2022-04-11_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_3314-tcp_2911_2022-04-11_md5_5e9d2ddb4a684ebb7e06b1a165ca028f
-	honeytrap/attacks/from_port_3314-tcp_2914_2022-04-11_md5_19b893b938ace1defe7d090e510f0618
-	honeytrap/attacks/from_port_3314-tcp_2916_2022-04-11_md5_b9b49264d91183b01aaba917c6ed65bc
-	honeytrap/attacks/from_port_33923-tcp_4839_2022-04-11_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_33945-tcp_2371_2022-04-11_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_33945-tcp_2376_2022-04-11_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_34253-tcp_3934_2022-04-11_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_3580-tcp_3013_2022-04-11_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_3610-tcp_4043_2022-04-11_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_3610-tcp_4052_2022-04-11_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_36331-tcp_3992_2022-04-11_md5_230ada79b254701e15aa7a11c890215b
-	honeytrap/attacks/from_port_3662-tcp_2314_2022-04-11_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_37443-tcp_4709_2022-04-11_md5_ea57d587a011c509131867b5cfb5d193
-	honeytrap/attacks/from_port_38080-tcp_3027_2022-04-11_md5_df959b7c51f7dcf5c92c432da6346e83
-	honeytrap/attacks/from_port_38520-tcp_4653_2022-04-11_md5_2f37624ba8c2e82b004a9c3a761ea0e3
-	honeytrap/attacks/from_port_38597-tcp_3150_2022-04-11_md5_4ddeccbb7927e7def4b3f4a5436953cf
-	honeytrap/attacks/from_port_38597-tcp_3153_2022-04-11_md5_549ad0e4b2f53e571e5afd0b5b7148f6
-	honeytrap/attacks/from_port_40443-tcp_4527_2022-04-11_md5_bc200b067d65cf299de9dae54068a914
-	honeytrap/attacks/from_port_4134-tcp_3923_2022-04-11_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_4172-tcp_3926_2022-04-11_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_4180-tcp_2341_2022-04-11_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_4201-tcp_2464_2022-04-11_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_4202-tcp_3950_2022-04-11_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_4205-tcp_2949_2022-04-11_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_4211-tcp_3216_2022-04-11_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_4214-tcp_3975_2022-04-11_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_4343-tcp_3581_2022-04-11_md5_b045e8629b25ded16bbb946411df63b9
-	honeytrap/attacks/from_port_44250-tcp_4603_2022-04-11_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_44250-tcp_4609_2022-04-11_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_4430-tcp_3653_2022-04-11_md5_b3cb7ffd4e4616ce09795e0f0337c9ea
-	honeytrap/attacks/from_port_4433-tcp_4113_2022-04-11_md5_7fa12e0b0fcc96dc3737d6c7008d1d2c
-	honeytrap/attacks/from_port_4444-tcp_3917_2022-04-11_md5_fa75fb34d2af753cb4ad3e6d89cc6677
-	honeytrap/attacks/from_port_45443-tcp_4738_2022-04-11_md5_58711c5aab991000dd4e2548e070881d
-	honeytrap/attacks/from_port_45677-tcp_4213_2022-04-11_md5_a796e80568d9e97878b327e7b0ed0d10
-	honeytrap/attacks/from_port_4670-tcp_3273_2022-04-11_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_4670-tcp_3275_2022-04-11_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_47001-tcp_3786_2022-04-11_md5_367abf3933b69fac0525ae08440bb93e
-	honeytrap/attacks/from_port_50000-tcp_2924_2022-04-11_md5_d0432b1886e2ae16f01e8f01e4bfc007
-	honeytrap/attacks/from_port_50031-tcp_4006_2022-04-11_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_50061-tcp_3064_2022-04-11_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_50061-tcp_3067_2022-04-11_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_50067-tcp_4577_2022-04-11_md5_6438ccc1db567a7ecbaa146c76bd76c1
-	honeytrap/attacks/from_port_50333-tcp_3098_2022-04-11_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_50333-tcp_3100_2022-04-11_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_50580-tcp_3888_2022-04-11_md5_4e0183c14916b58ceca56da52ddc3c93
-	honeytrap/attacks/from_port_50805-tcp_2931_2022-04-11_md5_94710ce7e3685b823f67383e83c6cff5
-	honeytrap/attacks/from_port_50805-tcp_2936_2022-04-11_md5_fc344702a818d91a1dbf41087c05e478
-	honeytrap/attacks/from_port_51001-tcp_3881_2022-04-11_md5_f1dc953752913626fa4cc7fa4897403a
-	honeytrap/attacks/from_port_51002-tcp_3834_2022-04-11_md5_e5a58f232bc06f62ba01afad044a8352
-	honeytrap/attacks/from_port_51002-tcp_3836_2022-04-11_md5_3dc32289be10504e16ab9ffe6252bd43
-	honeytrap/attacks/from_port_52311-tcp_4132_2022-04-11_md5_73d44eb96f67dd65174d1180e10dbbc1
-	honeytrap/attacks/from_port_53300-tcp_3814_2022-04-11_md5_55bdb7bc490fda0f2ee7b50ad9898c60
-	honeytrap/attacks/from_port_53524-tcp_4729_2022-04-11_md5_cf0c190d5a6f667d27ea6c1c16c35ccd
-	honeytrap/attacks/from_port_53631-tcp_4816_2022-04-11_md5_2d686691c05f511f65de829dc1322609
-	honeytrap/attacks/from_port_54498-tcp_4647_2022-04-11_md5_16e43ccbd033bc474b2d6df93122c0d2
-	honeytrap/attacks/from_port_54528-tcp_2885_2022-04-11_md5_56fa2c6efcc23ce9685071461a00c75b
-	honeytrap/attacks/from_port_54917-tcp_4026_2022-04-11_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_55055-tcp_3908_2022-04-11_md5_4cacf6ab7717e73441efc30f797fd387
-	honeytrap/attacks/from_port_55212-tcp_4776_2022-04-11_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_55212-tcp_4778_2022-04-11_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_55943-tcp_2472_2022-04-11_md5_130109c54393966932c048e38f22139e
-	honeytrap/attacks/from_port_5655-tcp_3752_2022-04-11_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_5655-tcp_3758_2022-04-11_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_58000-tcp_4837_2022-04-11_md5_4cacf6ab7717e73441efc30f797fd387
-	honeytrap/attacks/from_port_58603-tcp_4120_2022-04-11_md5_8ab86c6f5395f442066bfbc29e650aa1
-	honeytrap/attacks/from_port_5901-tcp_4756_2022-04-11_md5_461e8e39c01918b9dc3de269f72d6502
-	honeytrap/attacks/from_port_5901-tcp_4759_2022-04-11_md5_29bd20a4a2addf7a091b627b3d68a44c
-	honeytrap/attacks/from_port_59443-tcp_2963_2022-04-11_md5_502c3991854d2ac061eea7ceb1c04709
-	honeytrap/attacks/from_port_6001-tcp_5226_2022-04-12
-	honeytrap/attacks/from_port_60243-tcp_4546_2022-04-11_md5_d8f4b72a6b49a111a621577109a252b1
-	honeytrap/attacks/from_port_61337-tcp_3088_2022-04-11_md5_2956983111c14dd340d6c37c3d0361cd
-	honeytrap/attacks/from_port_6161-tcp_3822_2022-04-11_md5_dd5f84ed62fcc9178d1cd2ea5dd1ffe9
-	honeytrap/attacks/from_port_61626-tcp_3765_2022-04-11_md5_cf95775aee9c9cc256d225130a6ff4fc
-	honeytrap/attacks/from_port_6236-tcp_4667_2022-04-11_md5_8e89dac8e37cb43bf764ddea1eb2927d
-	honeytrap/attacks/from_port_6363-tcp_3842_2022-04-11_md5_2f88eb4fb9f7989d6a090ac7a89e60e0
-	honeytrap/attacks/from_port_6379-tcp_2419_2022-04-11_md5_b5ab2350785f48d2a2475782107d99cf
-	honeytrap/attacks/from_port_6379-tcp_2957_2022-04-11_md5_53556c95685f8d14565221bc639b497e
-	honeytrap/attacks/from_port_6379-tcp_3144_2022-04-11_md5_53556c95685f8d14565221bc639b497e
-	honeytrap/attacks/from_port_6379-tcp_3246_2022-04-11_md5_53556c95685f8d14565221bc639b497e
-	honeytrap/attacks/from_port_6379-tcp_3257_2022-04-11_md5_53556c95685f8d14565221bc639b497e
-	honeytrap/attacks/from_port_6379-tcp_3268_2022-04-11_md5_53556c95685f8d14565221bc639b497e
-	honeytrap/attacks/from_port_6466-tcp_3864_2022-04-11_md5_825563832badb05f5b56ad30977883d0
-	honeytrap/attacks/from_port_6466-tcp_3866_2022-04-11_md5_95a62acb22bc68a3ef3029f2c3b538b9
-	honeytrap/attacks/from_port_6568-tcp_3383_2022-04-11_md5_4cacf6ab7717e73441efc30f797fd387
-	honeytrap/attacks/from_port_6699-tcp_3024_2022-04-11_md5_f308bc5b5deab28236a6eda1f75b70aa
-	honeytrap/attacks/from_port_6699-tcp_3029_2022-04-11_md5_763ed3720d583118f551591cde41753c
-	honeytrap/attacks/from_port_6699-tcp_3077_2022-04-11_md5_f472d05b3d5f1137dffb4bb34f80f75b
-	honeytrap/attacks/from_port_6699-tcp_3079_2022-04-11_md5_763ed3720d583118f551591cde41753c
-	honeytrap/attacks/from_port_6807-tcp_3610_2022-04-11_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_6807-tcp_3614_2022-04-11_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_7000-tcp_4564_2022-04-11_md5_97cf85a60580f2335de335759857d25e
-	honeytrap/attacks/from_port_7080-tcp_3200_2022-04-11_md5_c57edaaf70af4d05eb7fd25f0d321a90
-	honeytrap/attacks/from_port_7080-tcp_3984_2022-04-11_md5_2da9fc053aff6ff57ee2c41d4a997e60
-	honeytrap/attacks/from_port_7547-tcp_4148_2022-04-11_md5_26e49733eafbeac040d35ba167d51fe8
-	honeytrap/attacks/from_port_7679-tcp_2318_2022-04-11_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_7777-tcp_3242_2022-04-11_md5_e105eb978d0057de4d5dd74bf11e2f11
-	honeytrap/attacks/from_port_8000-tcp_3845_2022-04-11_md5_87ce4d74dbf148b8cbddc7dc69236e17
-	honeytrap/attacks/from_port_8002-tcp_3082_2022-04-11_md5_723f89c0bfa468482a87c490be65ea23
-	honeytrap/attacks/from_port_8012-tcp_4503_2022-04-11_md5_0597c744da838ef0eaffb9409d86879b
-	honeytrap/attacks/from_port_8015-tcp_4570_2022-04-11_md5_8403392e37aee629ced3db19d6f9e2df
-	honeytrap/attacks/from_port_8020-tcp_3054_2022-04-11_md5_0f26717d340c2054827ccd8e952424cb
-	honeytrap/attacks/from_port_8020-tcp_3059_2022-04-11_md5_f99c0f68a6c79243aee3f6e7dc0b38b6
-	honeytrap/attacks/from_port_8020-tcp_3720_2022-04-11_md5_40726c4e924aade5977a2c6b3da0fe5d
-	honeytrap/attacks/from_port_8022-tcp_3446_2022-04-11_md5_4cacf6ab7717e73441efc30f797fd387
-	honeytrap/attacks/from_port_8028-tcp_3373_2022-04-11_md5_4cacf6ab7717e73441efc30f797fd387
-	honeytrap/attacks/from_port_8028-tcp_3670_2022-04-11_md5_cf679ed6c29c6898fdb70acb39b0ca4b
-	honeytrap/attacks/from_port_8028-tcp_3673_2022-04-11_md5_28fea2eaef5dee1495078b5ba0926766
-	honeytrap/attacks/from_port_8050-tcp_3236_2022-04-11_md5_b9712511930f2fd9cf29bc52a2f697d0
-	honeytrap/attacks/from_port_8050-tcp_3238_2022-04-11_md5_4d5644bab329bc49e5c08c8eec11915c
-	honeytrap/attacks/from_port_8062-tcp_3112_2022-04-11_md5_64a912ac61df8e22cacf320e0197c6d9
-	honeytrap/attacks/from_port_8062-tcp_3114_2022-04-11_md5_c53bba7e57d7f062380c4ad73fd8fe99
-	honeytrap/attacks/from_port_8072-tcp_4902_2022-04-12_md5_a796e80568d9e97878b327e7b0ed0d10
-	honeytrap/attacks/from_port_8081-tcp_3928_2022-04-11_md5_a3ae8f4d275044e7902467f9cceca385
-	honeytrap/attacks/from_port_8083-tcp_3184_2022-04-11_md5_40481e4f0a5a693af6dc9269c0e8a498
-	honeytrap/attacks/from_port_8083-tcp_3186_2022-04-11_md5_ca84de2717be380e81e822952929d9de
-	honeytrap/attacks/from_port_8086-tcp_4715_2022-04-11_md5_0753f5bcca0bbb024c3567817650e4c2
-	honeytrap/attacks/from_port_8088-tcp_3964_2022-04-11_md5_8e8e7cabbe8691687d1223a93cab4d64
-	honeytrap/attacks/from_port_8088-tcp_4014_2022-04-11_md5_1b72e7151a859a6e8a50fa071663d5e3
-	honeytrap/attacks/from_port_8098-tcp_3995_2022-04-11_md5_224e6bf02acabe20153f6b7210fc91b4
-	honeytrap/attacks/from_port_8098-tcp_3998_2022-04-11_md5_756c7b779f38e1f20b5c7979cbcdc447
-	honeytrap/attacks/from_port_8098-tcp_4003_2022-04-11_md5_75f4a57212fba509a09f32d83d454fe8
-	honeytrap/attacks/from_port_8099-tcp_5222_2022-04-12
-	honeytrap/attacks/from_port_8125-tcp_4680_2022-04-11_md5_88ddd72a532dbc0a69df4f7e0f67116f
-	honeytrap/attacks/from_port_8134-tcp_2589_2022-04-11_md5_a796e80568d9e97878b327e7b0ed0d10
-	honeytrap/attacks/from_port_8140-tcp_4618_2022-04-11_md5_fd3624e1f43f17efce8657d9c08164ca
-	honeytrap/attacks/from_port_8180-tcp_4659_2022-04-11_md5_3461ff665ec8043c7a413c07a9467069
-	honeytrap/attacks/from_port_8180-tcp_4661_2022-04-11_md5_e3fe179d3391bdd4b1f75907416c9c6f
-	honeytrap/attacks/from_port_8181-tcp_3142_2022-04-11_md5_7b99f039029ce3e47a46fcc11049c90b
-	honeytrap/attacks/from_port_8181-tcp_3818_2022-04-11_md5_60a5b5a7644a26d1170418fb01879b0a
-	honeytrap/attacks/from_port_8282-tcp_3254_2022-04-11_md5_be0da540b01d8cb3e83c40a1025cf8d3
-	honeytrap/attacks/from_port_8333-tcp_2439_2022-04-11_md5_177eaa647126c7f8bcc57b6eb5b56fe6
-	honeytrap/attacks/from_port_8333-tcp_4542_2022-04-11_md5_fa7535b94f171000d877b8fde455fccc
-	honeytrap/attacks/from_port_8545-tcp_2540_2022-04-11_md5_391124c7d6d1963360ff0c25b8a95668
-	honeytrap/attacks/from_port_8545-tcp_2983_2022-04-11_md5_6d1f1bf0355cbc7d45a8330cbe74b4d1
-	honeytrap/attacks/from_port_8545-tcp_4240_2022-04-11_md5_391124c7d6d1963360ff0c25b8a95668
-	honeytrap/attacks/from_port_8810-tcp_2408_2022-04-11_md5_4cacf6ab7717e73441efc30f797fd387
-	honeytrap/attacks/from_port_8887-tcp_3942_2022-04-11_md5_f26e223db08fb58e506cbd4b9d47dc2b
-	honeytrap/attacks/from_port_8888-tcp_3604_2022-04-11_md5_10e878e5f2090bcdddcd10640bd9c228
-	honeytrap/attacks/from_port_8899-tcp_3811_2022-04-11_md5_8e090427fc6d64a18b6e033a1e6892fa
-	honeytrap/attacks/from_port_8991-tcp_2999_2022-04-11_md5_de41e621ee3758dea531dadf677ea8fd
-	honeytrap/attacks/from_port_9001-tcp_3797_2022-04-11_md5_bdba366aec5871d8c965a18b2581336d
-	honeytrap/attacks/from_port_9024-tcp_4792_2022-04-11_md5_ad93c1f7d023c3e196556b7a77612ac0
-	honeytrap/attacks/from_port_9024-tcp_4794_2022-04-11_md5_b8b7caf8dc3f553f05135e50468121cd
-	honeytrap/attacks/from_port_9044-tcp_4623_2022-04-11_md5_6c8871267a09cd4a08b4cd9b31598e2f
-	honeytrap/attacks/from_port_9058-tcp_4766_2022-04-11_md5_6a9dcfbd805f31c8b7cbf14c5a982440
-	honeytrap/attacks/from_port_9058-tcp_4770_2022-04-11_md5_4328456435ba92a9ef7bb2a793176083
-	honeytrap/attacks/from_port_9068-tcp_2465_2022-04-11_md5_bd77008c77262e55864426c3cbe1735b
-	honeytrap/attacks/from_port_9080-tcp_4735_2022-04-11_md5_66c7fdb199743362b9528bbc5da045a5
-	honeytrap/attacks/from_port_9088-tcp_2387_2022-04-11_md5_f686739674dd9ab51724bb1c111344d3
-	honeytrap/attacks/from_port_9099-tcp_2440_2022-04-11_md5_97f59f395dd7154c1023d61781d1f276
-	honeytrap/attacks/from_port_9236-tcp_3133_2022-04-11_md5_bab83c46fc028021d2193bbf701c38b6
-	honeytrap/attacks/from_port_9236-tcp_3135_2022-04-11_md5_2621ed0bd882334476c3f54c2f43f229
-	honeytrap/attacks/from_port_9446-tcp_2282_2022-04-11_md5_5b98740c7ea1c171a8b81153c06d7f25
-	honeytrap/attacks/from_port_9527-tcp_2291_2022-04-11_md5_d7347ff905550bbf5a3c8da35e4a1f72
-	honeytrap/attacks/from_port_9527-tcp_2294_2022-04-11_md5_d7347ff905550bbf5a3c8da35e4a1f72
-	honeytrap/attacks/from_port_9527-tcp_2297_2022-04-11_md5_d7347ff905550bbf5a3c8da35e4a1f72
-	honeytrap/attacks/from_port_9983-tcp_3662_2022-04-11_md5_ef5b157facf879dc7f08f02052d93302
-	honeytrap/attacks/from_port_9983-tcp_3667_2022-04-11_md5_7ef5957b8b53d25d139727680e5925c8
-	honeytrap/attacks/from_port_9983-tcp_3671_2022-04-11_md5_21e4162de328e6641e6171717365c9b3
+	honeytrap/attacks/from_port_10255-tcp_5235_2022-04-12_md5_7f0b97edf97ff83dfdd83e4fa916a674
+	honeytrap/attacks/from_port_11101-tcp_5277_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
+	honeytrap/attacks/from_port_12110-tcp_5607_2022-04-12_md5_d02b3a973f2c822b12acfbd30492d260
+	honeytrap/attacks/from_port_12149-tcp_5559_2022-04-12_md5_22889cd3ab2c81dcb96402da394f48c4
+	honeytrap/attacks/from_port_12149-tcp_5561_2022-04-12_md5_1effd323f95c25d36fbd3909463e3ec8
+	honeytrap/attacks/from_port_12172-tcp_5579_2022-04-12_md5_3433f04b1aceca2ae3be61a16f0068fa
+	honeytrap/attacks/from_port_12172-tcp_5581_2022-04-12_md5_804b5129425343ddb56526343e9b49cf
+	honeytrap/attacks/from_port_12195-tcp_5342_2022-04-12_md5_e96429f0ee8e168e3e85bbced35f67ea
+	honeytrap/attacks/from_port_12399-tcp_5450_2022-04-12_md5_385a534c7282d04094e26b6b4b23bc77
+	honeytrap/attacks/from_port_12571-tcp_5535_2022-04-12_md5_0ca966386747c8799306ad2c25ab28c0
+	honeytrap/attacks/from_port_12571-tcp_5537_2022-04-12_md5_97fb607cd28878a2b619972d3f9bf03a
+	honeytrap/attacks/from_port_13310-tcp_5528_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
+	honeytrap/attacks/from_port_1503-tcp_5942_2022-04-12_md5_c1896a67f5b92c47df9185f85bcaaf22
+	honeytrap/attacks/from_port_1542-tcp_6311_2022-04-12_md5_1a1557d50d9b9695bfb233e71cb9446a
+	honeytrap/attacks/from_port_16094-tcp_5634_2022-04-12_md5_bcd035f4f2dbf91cd1a6f9abb0a7fa5c
+	honeytrap/attacks/from_port_1730-tcp_5438_2022-04-12_md5_4cacf6ab7717e73441efc30f797fd387
+	honeytrap/attacks/from_port_17344-tcp_5377_2022-04-12_md5_c1896a67f5b92c47df9185f85bcaaf22
+	honeytrap/attacks/from_port_17777-tcp_5920_2022-04-12_md5_4cacf6ab7717e73441efc30f797fd387
+	honeytrap/attacks/from_port_18888-tcp_5457_2022-04-12_md5_25b761aa4c5ca85d986358a9878d64cf
+	honeytrap/attacks/from_port_1900-tcp_5550_2022-04-12_md5_c1896a67f5b92c47df9185f85bcaaf22
+	honeytrap/attacks/from_port_1935-tcp_5975_2022-04-12_md5_a0c6a82a5975894468cb20f0d591fb22
+	honeytrap/attacks/from_port_1962-tcp_5326_2022-04-12_md5_4cacf6ab7717e73441efc30f797fd387
+	honeytrap/attacks/from_port_1974-tcp_5938_2022-04-12_md5_c1896a67f5b92c47df9185f85bcaaf22
+	honeytrap/attacks/from_port_2001-tcp_6201_2022-04-12_md5_c1896a67f5b92c47df9185f85bcaaf22
+	honeytrap/attacks/from_port_2003-tcp_6275_2022-04-12_md5_c1896a67f5b92c47df9185f85bcaaf22
+	honeytrap/attacks/from_port_20088-tcp_5849_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
+	honeytrap/attacks/from_port_20088-tcp_5851_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
+	honeytrap/attacks/from_port_20120-tcp_5373_2022-04-12_md5_2cc90aca66546343f136d71ae44c0378
+	honeytrap/attacks/from_port_20443-tcp_5839_2022-04-12_md5_6a68b118da23385454183be64de49367
+	honeytrap/attacks/from_port_2105-tcp_5241_2022-04-12_md5_c1896a67f5b92c47df9185f85bcaaf22
+	honeytrap/attacks/from_port_2135-tcp_5601_2022-04-12_md5_c1896a67f5b92c47df9185f85bcaaf22
+	honeytrap/attacks/from_port_2160-tcp_5584_2022-04-12_md5_c1896a67f5b92c47df9185f85bcaaf22
+	honeytrap/attacks/from_port_2179-tcp_5598_2022-04-12_md5_c1896a67f5b92c47df9185f85bcaaf22
+	honeytrap/attacks/from_port_22999-tcp_5224_2022-04-12_md5_63c143e2a91e15c34bd162d2bb39202e
+	honeytrap/attacks/from_port_24242-tcp_5346_2022-04-12_md5_c1896a67f5b92c47df9185f85bcaaf22
+	honeytrap/attacks/from_port_24329-tcp_5804_2022-04-12_md5_c1896a67f5b92c47df9185f85bcaaf22
+	honeytrap/attacks/from_port_25443-tcp_6568_2022-04-12_md5_4cacf6ab7717e73441efc30f797fd387
+	honeytrap/attacks/from_port_2561-tcp_6079_2022-04-12_md5_4cacf6ab7717e73441efc30f797fd387
+	honeytrap/attacks/from_port_26256-tcp_6134_2022-04-12_md5_001185275b1f41a3ddb39020e086434d
+	honeytrap/attacks/from_port_26256-tcp_6145_2022-04-12_md5_393ab6bb2627b64d5cca62c712bfd329
+	honeytrap/attacks/from_port_26256-tcp_6159_2022-04-12_md5_cb492b7df9b5c170d7c87527940eff3b
+	honeytrap/attacks/from_port_26256-tcp_6166_2022-04-12_md5_474d78aa261484a44787c44975fe3410
+	honeytrap/attacks/from_port_3128-tcp_5393_2022-04-12_md5_4cacf6ab7717e73441efc30f797fd387
+	honeytrap/attacks/from_port_40183-tcp_5304_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
+	honeytrap/attacks/from_port_40183-tcp_5308_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
+	honeytrap/attacks/from_port_4023-tcp_5240_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
+	honeytrap/attacks/from_port_4163-tcp_5508_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
+	honeytrap/attacks/from_port_4200-tcp_6089_2022-04-12_md5_79fe25dcdb2043b0bf5803e6639f03d8
+	honeytrap/attacks/from_port_4561-tcp_6270_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
+	honeytrap/attacks/from_port_4561-tcp_6279_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
+	honeytrap/attacks/from_port_4643-tcp_6573_2022-04-12_md5_9524549cfea9ea6a25aca3966f861cb8
+	honeytrap/attacks/from_port_46665-tcp_6428_2022-04-12_md5_230ada79b254701e15aa7a11c890215b
+	honeytrap/attacks/from_port_46665-tcp_6548_2022-04-12_md5_19b893b938ace1defe7d090e510f0618
+	honeytrap/attacks/from_port_47772-tcp_6446_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
+	honeytrap/attacks/from_port_49562-tcp_5813_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
+	honeytrap/attacks/from_port_49562-tcp_5819_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
+	honeytrap/attacks/from_port_50997-tcp_5492_2022-04-12_md5_cceb6fd07bae61298f950915ebcb2ddf
+	honeytrap/attacks/from_port_5172-tcp_5623_2022-04-12_md5_a0df53b627fa8190a55bd9cb37e5b7f8
+	honeytrap/attacks/from_port_5671-tcp_5382_2022-04-12_md5_37f0b009984e378c56093bb188502bb8
+	honeytrap/attacks/from_port_5672-tcp_5384_2022-04-12_md5_016cfeac4e8d39ab489c6536ff6b843c
+	honeytrap/attacks/from_port_5672-tcp_5394_2022-04-12_md5_c0580da7dfada4e7b6240fb6cb544f3f
+	honeytrap/attacks/from_port_5672-tcp_5988_2022-04-12_md5_016cfeac4e8d39ab489c6536ff6b843c
+	honeytrap/attacks/from_port_57032-tcp_6520_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
+	honeytrap/attacks/from_port_57032-tcp_6530_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
+	honeytrap/attacks/from_port_6001-tcp_5226_2022-04-12_md5_f970039a853c5f5148ad4edda399a200
+	honeytrap/attacks/from_port_61869-tcp_5407_2022-04-12_md5_206aac1c097e917b33685c24385bf360
+	honeytrap/attacks/from_port_61869-tcp_5411_2022-04-12_md5_19b893b938ace1defe7d090e510f0618
+	honeytrap/attacks/from_port_61869-tcp_5421_2022-04-12_md5_37bdcd86c8f5172ae797850872d1b8a7
+	honeytrap/attacks/from_port_6363-tcp_5287_2022-04-12_md5_f94318e463358fd3fd1310f426a769d5
+	honeytrap/attacks/from_port_6379-tcp_5444_2022-04-12_md5_d236b9fe584cd4552b4b368761891a50
+	honeytrap/attacks/from_port_6379-tcp_5453_2022-04-12_md5_cdf95fd30e8ee9da3bb871f710f20208
+	honeytrap/attacks/from_port_6379-tcp_6001_2022-04-12_md5_efd7c8e9aa906a97022dbed05369bf6a
+	honeytrap/attacks/from_port_6402-tcp_5321_2022-04-12_md5_feaa6618a94962c12da779e7071312b5
+	honeytrap/attacks/from_port_6402-tcp_5323_2022-04-12_md5_981432759e0c5f06edea946cbeee0774
+	honeytrap/attacks/from_port_7002-tcp_5349_2022-04-12_md5_c1896a67f5b92c47df9185f85bcaaf22
+	honeytrap/attacks/from_port_7071-tcp_5356_2022-04-12_md5_4a9fa9f053e4bddd839241e870f82dfd
+	honeytrap/attacks/from_port_7776-tcp_5593_2022-04-12_md5_86ced59ee02c9cfdf9259ffd25ec7713
+	honeytrap/attacks/from_port_7776-tcp_5595_2022-04-12_md5_8d24ba5671d826a3d8debf5cbcad9f09
+	honeytrap/attacks/from_port_7912-tcp_6216_2022-04-12_md5_7d2ce29b4868d5271c2424e33bd42c2c
+	honeytrap/attacks/from_port_8021-tcp_5475_2022-04-12_md5_4cacf6ab7717e73441efc30f797fd387
+	honeytrap/attacks/from_port_8026-tcp_5950_2022-04-12_md5_4cacf6ab7717e73441efc30f797fd387
+	honeytrap/attacks/from_port_8081-tcp_5565_2022-04-12_md5_50508a34f9627f01ab96b56dc06926d4
+	honeytrap/attacks/from_port_8089-tcp_6263_2022-04-12_md5_4cacf6ab7717e73441efc30f797fd387
+	honeytrap/attacks/from_port_8099-tcp_5222_2022-04-12_md5_9814d75168653f7d04e33a2c93e5daed
+	honeytrap/attacks/from_port_8099-tcp_5230_2022-04-12_md5_224e6bf02acabe20153f6b7210fc91b4
+	honeytrap/attacks/from_port_8099-tcp_5232_2022-04-12_md5_756c7b779f38e1f20b5c7979cbcdc447
+	honeytrap/attacks/from_port_8126-tcp_6093_2022-04-12_md5_446501053769c06c565094b26d26e8ef
+	honeytrap/attacks/from_port_8186-tcp_5570_2022-04-12_md5_fabba25f08d57b08b127adc07c20d59b
+	honeytrap/attacks/from_port_8248-tcp_5483_2022-04-12_md5_250a219c9bea98046a27b70b4dbda074
+	honeytrap/attacks/from_port_8333-tcp_5640_2022-04-12_md5_691b27535aa51c2c188c26fc12bbad22
+	honeytrap/attacks/from_port_8444-tcp_5514_2022-04-12_md5_c49d529c65302382439e01702d2d5ce2
+	honeytrap/attacks/from_port_8444-tcp_5516_2022-04-12_md5_7189b81c23001a935d23ecd9013238ae
+	honeytrap/attacks/from_port_8880-tcp_6160_2022-04-12_md5_756c7b779f38e1f20b5c7979cbcdc447
+	honeytrap/attacks/from_port_8880-tcp_6171_2022-04-12_md5_32bf01db5bc11e6c535e3f4cf1edfdba
+	honeytrap/attacks/from_port_8887-tcp_5801_2022-04-12_md5_4cacf6ab7717e73441efc30f797fd387
+	honeytrap/attacks/from_port_9150-tcp_6429_2022-04-12_md5_4cacf6ab7717e73441efc30f797fd387
+	honeytrap/attacks/from_port_9300-tcp_5705_2022-04-12_md5_cadd47e71e4a90151d14aaf5f046a964
+	honeytrap/attacks/from_port_9875-tcp_6184_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
+	honeytrap/attacks/from_port_9875-tcp_6188_2022-04-12_md5_f686739674dd9ab51724bb1c111344d3
 
 no changes added to commit (use "git add" and/or "git commit -a")
