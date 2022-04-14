@@ -1,58 +1,12 @@
-2022-04-13 16:04:54,249 Config file found!
-2022-04-13 16:04:54,253 Starting Conpot using template: /usr/lib/python3.9/site-packages/conpot/templates/guardian_ast
-2022-04-13 16:04:54,253 Starting Conpot using configuration found in: /etc/conpot/conpot.cfg
-2022-04-13 16:04:54,264 Serving tar:///usr/lib/python3.9/site-packages/conpot/data.tar as file system. File uploads will be kept at : /tmp/conpot
-2022-04-13 16:04:54,264 Opening path /tmp/conpot for persistent storage of files.
-2022-04-13 16:04:54,283 Initializing Virtual File System at /tmp/conpot/__conpot__kk3n0t94. Source specified : tar:///usr/lib/python3.9/site-packages/conpot/data.tar
+2022-04-14 15:39:06,531 Config file found!
+2022-04-14 15:39:06,542 Starting Conpot using template: /usr/lib/python3.9/site-packages/conpot/templates/guardian_ast
+2022-04-14 15:39:06,556 Starting Conpot using configuration found in: /etc/conpot/conpot.cfg
+2022-04-14 15:39:06,566 Serving tar:///usr/lib/python3.9/site-packages/conpot/data.tar as file system. File uploads will be kept at : /tmp/conpot
+2022-04-14 15:39:06,566 Opening path /tmp/conpot for persistent storage of files.
+2022-04-14 15:39:06,568 Initializing Virtual File System at /tmp/conpot/__conpot__makaq1vt. Source specified : tar:///usr/lib/python3.9/site-packages/conpot/data.tar
  Please wait while the system copies all specified files
-2022-04-13 16:04:54,607 Fetched 34.121.180.85 as external ip.
-2022-04-13 16:04:54,610 Conpot GuardianAST initialized
-2022-04-13 16:04:54,611 Found and enabled guardian_ast protocol.
-2022-04-13 16:04:54,612 No proxy template found. Service will remain unconfigured/stopped.
-2022-04-13 16:04:54,612 GuardianAST server started on: ('0.0.0.0', 10001)
-2022-04-13 18:34:03,910 New guardian_ast session from 77.83.36.32 (2b15d42c-3edf-4d78-b58a-5b5f6fb42119)
-2022-04-13 18:34:11,696 New GuardianAST connection from 77.83.36.32:65118. (2b15d42c-3edf-4d78-b58a-5b5f6fb42119)
-2022-04-13 18:34:23,207 Non ^A command attempt 77.83.36.32:65118. (2b15d42c-3edf-4d78-b58a-5b5f6fb42119)
-2022-04-13 18:34:33,427 GuardianAST client disconnected 77.83.36.32:65118. (2b15d42c-3edf-4d78-b58a-5b5f6fb42119)
-2022-04-13 18:35:22,767 Session timed out: 2b15d42c-3edf-4d78-b58a-5b5f6fb42119
-2022-04-13 18:52:17,934 New guardian_ast session from 157.245.149.49 (9138d3f4-be7f-48e9-b663-27fd5b70fbb0)
-2022-04-13 18:52:59,252 New GuardianAST connection from 157.245.149.49:43076. (9138d3f4-be7f-48e9-b663-27fd5b70fbb0)
-2022-04-13 18:55:15,890 Non ^A command attempt 157.245.149.49:43076. (9138d3f4-be7f-48e9-b663-27fd5b70fbb0)
-2022-04-13 18:55:51,407 GuardianAST client disconnected 157.245.149.49:43076. (9138d3f4-be7f-48e9-b663-27fd5b70fbb0)
-2022-04-13 19:13:55,080 Session timed out: 9138d3f4-be7f-48e9-b663-27fd5b70fbb0
-2022-04-14 00:50:18,751 New guardian_ast session from 162.142.125.7 (ff7d8b7f-3d43-4f8c-b2e6-5890618f3951)
-2022-04-14 00:59:06,130 New GuardianAST connection from 162.142.125.7:59536. (ff7d8b7f-3d43-4f8c-b2e6-5890618f3951)
-2022-04-14 01:20:49,664 I20100 command attempt 162.142.125.7:59536. (ff7d8b7f-3d43-4f8c-b2e6-5890618f3951)
-2022-04-14 01:33:45,335 Unknown Error: [Errno 104] Connection reset by peer
-Traceback (most recent call last):
-  File "/usr/lib/python3.9/site-packages/conpot/protocols/guardian_ast/guardian_ast_server.py", line 497, in handle
-    sock.send(str_to_bytes(response))
-  File "/usr/lib/python3.9/site-packages/gevent/_socketcommon.py", line 722, in send
-    return self._sock.send(data, flags)
-ConnectionResetError: [Errno 104] Connection reset by peer
-2022-04-14 01:33:46,056 GuardianAST client disconnected 162.142.125.7:59536. (ff7d8b7f-3d43-4f8c-b2e6-5890618f3951)
-2022-04-14 01:33:46,057 New GuardianAST connection from 162.142.125.7:53854. (ff7d8b7f-3d43-4f8c-b2e6-5890618f3951)
-2022-04-14 01:33:46,058 Unknown Error: [Errno 104] Connection reset by peer
-Traceback (most recent call last):
-  File "/usr/lib/python3.9/site-packages/conpot/protocols/guardian_ast/guardian_ast_server.py", line 322, in handle
-    request = sock.recv(4096)
-  File "/usr/lib/python3.9/site-packages/gevent/_socketcommon.py", line 657, in recv
-    return self._sock.recv(*args)
-ConnectionResetError: [Errno 104] Connection reset by peer
-2022-04-14 01:33:46,058 GuardianAST client disconnected 162.142.125.7:53854. (ff7d8b7f-3d43-4f8c-b2e6-5890618f3951)
-2022-04-14 01:33:46,058 New GuardianAST connection from 162.142.125.7:46570. (ff7d8b7f-3d43-4f8c-b2e6-5890618f3951)
-2022-04-14 01:33:46,059 Non ^A command attempt 162.142.125.7:46570. (ff7d8b7f-3d43-4f8c-b2e6-5890618f3951)
-2022-04-14 01:33:46,059 GuardianAST client disconnected 162.142.125.7:46570. (ff7d8b7f-3d43-4f8c-b2e6-5890618f3951)
-2022-04-14 01:33:46,059 New GuardianAST connection from 162.142.125.7:51876. (ff7d8b7f-3d43-4f8c-b2e6-5890618f3951)
-2022-04-14 01:33:46,060 Non ^A command attempt 162.142.125.7:51876. (ff7d8b7f-3d43-4f8c-b2e6-5890618f3951)
-2022-04-14 01:33:46,060 GuardianAST client disconnected 162.142.125.7:51876. (ff7d8b7f-3d43-4f8c-b2e6-5890618f3951)
-2022-04-14 01:33:46,060 New GuardianAST connection from 162.142.125.7:49354. (ff7d8b7f-3d43-4f8c-b2e6-5890618f3951)
-2022-04-14 01:33:46,061 Unknown Error: [Errno 104] Connection reset by peer
-Traceback (most recent call last):
-  File "/usr/lib/python3.9/site-packages/conpot/protocols/guardian_ast/guardian_ast_server.py", line 322, in handle
-    request = sock.recv(4096)
-  File "/usr/lib/python3.9/site-packages/gevent/_socketcommon.py", line 657, in recv
-    return self._sock.recv(*args)
-ConnectionResetError: [Errno 104] Connection reset by peer
-2022-04-14 01:33:46,070 GuardianAST client disconnected 162.142.125.7:49354. (ff7d8b7f-3d43-4f8c-b2e6-5890618f3951)
-2022-04-14 01:34:19,039 Session timed out: ff7d8b7f-3d43-4f8c-b2e6-5890618f3951
+2022-04-14 15:39:06,933 Fetched 34.121.180.85 as external ip.
+2022-04-14 15:39:06,937 Conpot GuardianAST initialized
+2022-04-14 15:39:06,937 Found and enabled guardian_ast protocol.
+2022-04-14 15:39:06,938 No proxy template found. Service will remain unconfigured/stopped.
+2022-04-14 15:39:06,938 GuardianAST server started on: ('0.0.0.0', 10001)
