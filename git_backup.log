@@ -1,6 +1,6 @@
 backup service is running
 On branch main
-Your branch is ahead of 'origin/main' by 2 commits.
+Your branch is ahead of 'origin/main' by 3 commits.
   (use "git push" to publish your local commits)
 
 Changes not staged for commit:
@@ -9,21 +9,86 @@ Changes not staged for commit:
 
 	modified:   adbhoney/log/adbhoney.json
 	modified:   adbhoney/log/adbhoney.log
-	modified:   conpot/log/conpot_guardian_ast.log
+	modified:   ciscoasa/log/ciscoasa.log
+	modified:   conpot/log/conpot_IEC104.json
+	modified:   conpot/log/conpot_IEC104.log
+	modified:   cowrie/log/cowrie.json
 	modified:   elk/log/tpotcluster.log
 	modified:   elk/log/tpotcluster_server.json
+	modified:   fatt/log/fatt.log
 	modified:   git_backup.log
 	modified:   heralding/log/heralding.log
 	modified:   heralding/log/log_session.json
 	modified:   heralding/log/session.csv
+	modified:   honeytrap/log/attacker.log
+	modified:   honeytrap/log/attackers.json
 	modified:   honeytrap/log/honeytrap.log
 	modified:   p0f/log/p0f.json
+	modified:   rdpy/log/rdpy.log
 	modified:   suricata/log/eve.json
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	elk/log/tpotcluster-2022-04-23-1.json.gz
-	elk/log/tpotcluster-2022-04-23-1.log.gz
+	cowrie/log/tty/3b222b58434dc831b18d1d37b2ae13370912de5c06eeaf38352794c10689bf2c
+	honeytrap/attacks/from_port_10255-tcp_2582_2022-04-24_md5_7f0b97edf97ff83dfdd83e4fa916a674
+	honeytrap/attacks/from_port_12125-tcp_2530_2022-04-24_md5_e2bd3b357e226c4c1bb8a06001f7eb35
+	honeytrap/attacks/from_port_12125-tcp_2532_2022-04-24_md5_3af1de04b18a93e07f39548f15fb0a5a
+	honeytrap/attacks/from_port_1234-tcp_2413_2022-04-24_md5_6b1a5447f2f118f73d02d7ad20aa7c98
+	honeytrap/attacks/from_port_12369-tcp_2554_2022-04-24_md5_bd5c2ab5b3824adf8c1883205f06c177
+	honeytrap/attacks/from_port_12400-tcp_2575_2022-04-24_md5_475ccf6c84f384e54fe9eba5d3a766d4
+	honeytrap/attacks/from_port_12472-tcp_2386_2022-04-24_md5_a356e5fd9f64c291138243dceeb39774
+	honeytrap/attacks/from_port_14104-tcp_2618_2022-04-24_md5_499faf030dda106f93083e313873bf29
+	honeytrap/attacks/from_port_14104-tcp_2621_2022-04-24_md5_7a0fa576ce5d6eb432a75e4862dbba70
+	honeytrap/attacks/from_port_16043-tcp_2879_2022-04-24_md5_3f305dfad7cb18fc55a50d04ae358240
+	honeytrap/attacks/from_port_16043-tcp_2881_2022-04-24_md5_519e5e0eea3cdb872d8190bd44657f92
+	honeytrap/attacks/from_port_16993-tcp_2592_2022-04-24_md5_a19dfd5f2caa2f56543c27804e952c10
+	honeytrap/attacks/from_port_16993-tcp_2598_2022-04-24_md5_7d0c35eb9201135a0276a2ea1269190e
+	honeytrap/attacks/from_port_16993-tcp_2601_2022-04-24_md5_b23ad980a638015cee6cd071de4e7585
+	honeytrap/attacks/from_port_18063-tcp_2553_2022-04-24_md5_9d177567f5bf79ede6a21e9731428019
+	honeytrap/attacks/from_port_18076-tcp_2565_2022-04-24_md5_9d9ad3e534524d5309f4e45664de8ed9
+	honeytrap/attacks/from_port_18101-tcp_2552_2022-04-24_md5_e8118a29079c5354ca570985eea6a089
+	honeytrap/attacks/from_port_18245-tcp_2495_2022-04-24_md5_e3c4dd21a9171fd39d208efa09bf7883
+	honeytrap/attacks/from_port_1900-tcp_2589_2022-04-24_md5_5bf6d571787c1d844d22a4e605e88027
+	honeytrap/attacks/from_port_1900-tcp_2594_2022-04-24_md5_14b5e20fb1ca16fcb29b907911315155
+	honeytrap/attacks/from_port_25084-tcp_2844_2022-04-24_md5_5766bda56d0f5af6bfbdf3e81ebcf13c
+	honeytrap/attacks/from_port_25084-tcp_2846_2022-04-24_md5_e49fe0159c81ac0377299a7670d43eaa
+	honeytrap/attacks/from_port_3105-tcp_2828_2022-04-24_md5_4eb647e25b25dc723489fc1758708af3
+	honeytrap/attacks/from_port_3105-tcp_2830_2022-04-24_md5_9ece625c9901f9e9d2ce26fec6b1afd3
+	honeytrap/attacks/from_port_3978-tcp_2838_2022-04-24_md5_3441a45337706d1d3e5907d11e004e86
+	honeytrap/attacks/from_port_4433-tcp_2740_2022-04-24_md5_4cacf6ab7717e73441efc30f797fd387
+	honeytrap/attacks/from_port_4444-tcp_2771_2022-04-24_md5_7704208a08a6ec63bad0ef537d5338db
+	honeytrap/attacks/from_port_4567-tcp_2862_2022-04-24_md5_fdf1189cce5e5e5c826ef27fe0eb6051
+	honeytrap/attacks/from_port_4990-tcp_2889_2022-04-24_md5_c1896a67f5b92c47df9185f85bcaaf22
+	honeytrap/attacks/from_port_5529-tcp_2886_2022-04-24_md5_c1896a67f5b92c47df9185f85bcaaf22
+	honeytrap/attacks/from_port_7170-tcp_2894_2022-04-24_md5_c25461a67caece67e72cfe0b91672856
+	honeytrap/attacks/from_port_7170-tcp_2896_2022-04-24_md5_028a885aed23fc5a98744b19d0be543a
+	honeytrap/attacks/from_port_7547-tcp_2905_2022-04-24_md5_a0216d5e560d92a5d5d5512c8df89e56
+	honeytrap/attacks/from_port_7547-tcp_2907_2022-04-24_md5_f3edcd33d69956032e9201b2f858f0dc
+	honeytrap/attacks/from_port_7777-tcp_2488_2022-04-24_md5_0821c976cf5747b27ec55b61636020a9
+	honeytrap/attacks/from_port_8026-tcp_3008_2022-04-24_md5_a796e80568d9e97878b327e7b0ed0d10
+	honeytrap/attacks/from_port_8080-tcp_2833_2022-04-24_md5_5d33e9df2edfad931b921bd801e7e138
+	honeytrap/attacks/from_port_8088-tcp_2463_2022-04-24_md5_a3028f1cb4618a843e5390f9cb5200eb
+	honeytrap/attacks/from_port_8088-tcp_2469_2022-04-24_md5_8e1a71b95b259a20a3767b79b6aa5443
+	honeytrap/attacks/from_port_8444-tcp_2781_2022-04-24_md5_dc2eec8d62d5ddd33b6eb2d895c058c5
+	honeytrap/attacks/from_port_8510-tcp_2671_2022-04-24_md5_4cacf6ab7717e73441efc30f797fd387
+	honeytrap/attacks/from_port_8765-tcp_2868_2022-04-24_md5_e81d6da84f13367b3e5fc07745cf6222
+	honeytrap/attacks/from_port_8873-tcp_2793_2022-04-24_md5_baee26a722835e9bdd42fefc3fdd4907
+	honeytrap/attacks/from_port_8888-tcp_2650_2022-04-24_md5_274ade8d0b7babb72e831819be9f540d
+	honeytrap/attacks/from_port_9000-tcp_2643_2022-04-24_md5_506dc488f742646139e92510b4d371f0
+	honeytrap/attacks/from_port_9001-tcp_2368_2022-04-24_md5_4a62f994df658455997c020527aa5d79
+	honeytrap/attacks/from_port_9001-tcp_2370_2022-04-24_md5_a8262f958ce973feb8580c24b001ba31
+	honeytrap/attacks/from_port_9034-tcp_2607_2022-04-24_md5_8e9976968b9085a169d97c9a1d9dd34e
+	honeytrap/attacks/from_port_9034-tcp_2609_2022-04-24_md5_dbf36f7b5e0d7335c8b03a6d6b769430
+	honeytrap/attacks/from_port_9060-tcp_2786_2022-04-24_md5_ef0fe7d01b86d67c7a0038393d98e6c1
+	honeytrap/attacks/from_port_9092-tcp_2815_2022-04-24_md5_56a409f265c644d2f2dc55562b1e7c3d
+	honeytrap/attacks/from_port_9092-tcp_2820_2022-04-24_md5_abc55e616c1dc528bce0172c365c23cd
+	honeytrap/attacks/from_port_9150-tcp_2856_2022-04-24_md5_daeb266ea3567373bfbf66236aa17e60
+	honeytrap/attacks/from_port_9203-tcp_2379_2022-04-24_md5_224e6bf02acabe20153f6b7210fc91b4
+	honeytrap/attacks/from_port_9203-tcp_2381_2022-04-24_md5_756c7b779f38e1f20b5c7979cbcdc447
 
+
+It took 38.00 seconds to enumerate untracked files. 'status -uno'
+may speed it up, but you have to be careful not to forget to add
+new files yourself (see 'git help status').
 no changes added to commit (use "git add" and/or "git commit -a")
