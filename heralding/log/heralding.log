@@ -1,44 +1,24 @@
-2022-04-23 16:48:39,539 (root) Initializing Heralding version 1.0.7
-2022-04-23 16:48:39,827 (heralding.honeypot) Using default wordlist file: "/usr/lib/python3.9/site-packages/heralding/wordlist.txt", if you want to customize values please copy this file to the current working directory
-2022-04-23 16:48:39,853 (heralding.reporting.file_logger) File logger: Using /var/log/heralding/auth.csv to log authentication attempts in CSV format.
-2022-04-23 16:48:39,867 (heralding.reporting.file_logger) File logger: Using /var/log/heralding/session.csv to log unified session data in CSV format.
-2022-04-23 16:48:39,868 (heralding.reporting.file_logger) File logger: Using /var/log/heralding/log_session.json to log complete session data in JSON format.
-2022-04-23 16:48:45,192 (heralding.honeypot) Found public ip: 34.121.180.85
-2022-04-23 16:48:45,194 (heralding.honeypot) Started RDP capability listening on port 3389
-2022-04-23 16:48:45,195 (heralding.honeypot) Started Telnet capability listening on port 23
-2022-04-23 16:48:45,196 (heralding.honeypot) Started Pop3 capability listening on port 110
-2022-04-23 16:48:50,972 (heralding.honeypot) Started Pop3S capability listening on port 995
-2022-04-23 16:48:50,973 (heralding.honeypot) Started Http capability listening on port 80
-2022-04-23 16:48:50,974 (heralding.honeypot) Started Imap capability listening on port 143
-2022-04-23 16:48:50,974 (heralding.honeypot) Started MySQL capability listening on port 3306
-2022-04-23 16:48:50,975 (heralding.honeypot) Started Vnc capability listening on port 5900
-2022-04-23 16:48:50,975 (heralding.honeypot) Started PostgreSQL capability listening on port 5432
-2022-04-23 16:48:50,976 (heralding.honeypot) Started smtp capability listening on port 25
-2022-04-23 16:48:52,413 (heralding.honeypot) Started https capability listening on port 443
-2022-04-23 16:48:52,414 (heralding.honeypot) Started Socks5 capability listening on port 1080
-2022-04-23 16:48:54,780 (heralding.honeypot) Started Imaps capability listening on port 993
-2022-04-23 16:48:57,466 (heralding.honeypot) Started SSH capability listening on port 22
-2022-04-23 16:48:59,849 (heralding.honeypot) Started smtps capability listening on port 465
-2022-04-23 16:48:59,850 (heralding.honeypot) Started ftp capability listening on port 21
-2022-04-23 17:48:45,417 (heralding.honeypot) Found public ip: 34.121.180.85
-2022-04-23 19:06:29,733 (heralding.honeypot) Could not request public ip from ipify, error: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f5d18434e80>: Failed to establish a new connection: [Errno -3] Try again'))
-2022-04-23 20:47:48,300 (heralding.honeypot) Could not request public ip from ipify, error: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f5d18434af0>: Failed to establish a new connection: [Errno -3] Try again'))
-2022-04-23 22:06:45,780 (heralding.honeypot) Could not request public ip from ipify, error: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f5d184346a0>: Failed to establish a new connection: [Errno -3] Try again'))
-2022-04-23 23:56:58,965 (heralding.honeypot) Could not request public ip from ipify, error: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f5d18434700>: Failed to establish a new connection: [Errno -3] Try again'))
-2022-04-24 01:00:24,723 (heralding.honeypot) Could not request public ip from ipify, error: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f5d1843d130>: Failed to establish a new connection: [Errno -3] Try again'))
-2022-04-24 02:28:06,112 (heralding.honeypot) Could not request public ip from ipify, error: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f5d184346a0>: Failed to establish a new connection: [Errno -3] Try again'))
-2022-04-24 04:04:08,352 (heralding.honeypot) Could not request public ip from ipify, error: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f5d184347c0>: Failed to establish a new connection: [Errno -3] Try again'))
-2022-04-24 06:00:22,211 (heralding.honeypot) Could not request public ip from ipify, error: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f5d1843dd60>: Failed to establish a new connection: [Errno -3] Try again'))
-2022-04-24 07:40:15,560 (heralding.honeypot) Could not request public ip from ipify, error: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f5d1843d3a0>: Failed to establish a new connection: [Errno -3] Try again'))
-2022-04-24 09:01:46,523 (heralding.honeypot) Could not request public ip from ipify, error: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f5d1843dbe0>: Failed to establish a new connection: [Errno -3] Try again'))
-2022-04-24 10:42:49,294 (heralding.honeypot) Found public ip: 34.121.180.85
-2022-04-24 11:50:29,321 (heralding.honeypot) Could not request public ip from ipify, error: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f5d1843d220>: Failed to establish a new connection: [Errno -3] Try again'))
-2022-04-24 13:44:43,064 (heralding.honeypot) Could not request public ip from ipify, error: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f5d1843dca0>: Failed to establish a new connection: [Errno -3] Try again'))
-2022-04-24 15:56:39,536 (heralding.honeypot) Found public ip: 34.121.180.85
-2022-04-24 17:08:11,814 (heralding.honeypot) Could not request public ip from ipify, error: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f5d1843d4f0>: Failed to establish a new connection: [Errno -3] Try again'))
-2022-04-24 19:52:07,643 (heralding.honeypot) Found public ip: 34.121.180.85
-2022-04-24 20:52:22,333 (heralding.honeypot) Found public ip: 34.121.180.85
-2022-04-24 21:59:13,813 (heralding.honeypot) Could not request public ip from ipify, error: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f5d1845a070>: Failed to establish a new connection: [Errno -3] Try again'))
-2022-04-24 23:17:22,081 (heralding.honeypot) Could not request public ip from ipify, error: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f5d1845a550>: Failed to establish a new connection: [Errno -3] Try again'))
-2022-04-25 01:07:25,042 (heralding.honeypot) Found public ip: 34.121.180.85
-2022-04-25 02:53:01,872 (heralding.honeypot) Found public ip: 34.121.180.85
+2022-04-25 06:07:32,589 (root) Initializing Heralding version 1.0.7
+2022-04-25 06:07:32,792 (heralding.honeypot) Using default wordlist file: "/usr/lib/python3.9/site-packages/heralding/wordlist.txt", if you want to customize values please copy this file to the current working directory
+2022-04-25 06:07:32,802 (heralding.reporting.file_logger) File logger: Using /var/log/heralding/auth.csv to log authentication attempts in CSV format.
+2022-04-25 06:07:32,803 (heralding.reporting.file_logger) File logger: Using /var/log/heralding/session.csv to log unified session data in CSV format.
+2022-04-25 06:07:32,803 (heralding.reporting.file_logger) File logger: Using /var/log/heralding/log_session.json to log complete session data in JSON format.
+2022-04-25 06:07:40,488 (heralding.honeypot) Found public ip: 34.121.180.85
+2022-04-25 06:07:40,489 (heralding.honeypot) Started RDP capability listening on port 3389
+2022-04-25 06:07:40,490 (heralding.honeypot) Started Telnet capability listening on port 23
+2022-04-25 06:07:40,490 (heralding.honeypot) Started Pop3 capability listening on port 110
+2022-04-25 06:07:42,168 (heralding.honeypot) Started Pop3S capability listening on port 995
+2022-04-25 06:07:42,169 (heralding.honeypot) Started Http capability listening on port 80
+2022-04-25 06:07:42,169 (heralding.honeypot) Started Imap capability listening on port 143
+2022-04-25 06:07:42,170 (heralding.honeypot) Started MySQL capability listening on port 3306
+2022-04-25 06:07:42,170 (heralding.honeypot) Started Vnc capability listening on port 5900
+2022-04-25 06:07:42,171 (heralding.honeypot) Started PostgreSQL capability listening on port 5432
+2022-04-25 06:07:42,172 (heralding.honeypot) Started smtp capability listening on port 25
+2022-04-25 06:07:44,000 (heralding.honeypot) Started https capability listening on port 443
+2022-04-25 06:07:44,001 (heralding.honeypot) Started Socks5 capability listening on port 1080
+2022-04-25 06:07:45,510 (heralding.honeypot) Started Imaps capability listening on port 993
+2022-04-25 06:07:47,850 (heralding.honeypot) Started SSH capability listening on port 22
+2022-04-25 06:07:50,215 (heralding.honeypot) Started smtps capability listening on port 465
+2022-04-25 06:07:50,216 (heralding.honeypot) Started ftp capability listening on port 21
+2022-04-25 07:07:40,799 (heralding.honeypot) Found public ip: 34.121.180.85
+2022-04-25 10:08:25,859 (heralding.honeypot) Could not request public ip from ipify, error: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f5b7880a160>: Failed to establish a new connection: [Errno -3] Try again'))
