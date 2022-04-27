@@ -64,3 +64,38 @@ Traceback (most recent call last):
 ConnectionResetError: [Errno 104] Connection reset by peer
 2022-04-27 03:25:01,497 GuardianAST client disconnected 79.124.62.106:2675. (f931b1f9-22b3-4465-ba91-c8bb7a3561b9)
 2022-04-27 03:26:58,205 Session timed out: f931b1f9-22b3-4465-ba91-c8bb7a3561b9
+2022-04-27 12:40:56,419 New guardian_ast session from 167.94.138.120 (6cee995e-c07e-4a68-b066-401e398411a2)
+2022-04-27 12:51:00,235 New GuardianAST connection from 167.94.138.120:53458. (6cee995e-c07e-4a68-b066-401e398411a2)
+2022-04-27 13:07:56,836 I20100 command attempt 167.94.138.120:53458. (6cee995e-c07e-4a68-b066-401e398411a2)
+2022-04-27 13:07:57,097 Unknown Error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/conpot/protocols/guardian_ast/guardian_ast_server.py", line 497, in handle
+    sock.send(str_to_bytes(response))
+  File "/usr/lib/python3.9/site-packages/gevent/_socketcommon.py", line 722, in send
+    return self._sock.send(data, flags)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2022-04-27 13:07:57,529 GuardianAST client disconnected 167.94.138.120:53458. (6cee995e-c07e-4a68-b066-401e398411a2)
+2022-04-27 13:07:57,530 New GuardianAST connection from 167.94.138.120:37518. (6cee995e-c07e-4a68-b066-401e398411a2)
+2022-04-27 13:07:57,568 Unknown Error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/conpot/protocols/guardian_ast/guardian_ast_server.py", line 322, in handle
+    request = sock.recv(4096)
+  File "/usr/lib/python3.9/site-packages/gevent/_socketcommon.py", line 657, in recv
+    return self._sock.recv(*args)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2022-04-27 13:07:57,569 GuardianAST client disconnected 167.94.138.120:37518. (6cee995e-c07e-4a68-b066-401e398411a2)
+2022-04-27 13:07:57,569 New GuardianAST connection from 167.94.138.120:37636. (6cee995e-c07e-4a68-b066-401e398411a2)
+2022-04-27 13:07:57,570 Non ^A command attempt 167.94.138.120:37636. (6cee995e-c07e-4a68-b066-401e398411a2)
+2022-04-27 13:07:57,570 GuardianAST client disconnected 167.94.138.120:37636. (6cee995e-c07e-4a68-b066-401e398411a2)
+2022-04-27 13:07:57,570 New GuardianAST connection from 167.94.138.120:56480. (6cee995e-c07e-4a68-b066-401e398411a2)
+2022-04-27 13:07:57,571 Non ^A command attempt 167.94.138.120:56480. (6cee995e-c07e-4a68-b066-401e398411a2)
+2022-04-27 13:07:57,571 GuardianAST client disconnected 167.94.138.120:56480. (6cee995e-c07e-4a68-b066-401e398411a2)
+2022-04-27 13:07:57,571 New GuardianAST connection from 167.94.138.120:37150. (6cee995e-c07e-4a68-b066-401e398411a2)
+2022-04-27 13:07:57,572 Unknown Error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/conpot/protocols/guardian_ast/guardian_ast_server.py", line 322, in handle
+    request = sock.recv(4096)
+  File "/usr/lib/python3.9/site-packages/gevent/_socketcommon.py", line 657, in recv
+    return self._sock.recv(*args)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2022-04-27 13:07:57,572 GuardianAST client disconnected 167.94.138.120:37150. (6cee995e-c07e-4a68-b066-401e398411a2)
