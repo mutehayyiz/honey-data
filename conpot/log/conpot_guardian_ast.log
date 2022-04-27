@@ -1,102 +1,12 @@
-2022-04-25 16:17:49,321 Config file found!
-2022-04-25 16:17:49,329 Starting Conpot using template: /usr/lib/python3.9/site-packages/conpot/templates/guardian_ast
-2022-04-25 16:17:49,330 Starting Conpot using configuration found in: /etc/conpot/conpot.cfg
-2022-04-25 16:17:49,343 Serving tar:///usr/lib/python3.9/site-packages/conpot/data.tar as file system. File uploads will be kept at : /tmp/conpot
-2022-04-25 16:17:49,344 Opening path /tmp/conpot for persistent storage of files.
-2022-04-25 16:17:49,347 Initializing Virtual File System at /tmp/conpot/__conpot___w079jxm. Source specified : tar:///usr/lib/python3.9/site-packages/conpot/data.tar
+2022-04-27 16:30:46,706 Config file found!
+2022-04-27 16:30:46,711 Starting Conpot using template: /usr/lib/python3.9/site-packages/conpot/templates/guardian_ast
+2022-04-27 16:30:46,711 Starting Conpot using configuration found in: /etc/conpot/conpot.cfg
+2022-04-27 16:30:46,720 Serving tar:///usr/lib/python3.9/site-packages/conpot/data.tar as file system. File uploads will be kept at : /tmp/conpot
+2022-04-27 16:30:46,721 Opening path /tmp/conpot for persistent storage of files.
+2022-04-27 16:30:46,723 Initializing Virtual File System at /tmp/conpot/__conpot__18d8k30e. Source specified : tar:///usr/lib/python3.9/site-packages/conpot/data.tar
  Please wait while the system copies all specified files
-2022-04-25 16:17:49,598 Fetched 34.121.180.85 as external ip.
-2022-04-25 16:17:49,601 Conpot GuardianAST initialized
-2022-04-25 16:17:49,602 Found and enabled guardian_ast protocol.
-2022-04-25 16:17:49,603 No proxy template found. Service will remain unconfigured/stopped.
-2022-04-25 16:17:49,603 GuardianAST server started on: ('0.0.0.0', 10001)
-2022-04-26 04:00:51,512 New guardian_ast session from 183.136.225.42 (92003ef2-3a25-41f6-8df9-9c26bfa367a6)
-2022-04-26 04:01:35,528 New GuardianAST connection from 183.136.225.42:61806. (92003ef2-3a25-41f6-8df9-9c26bfa367a6)
-2022-04-26 04:04:02,359 Non ^A command attempt 183.136.225.42:61806. (92003ef2-3a25-41f6-8df9-9c26bfa367a6)
-2022-04-26 04:04:58,491 GuardianAST client disconnected 183.136.225.42:61806. (92003ef2-3a25-41f6-8df9-9c26bfa367a6)
-2022-04-26 04:10:30,888 Session timed out: 92003ef2-3a25-41f6-8df9-9c26bfa367a6
-2022-04-27 02:43:03,339 New guardian_ast session from 162.142.125.210 (ac87bea9-55be-41c0-ae42-d07b97f1faad)
-2022-04-27 02:43:27,418 New GuardianAST connection from 162.142.125.210:58206. (ac87bea9-55be-41c0-ae42-d07b97f1faad)
-2022-04-27 02:44:00,100 I20100 command attempt 162.142.125.210:58206. (ac87bea9-55be-41c0-ae42-d07b97f1faad)
-2022-04-27 02:44:31,444 Unknown Error: [Errno 104] Connection reset by peer
-Traceback (most recent call last):
-  File "/usr/lib/python3.9/site-packages/conpot/protocols/guardian_ast/guardian_ast_server.py", line 497, in handle
-    sock.send(str_to_bytes(response))
-  File "/usr/lib/python3.9/site-packages/gevent/_socketcommon.py", line 722, in send
-    return self._sock.send(data, flags)
-ConnectionResetError: [Errno 104] Connection reset by peer
-2022-04-27 02:45:31,041 GuardianAST client disconnected 162.142.125.210:58206. (ac87bea9-55be-41c0-ae42-d07b97f1faad)
-2022-04-27 02:46:24,743 Session timed out: ac87bea9-55be-41c0-ae42-d07b97f1faad
-2022-04-27 02:46:53,565 New guardian_ast session from 162.142.125.210 (d3ad6a68-64c0-4b0a-95db-f269371964e8)
-2022-04-27 02:47:37,178 New GuardianAST connection from 162.142.125.210:52766. (d3ad6a68-64c0-4b0a-95db-f269371964e8)
-2022-04-27 02:48:19,425 Unknown Error: [Errno 104] Connection reset by peer
-Traceback (most recent call last):
-  File "/usr/lib/python3.9/site-packages/conpot/protocols/guardian_ast/guardian_ast_server.py", line 322, in handle
-    request = sock.recv(4096)
-  File "/usr/lib/python3.9/site-packages/gevent/_socketcommon.py", line 657, in recv
-    return self._sock.recv(*args)
-ConnectionResetError: [Errno 104] Connection reset by peer
-2022-04-27 02:49:30,339 GuardianAST client disconnected 162.142.125.210:52766. (d3ad6a68-64c0-4b0a-95db-f269371964e8)
-2022-04-27 02:50:09,131 New GuardianAST connection from 162.142.125.210:45354. (d3ad6a68-64c0-4b0a-95db-f269371964e8)
-2022-04-27 02:51:50,357 Non ^A command attempt 162.142.125.210:45354. (d3ad6a68-64c0-4b0a-95db-f269371964e8)
-2022-04-27 02:52:27,952 GuardianAST client disconnected 162.142.125.210:45354. (d3ad6a68-64c0-4b0a-95db-f269371964e8)
-2022-04-27 02:53:27,308 New GuardianAST connection from 162.142.125.210:48826. (d3ad6a68-64c0-4b0a-95db-f269371964e8)
-2022-04-27 02:55:35,026 Non ^A command attempt 162.142.125.210:48826. (d3ad6a68-64c0-4b0a-95db-f269371964e8)
-2022-04-27 02:56:30,273 GuardianAST client disconnected 162.142.125.210:48826. (d3ad6a68-64c0-4b0a-95db-f269371964e8)
-2022-04-27 02:57:53,723 New GuardianAST connection from 162.142.125.210:44904. (d3ad6a68-64c0-4b0a-95db-f269371964e8)
-2022-04-27 03:02:33,337 Unknown Error: [Errno 104] Connection reset by peer
-Traceback (most recent call last):
-  File "/usr/lib/python3.9/site-packages/conpot/protocols/guardian_ast/guardian_ast_server.py", line 322, in handle
-    request = sock.recv(4096)
-  File "/usr/lib/python3.9/site-packages/gevent/_socketcommon.py", line 657, in recv
-    return self._sock.recv(*args)
-ConnectionResetError: [Errno 104] Connection reset by peer
-2022-04-27 03:05:56,992 GuardianAST client disconnected 162.142.125.210:44904. (d3ad6a68-64c0-4b0a-95db-f269371964e8)
-2022-04-27 03:15:18,811 Session timed out: d3ad6a68-64c0-4b0a-95db-f269371964e8
-2022-04-27 03:19:21,261 New guardian_ast session from 79.124.62.106 (f931b1f9-22b3-4465-ba91-c8bb7a3561b9)
-2022-04-27 03:21:03,347 New GuardianAST connection from 79.124.62.106:2675. (f931b1f9-22b3-4465-ba91-c8bb7a3561b9)
-2022-04-27 03:23:02,950 Unknown Error: [Errno 104] Connection reset by peer
-Traceback (most recent call last):
-  File "/usr/lib/python3.9/site-packages/conpot/protocols/guardian_ast/guardian_ast_server.py", line 322, in handle
-    request = sock.recv(4096)
-  File "/usr/lib/python3.9/site-packages/gevent/_socketcommon.py", line 657, in recv
-    return self._sock.recv(*args)
-ConnectionResetError: [Errno 104] Connection reset by peer
-2022-04-27 03:25:01,497 GuardianAST client disconnected 79.124.62.106:2675. (f931b1f9-22b3-4465-ba91-c8bb7a3561b9)
-2022-04-27 03:26:58,205 Session timed out: f931b1f9-22b3-4465-ba91-c8bb7a3561b9
-2022-04-27 12:40:56,419 New guardian_ast session from 167.94.138.120 (6cee995e-c07e-4a68-b066-401e398411a2)
-2022-04-27 12:51:00,235 New GuardianAST connection from 167.94.138.120:53458. (6cee995e-c07e-4a68-b066-401e398411a2)
-2022-04-27 13:07:56,836 I20100 command attempt 167.94.138.120:53458. (6cee995e-c07e-4a68-b066-401e398411a2)
-2022-04-27 13:07:57,097 Unknown Error: [Errno 104] Connection reset by peer
-Traceback (most recent call last):
-  File "/usr/lib/python3.9/site-packages/conpot/protocols/guardian_ast/guardian_ast_server.py", line 497, in handle
-    sock.send(str_to_bytes(response))
-  File "/usr/lib/python3.9/site-packages/gevent/_socketcommon.py", line 722, in send
-    return self._sock.send(data, flags)
-ConnectionResetError: [Errno 104] Connection reset by peer
-2022-04-27 13:07:57,529 GuardianAST client disconnected 167.94.138.120:53458. (6cee995e-c07e-4a68-b066-401e398411a2)
-2022-04-27 13:07:57,530 New GuardianAST connection from 167.94.138.120:37518. (6cee995e-c07e-4a68-b066-401e398411a2)
-2022-04-27 13:07:57,568 Unknown Error: [Errno 104] Connection reset by peer
-Traceback (most recent call last):
-  File "/usr/lib/python3.9/site-packages/conpot/protocols/guardian_ast/guardian_ast_server.py", line 322, in handle
-    request = sock.recv(4096)
-  File "/usr/lib/python3.9/site-packages/gevent/_socketcommon.py", line 657, in recv
-    return self._sock.recv(*args)
-ConnectionResetError: [Errno 104] Connection reset by peer
-2022-04-27 13:07:57,569 GuardianAST client disconnected 167.94.138.120:37518. (6cee995e-c07e-4a68-b066-401e398411a2)
-2022-04-27 13:07:57,569 New GuardianAST connection from 167.94.138.120:37636. (6cee995e-c07e-4a68-b066-401e398411a2)
-2022-04-27 13:07:57,570 Non ^A command attempt 167.94.138.120:37636. (6cee995e-c07e-4a68-b066-401e398411a2)
-2022-04-27 13:07:57,570 GuardianAST client disconnected 167.94.138.120:37636. (6cee995e-c07e-4a68-b066-401e398411a2)
-2022-04-27 13:07:57,570 New GuardianAST connection from 167.94.138.120:56480. (6cee995e-c07e-4a68-b066-401e398411a2)
-2022-04-27 13:07:57,571 Non ^A command attempt 167.94.138.120:56480. (6cee995e-c07e-4a68-b066-401e398411a2)
-2022-04-27 13:07:57,571 GuardianAST client disconnected 167.94.138.120:56480. (6cee995e-c07e-4a68-b066-401e398411a2)
-2022-04-27 13:07:57,571 New GuardianAST connection from 167.94.138.120:37150. (6cee995e-c07e-4a68-b066-401e398411a2)
-2022-04-27 13:07:57,572 Unknown Error: [Errno 104] Connection reset by peer
-Traceback (most recent call last):
-  File "/usr/lib/python3.9/site-packages/conpot/protocols/guardian_ast/guardian_ast_server.py", line 322, in handle
-    request = sock.recv(4096)
-  File "/usr/lib/python3.9/site-packages/gevent/_socketcommon.py", line 657, in recv
-    return self._sock.recv(*args)
-ConnectionResetError: [Errno 104] Connection reset by peer
-2022-04-27 13:07:57,572 GuardianAST client disconnected 167.94.138.120:37150. (6cee995e-c07e-4a68-b066-401e398411a2)
-2022-04-27 13:08:28,186 Session timed out: 6cee995e-c07e-4a68-b066-401e398411a2
+2022-04-27 16:30:46,955 Fetched 34.121.180.85 as external ip.
+2022-04-27 16:30:46,959 Conpot GuardianAST initialized
+2022-04-27 16:30:46,959 Found and enabled guardian_ast protocol.
+2022-04-27 16:30:46,960 No proxy template found. Service will remain unconfigured/stopped.
+2022-04-27 16:30:46,961 GuardianAST server started on: ('0.0.0.0', 10001)
