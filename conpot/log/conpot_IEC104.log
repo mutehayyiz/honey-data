@@ -1,50 +1,22 @@
-2022-04-30 16:59:29,587 Config file found!
-2022-04-30 16:59:29,592 Starting Conpot using template: /usr/lib/python3.9/site-packages/conpot/templates/IEC104
-2022-04-30 16:59:29,592 Starting Conpot using configuration found in: /etc/conpot/conpot.cfg
-2022-04-30 16:59:29,674 Serving tar:///usr/lib/python3.9/site-packages/conpot/data.tar as file system. File uploads will be kept at : /tmp/conpot
-2022-04-30 16:59:29,674 Opening path /tmp/conpot for persistent storage of files.
-2022-04-30 16:59:29,679 Initializing Virtual File System at /tmp/conpot/__conpot__cqa7maxz. Source specified : tar:///usr/lib/python3.9/site-packages/conpot/data.tar
+2022-05-01 19:30:34,868 Config file found!
+2022-05-01 19:30:34,870 Starting Conpot using template: /usr/lib/python3.9/site-packages/conpot/templates/IEC104
+2022-05-01 19:30:34,871 Starting Conpot using configuration found in: /etc/conpot/conpot.cfg
+2022-05-01 19:30:34,927 Serving tar:///usr/lib/python3.9/site-packages/conpot/data.tar as file system. File uploads will be kept at : /tmp/conpot
+2022-05-01 19:30:34,939 Opening path /tmp/conpot for persistent storage of files.
+2022-05-01 19:30:34,941 Initializing Virtual File System at /tmp/conpot/__conpot__6bvi2v2k. Source specified : tar:///usr/lib/python3.9/site-packages/conpot/data.tar
  Please wait while the system copies all specified files
-2022-04-30 16:59:29,940 Fetched 34.121.180.85 as external ip.
-2022-04-30 16:59:29,958 IEC 104 Server up
-2022-04-30 16:59:29,959 Found and enabled IEC104 protocol.
-2022-04-30 16:59:29,978 Found and enabled snmp protocol.
-2022-04-30 16:59:29,978 No proxy template found. Service will remain unconfigured/stopped.
-2022-04-30 16:59:29,979 IEC 60870-5-104 protocol server started on: ('0.0.0.0', 2404)
-2022-04-30 16:59:31,793 Skipped: OID for symbol ifOutUNcastPkts not found in MIB IF-MIB
-2022-04-30 16:59:34,838 SNMP server started on: ('0.0.0.0', 161)
-2022-04-30 22:06:52,696 New snmp session from 198.235.24.28 (960714a0-8b38-4a43-848b-571600756393)
-2022-04-30 22:06:52,757 SNMPv2 GetNext request from ('198.235.24.28', 58153): 1.3.6.1.2.1 
-2022-04-30 22:06:52,758 SNMPv2 GetNext response to ('198.235.24.28', 58153): 1.3.6.1.2.1.1.1.0 Siemens, SIMATIC, S7-300
-2022-04-30 22:07:23,494 Session timed out: 960714a0-8b38-4a43-848b-571600756393
-2022-04-30 23:45:25,202 New IEC104 session from 192.241.214.26 (d8f442e3-a1c8-49c2-b880-3c7ad6eb305f)
-2022-04-30 23:57:06,151 New IEC 104 connection from 192.241.214.26:59300. (d8f442e3-a1c8-49c2-b880-3c7ad6eb305f)
-2022-05-01 00:12:05,931 IEC104 Station disconnected. (d8f442e3-a1c8-49c2-b880-3c7ad6eb305f)
-2022-05-01 00:42:28,652 Session timed out: d8f442e3-a1c8-49c2-b880-3c7ad6eb305f
-2022-05-01 05:44:53,248 New snmp session from 146.88.240.4 (bc5f0482-06a9-4133-9749-8cef540b92b6)
-2022-05-01 05:44:53,271 SNMPv2 GetNext request from ('146.88.240.4', 48557): 1.3.6.1.2.1 
-2022-05-01 05:44:53,274 SNMPv2 GetNext response to ('146.88.240.4', 48557): 1.3.6.1.2.1.1.1.0 Siemens, SIMATIC, S7-300
-2022-05-01 05:45:24,688 Session timed out: bc5f0482-06a9-4133-9749-8cef540b92b6
-2022-05-01 11:36:28,000 New IEC104 session from 94.102.49.193 (a8a45cd7-4890-4142-8528-b7b7a29e78ab)
-2022-05-01 11:46:14,813 New IEC 104 connection from 94.102.49.193:53484. (a8a45cd7-4890-4142-8528-b7b7a29e78ab)
-2022-05-01 12:15:29,871 ('94.102.49.193', 53484) ---> u_frame. TESTFR act. (a8a45cd7-4890-4142-8528-b7b7a29e78ab)
-2022-05-01 12:15:30,068 ('94.102.49.193', 53484) <--- u_frame 0x68 0x4 0x83 0x0 0x0 0x0  (a8a45cd7-4890-4142-8528-b7b7a29e78ab)
-2022-05-01 12:15:30,124 IEC104 Station disconnected. (a8a45cd7-4890-4142-8528-b7b7a29e78ab)
-2022-05-01 12:15:30,191 New IEC 104 connection from 94.102.49.193:57006. (a8a45cd7-4890-4142-8528-b7b7a29e78ab)
-2022-05-01 12:15:30,191 IEC104 Station disconnected. (a8a45cd7-4890-4142-8528-b7b7a29e78ab)
-2022-05-01 12:15:30,192 New IEC 104 connection from 94.102.49.193:58660. (a8a45cd7-4890-4142-8528-b7b7a29e78ab)
-2022-05-01 12:15:30,194 InvalidFieldValue: ('Wrong length for s_frame packet! (%s)', UUID('a8a45cd7-4890-4142-8528-b7b7a29e78ab')). (a8a45cd7-4890-4142-8528-b7b7a29e78ab)
-2022-05-01 12:15:30,194 InvalidFieldValue: ('Wrong length for u_frame packet! (%s)', UUID('a8a45cd7-4890-4142-8528-b7b7a29e78ab')). (a8a45cd7-4890-4142-8528-b7b7a29e78ab)
-2022-05-01 12:15:30,195 IEC104 Station disconnected. (a8a45cd7-4890-4142-8528-b7b7a29e78ab)
-2022-05-01 12:16:02,346 Session timed out: a8a45cd7-4890-4142-8528-b7b7a29e78ab
-2022-05-01 12:39:09,001 SNMP Exception: This class is not converted to new architecture
-2022-05-01 12:39:22,529 SNMP Exception: This class is not converted to new architecture
-2022-05-01 14:53:59,519 New snmp session from 167.94.138.104 (87bc40bd-2793-4ba4-bad9-fafadd64fe74)
-2022-05-01 14:54:11,466 SNMPv2 Get request from ('167.94.138.104', 1202): 1.3.6.1.2.1.1.5.0 
-2022-05-01 14:54:23,263 SNMPv2 Get response to ('167.94.138.104', 1202): 1.3.6.1.2.1.1.5.0 
-2022-05-01 14:55:13,602 Session timed out: 87bc40bd-2793-4ba4-bad9-fafadd64fe74
-2022-05-01 14:56:36,851 New snmp session from 167.94.138.44 (d71e47bc-932a-4e48-b1c5-b9a0e6462e61)
-2022-05-01 14:56:44,060 SNMPv2 Get request from ('167.94.138.44', 40980): 1.3.6.1.2.1.1.1.0 
-2022-05-01 14:56:49,653 SNMPv2 Get response to ('167.94.138.44', 40980): 1.3.6.1.2.1.1.1.0 Siemens, SIMATIC, S7-300
-2022-05-01 14:57:30,540 Session timed out: d71e47bc-932a-4e48-b1c5-b9a0e6462e61
-2022-05-01 16:17:10,010 SNMP Exception: This class is not converted to new architecture
+2022-05-01 19:30:35,261 Fetched 34.121.180.85 as external ip.
+2022-05-01 19:30:35,270 IEC 104 Server up
+2022-05-01 19:30:35,271 Found and enabled IEC104 protocol.
+2022-05-01 19:30:35,283 Found and enabled snmp protocol.
+2022-05-01 19:30:35,284 No proxy template found. Service will remain unconfigured/stopped.
+2022-05-01 19:30:35,284 IEC 60870-5-104 protocol server started on: ('0.0.0.0', 2404)
+2022-05-01 19:30:37,093 Skipped: OID for symbol ifOutUNcastPkts not found in MIB IF-MIB
+2022-05-01 19:30:40,273 SNMP server started on: ('0.0.0.0', 161)
+2022-05-01 22:45:06,013 New snmp session from 192.241.222.182 (9ed95502-14cc-44c1-aa40-6896500d7a80)
+2022-05-01 22:45:06,305 SNMPv1 Get request from ('192.241.222.182', 41986): 1.3.6.1.2.1.1.1.0 
+2022-05-01 22:45:06,306 SNMPv1 Get response to ('192.241.222.182', 41986): 1.3.6.1.2.1.1.1.0 Siemens, SIMATIC, S7-300
+2022-05-01 22:45:06,780 New snmp session from 192.241.213.237 (20280dae-7fc9-4912-b035-4d9872f4888a)
+2022-05-01 22:45:06,780 SNMPv1 Get request from ('192.241.213.237', 52366): 1.3.6.1.2.1.1.1.0 
+2022-05-01 22:45:06,781 SNMPv1 Get response to ('192.241.213.237', 52366): 1.3.6.1.2.1.1.1.0 Siemens, SIMATIC, S7-300
+2022-05-01 22:45:06,970 SNMP Exception: 'rfc3412.receiveMessage:request'
