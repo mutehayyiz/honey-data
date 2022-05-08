@@ -1,33 +1,29 @@
-2/5/2022 -- 00:38:34 - <Notice> - This is Suricata version 6.0.3 RELEASE running in SYSTEM mode
-2/5/2022 -- 00:38:34 - <Info> - CPUs/cores online: 4
-2/5/2022 -- 00:38:34 - <Info> - Found an MTU of 1460 for 'ens4'
-2/5/2022 -- 00:38:34 - <Info> - Found an MTU of 1460 for 'ens4'
-2/5/2022 -- 00:38:34 - <Info> - eve-log output device (regular) initialized: eve.json
-2/5/2022 -- 00:38:34 - <Info> - Going to log the md5 sum of email body
-2/5/2022 -- 00:38:34 - <Info> - Going to log the md5 sum of email subject
-2/5/2022 -- 00:38:34 - <Info> - DNP3 log sub-module initialized.
-2/5/2022 -- 00:38:34 - <Info> - DNP3 log sub-module initialized.
-2/5/2022 -- 00:38:40 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
-2/5/2022 -- 00:38:50 - <Error> - [ERRCODE: SC_ERR_INVALID_SIGNATURE(39)] - Expression seen with a sticky buffer still set; either (1) reset sticky buffer with pkt_data or (2) use a sticky buffer providing "http request body".
-2/5/2022 -- 00:38:50 - <Error> - [ERRCODE: SC_ERR_INVALID_SIGNATURE(39)] - error parsing signature "alert http $HOME_NET any -> $EXTERNAL_NET any (msg:"ET POLICY Zero Content-Length HTTP POST with data (outbound)"; flow:established,to_server; content:"POST"; nocase; http_method; http_content_len; content:"0"; fast_pattern; pcre:"/^./P"; classtype:bad-unknown; sid:2011819; rev:2; metadata:created_at 2010_10_15, updated_at 2010_10_15;)" from file /var/lib/suricata/rules/suricata.rules at line 22754
-2/5/2022 -- 00:38:59 - <Info> - 1 rule files processed. 33221 rules successfully loaded, 1 rules failed
-2/5/2022 -- 00:38:59 - <Info> - Threshold config parsed: 0 rule(s) found
-2/5/2022 -- 00:39:00 - <Info> - 33236 signatures processed. 1282 are IP-only rules, 7563 are inspecting packet payload, 23994 inspect application layer, 112 are decoder event only
-2/5/2022 -- 00:39:00 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
-2/5/2022 -- 00:39:00 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
-2/5/2022 -- 00:39:00 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
-2/5/2022 -- 00:39:00 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'is_ssh_client_kex' is checked but not set. Checked in 2001977 and 1 other sigs
-2/5/2022 -- 00:39:00 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'is_ssh_server_banner' is checked but not set. Checked in 2001980 and 0 other sigs
-2/5/2022 -- 00:40:18 - <Info> - Going to use 4 thread(s)
-2/5/2022 -- 00:40:18 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
-2/5/2022 -- 00:40:18 - <Notice> - all 4 packet processing threads, 2 management threads initialized, engine started.
-2/5/2022 -- 00:40:18 - <Info> - Using BPF 'not (host sicherheitstacho.eu or community.sicherheitstacho.eu or listbot.sicherheitstacho.eu) and not (host rules.emergingthreats.net or rules.emergingthreatspro.com) and not (host deb.debian.org) and not (host ghcr.io) and not (host index.docker.io or docker.io) and not (tcp port 64305)' on iface 'ens4'
-2/5/2022 -- 00:40:19 - <Info> - Using BPF 'not (host sicherheitstacho.eu or community.sicherheitstacho.eu or listbot.sicherheitstacho.eu) and not (host rules.emergingthreats.net or rules.emergingthreatspro.com) and not (host deb.debian.org) and not (host ghcr.io) and not (host index.docker.io or docker.io) and not (tcp port 64305)' on iface 'ens4'
-2/5/2022 -- 00:40:19 - <Info> - Using BPF 'not (host sicherheitstacho.eu or community.sicherheitstacho.eu or listbot.sicherheitstacho.eu) and not (host rules.emergingthreats.net or rules.emergingthreatspro.com) and not (host deb.debian.org) and not (host ghcr.io) and not (host index.docker.io or docker.io) and not (tcp port 64305)' on iface 'ens4'
-2/5/2022 -- 00:40:19 - <Info> - Using BPF 'not (host sicherheitstacho.eu or community.sicherheitstacho.eu or listbot.sicherheitstacho.eu) and not (host rules.emergingthreats.net or rules.emergingthreatspro.com) and not (host deb.debian.org) and not (host ghcr.io) and not (host index.docker.io or docker.io) and not (tcp port 64305)' on iface 'ens4'
-2/5/2022 -- 00:40:19 - <Info> - All AFP capture threads are running.
-2/5/2022 -- 00:53:13 - <Notice> - Signal Received.  Stopping engine.
-2/5/2022 -- 00:53:13 - <Info> - time elapsed 774.897s
-2/5/2022 -- 00:53:13 - <Info> - Alerts: 0
-2/5/2022 -- 00:53:14 - <Info> - cleaning up signature grouping structure... complete
-2/5/2022 -- 00:53:14 - <Notice> - Stats for 'ens4':  pkts: 3988, drop: 0 (0.00%), invalid chksum: 0
+7/5/2022 -- 22:45:51 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+7/5/2022 -- 22:45:51 - <Info> - CPUs/cores online: 4
+7/5/2022 -- 22:45:51 - <Info> - Found an MTU of 1460 for 'eth0'
+7/5/2022 -- 22:45:51 - <Info> - Found an MTU of 1460 for 'eth0'
+7/5/2022 -- 22:45:51 - <Info> - dropped the caps for main thread
+7/5/2022 -- 22:45:51 - <Info> - eve-log output device (regular) initialized: eve.json
+7/5/2022 -- 22:45:51 - <Info> - Going to log the md5 sum of email body
+7/5/2022 -- 22:45:51 - <Info> - Going to log the md5 sum of email subject
+7/5/2022 -- 22:45:51 - <Info> - DNP3 log sub-module initialized.
+7/5/2022 -- 22:45:51 - <Info> - DNP3 log sub-module initialized.
+7/5/2022 -- 22:45:57 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+7/5/2022 -- 22:46:08 - <Error> - [ERRCODE: SC_ERR_INVALID_SIGNATURE(39)] - Expression seen with a sticky buffer still set; either (1) reset sticky buffer with pkt_data or (2) use a sticky buffer providing "http request body".
+7/5/2022 -- 22:46:08 - <Error> - [ERRCODE: SC_ERR_INVALID_SIGNATURE(39)] - error parsing signature "alert http $HOME_NET any -> $EXTERNAL_NET any (msg:"ET POLICY Zero Content-Length HTTP POST with data (outbound)"; flow:established,to_server; content:"POST"; nocase; http_method; http_content_len; content:"0"; fast_pattern; pcre:"/^./P"; classtype:bad-unknown; sid:2011819; rev:2; metadata:created_at 2010_10_15, updated_at 2010_10_15;)" from file /var/lib/suricata/rules/suricata.rules at line 22844
+7/5/2022 -- 22:46:17 - <Info> - 1 rule files processed. 33344 rules successfully loaded, 1 rules failed
+7/5/2022 -- 22:46:17 - <Info> - Threshold config parsed: 0 rule(s) found
+7/5/2022 -- 22:46:19 - <Info> - 33359 signatures processed. 1288 are IP-only rules, 7564 are inspecting packet payload, 24108 inspect application layer, 113 are decoder event only
+7/5/2022 -- 22:46:19 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+7/5/2022 -- 22:46:19 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+7/5/2022 -- 22:46:19 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+7/5/2022 -- 22:46:19 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'is_ssh_client_kex' is checked but not set. Checked in 2001977 and 1 other sigs
+7/5/2022 -- 22:46:19 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'is_ssh_server_banner' is checked but not set. Checked in 2001980 and 0 other sigs
+7/5/2022 -- 22:47:57 - <Info> - Going to use 4 thread(s)
+7/5/2022 -- 22:47:57 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+7/5/2022 -- 22:47:57 - <Notice> - all 4 packet processing threads, 2 management threads initialized, engine started.
+7/5/2022 -- 22:47:58 - <Info> - Using BPF 'not (host sicherheitstacho.eu or community.sicherheitstacho.eu or listbot.sicherheitstacho.eu) and not (host rules.emergingthreats.net or rules.emergingthreatspro.com) and not (host deb.debian.org) and not (host ghcr.io) and not (host index.docker.io or docker.io) and not (tcp port 64305)' on iface 'eth0'
+7/5/2022 -- 22:47:59 - <Info> - Using BPF 'not (host sicherheitstacho.eu or community.sicherheitstacho.eu or listbot.sicherheitstacho.eu) and not (host rules.emergingthreats.net or rules.emergingthreatspro.com) and not (host deb.debian.org) and not (host ghcr.io) and not (host index.docker.io or docker.io) and not (tcp port 64305)' on iface 'eth0'
+7/5/2022 -- 22:47:59 - <Info> - Using BPF 'not (host sicherheitstacho.eu or community.sicherheitstacho.eu or listbot.sicherheitstacho.eu) and not (host rules.emergingthreats.net or rules.emergingthreatspro.com) and not (host deb.debian.org) and not (host ghcr.io) and not (host index.docker.io or docker.io) and not (tcp port 64305)' on iface 'eth0'
+7/5/2022 -- 22:47:59 - <Info> - Using BPF 'not (host sicherheitstacho.eu or community.sicherheitstacho.eu or listbot.sicherheitstacho.eu) and not (host rules.emergingthreats.net or rules.emergingthreatspro.com) and not (host deb.debian.org) and not (host ghcr.io) and not (host index.docker.io or docker.io) and not (tcp port 64305)' on iface 'eth0'
+7/5/2022 -- 22:47:59 - <Info> - All AFP capture threads are running.
