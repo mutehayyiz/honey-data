@@ -1,32 +1,19 @@
-2022-05-09 00:04:40,467 Config file found!
-2022-05-09 00:04:40,470 Starting Conpot using template: /usr/lib/python3.9/site-packages/conpot/templates/IEC104
-2022-05-09 00:04:40,470 Starting Conpot using configuration found in: /etc/conpot/conpot.cfg
-2022-05-09 00:04:40,664 Serving tar:///usr/lib/python3.9/site-packages/conpot/data.tar as file system. File uploads will be kept at : /tmp/conpot
-2022-05-09 00:04:40,664 Opening path /tmp/conpot for persistent storage of files.
-2022-05-09 00:04:40,666 Initializing Virtual File System at /tmp/conpot/__conpot__cotmon0r. Source specified : tar:///usr/lib/python3.9/site-packages/conpot/data.tar
+2022-05-09 02:51:19,663 Config file found!
+2022-05-09 02:51:19,666 Starting Conpot using template: /usr/lib/python3.9/site-packages/conpot/templates/IEC104
+2022-05-09 02:51:19,667 Starting Conpot using configuration found in: /etc/conpot/conpot.cfg
+2022-05-09 02:51:19,755 Serving tar:///usr/lib/python3.9/site-packages/conpot/data.tar as file system. File uploads will be kept at : /tmp/conpot
+2022-05-09 02:51:19,755 Opening path /tmp/conpot for persistent storage of files.
+2022-05-09 02:51:19,758 Initializing Virtual File System at /tmp/conpot/__conpot__c1vc5_8w. Source specified : tar:///usr/lib/python3.9/site-packages/conpot/data.tar
  Please wait while the system copies all specified files
-2022-05-09 00:04:40,862 Fetched 34.121.180.85 as external ip.
-2022-05-09 00:04:40,875 IEC 104 Server up
-2022-05-09 00:04:40,875 Found and enabled IEC104 protocol.
-2022-05-09 00:04:40,909 Found and enabled snmp protocol.
-2022-05-09 00:04:40,910 No proxy template found. Service will remain unconfigured/stopped.
-2022-05-09 00:04:40,910 IEC 60870-5-104 protocol server started on: ('0.0.0.0', 2404)
-2022-05-09 00:04:41,266 Stopping Conpot
-2022-05-09 00:04:41,267 Stopping because <ServiceGreenlet "SNMPServer" at 0x7f30f76ae260: <bound method SNMPServer.start of <conpot.protocols.snmp.snmp_server.SNMPServer object at 0x7f30f763ca00>>('0.0.0.0', 161)> died: 
-NoneType: None
-2022-05-09 00:04:41,268 Shutting down File System. Cleaning directories at /tmp/conpot/__conpot__cotmon0r
-2022-05-09 00:05:19,192 Config file found!
-2022-05-09 00:05:19,194 Starting Conpot using template: /usr/lib/python3.9/site-packages/conpot/templates/IEC104
-2022-05-09 00:05:19,195 Starting Conpot using configuration found in: /etc/conpot/conpot.cfg
-2022-05-09 00:05:19,301 Serving tar:///usr/lib/python3.9/site-packages/conpot/data.tar as file system. File uploads will be kept at : /tmp/conpot
-2022-05-09 00:05:19,301 Opening path /tmp/conpot for persistent storage of files.
-2022-05-09 00:05:19,303 Initializing Virtual File System at /tmp/conpot/__conpot__t63axbdx. Source specified : tar:///usr/lib/python3.9/site-packages/conpot/data.tar
- Please wait while the system copies all specified files
-2022-05-09 00:05:19,403 Fetched 34.121.180.85 as external ip.
-2022-05-09 00:05:19,414 IEC 104 Server up
-2022-05-09 00:05:19,415 Found and enabled IEC104 protocol.
-2022-05-09 00:05:19,420 Found and enabled snmp protocol.
-2022-05-09 00:05:19,421 No proxy template found. Service will remain unconfigured/stopped.
-2022-05-09 00:05:19,421 IEC 60870-5-104 protocol server started on: ('0.0.0.0', 2404)
-2022-05-09 00:05:21,037 Skipped: OID for symbol ifOutUNcastPkts not found in MIB IF-MIB
-2022-05-09 00:05:24,371 SNMP server started on: ('0.0.0.0', 161)
+2022-05-09 02:51:19,866 Fetched 34.121.180.85 as external ip.
+2022-05-09 02:51:19,878 IEC 104 Server up
+2022-05-09 02:51:19,878 Found and enabled IEC104 protocol.
+2022-05-09 02:51:19,908 Found and enabled snmp protocol.
+2022-05-09 02:51:19,909 No proxy template found. Service will remain unconfigured/stopped.
+2022-05-09 02:51:19,909 IEC 60870-5-104 protocol server started on: ('0.0.0.0', 2404)
+2022-05-09 02:51:21,497 Skipped: OID for symbol ifOutUNcastPkts not found in MIB IF-MIB
+2022-05-09 02:51:24,996 SNMP server started on: ('0.0.0.0', 161)
+2022-05-09 03:06:20,545 New snmp session from 64.62.197.168 (4ce99219-061d-41ec-8fb2-96ae7f141adb)
+2022-05-09 03:06:20,549 SNMPv2 Get request from ('64.62.197.168', 18754): 1.3.6.1.2.1.1.1.0 
+2022-05-09 03:06:20,549 SNMPv2 Get response to ('64.62.197.168', 18754): 1.3.6.1.2.1.1.1.0 Siemens, SIMATIC, S7-300
+2022-05-09 03:06:50,583 Session timed out: 4ce99219-061d-41ec-8fb2-96ae7f141adb
