@@ -1,19 +1,33 @@
-2022-05-10 23:21:31,055 Config file found!
-2022-05-10 23:21:31,058 Starting Conpot using template: /usr/lib/python3.9/site-packages/conpot/templates/IEC104
-2022-05-10 23:21:31,058 Starting Conpot using configuration found in: /etc/conpot/conpot.cfg
-2022-05-10 23:21:31,128 Serving tar:///usr/lib/python3.9/site-packages/conpot/data.tar as file system. File uploads will be kept at : /tmp/conpot
-2022-05-10 23:21:31,129 Opening path /tmp/conpot for persistent storage of files.
-2022-05-10 23:21:31,131 Initializing Virtual File System at /tmp/conpot/__conpot__30vfn31_. Source specified : tar:///usr/lib/python3.9/site-packages/conpot/data.tar
+2022-05-11 01:25:23,310 Config file found!
+2022-05-11 01:25:23,327 Starting Conpot using template: /usr/lib/python3.9/site-packages/conpot/templates/IEC104
+2022-05-11 01:25:23,327 Starting Conpot using configuration found in: /etc/conpot/conpot.cfg
+2022-05-11 01:25:23,533 Serving tar:///usr/lib/python3.9/site-packages/conpot/data.tar as file system. File uploads will be kept at : /tmp/conpot
+2022-05-11 01:25:23,543 Opening path /tmp/conpot for persistent storage of files.
+2022-05-11 01:25:23,545 Initializing Virtual File System at /tmp/conpot/__conpot___1_94e1x. Source specified : tar:///usr/lib/python3.9/site-packages/conpot/data.tar
  Please wait while the system copies all specified files
-2022-05-10 23:21:31,227 Fetched 34.121.180.85 as external ip.
-2022-05-10 23:21:31,240 IEC 104 Server up
-2022-05-10 23:21:31,241 Found and enabled IEC104 protocol.
-2022-05-10 23:21:31,248 Found and enabled snmp protocol.
-2022-05-10 23:21:31,250 No proxy template found. Service will remain unconfigured/stopped.
-2022-05-10 23:21:31,250 IEC 60870-5-104 protocol server started on: ('0.0.0.0', 2404)
-2022-05-10 23:21:32,920 Skipped: OID for symbol ifOutUNcastPkts not found in MIB IF-MIB
-2022-05-10 23:21:36,344 SNMP server started on: ('0.0.0.0', 161)
-2022-05-10 23:34:38,394 New snmp session from 198.235.24.136 (fb7f38ea-08fd-4527-8c11-8e31a5cd38a5)
-2022-05-10 23:34:38,397 SNMPv2 GetNext request from ('198.235.24.136', 52022): 1.3.6.1.2.1 
-2022-05-10 23:34:38,397 SNMPv2 GetNext response to ('198.235.24.136', 52022): 1.3.6.1.2.1.1.1.0 Siemens, SIMATIC, S7-300
-2022-05-10 23:35:10,425 Session timed out: fb7f38ea-08fd-4527-8c11-8e31a5cd38a5
+2022-05-11 01:25:23,718 Fetched 34.121.180.85 as external ip.
+2022-05-11 01:25:23,731 IEC 104 Server up
+2022-05-11 01:25:23,735 Found and enabled IEC104 protocol.
+2022-05-11 01:25:23,756 Found and enabled snmp protocol.
+2022-05-11 01:25:23,757 No proxy template found. Service will remain unconfigured/stopped.
+2022-05-11 01:25:23,758 IEC 60870-5-104 protocol server started on: ('0.0.0.0', 2404)
+2022-05-11 01:25:27,117 Stopping Conpot
+2022-05-11 01:25:27,117 Stopping because <ServiceGreenlet "SNMPServer" at 0x7f4e5cc5e260: <bound method SNMPServer.start of <conpot.protocols.snmp.snmp_server.SNMPServer object at 0x7f4e5cbecbb0>>('0.0.0.0', 161)> died: 
+NoneType: None
+2022-05-11 01:25:27,118 Shutting down File System. Cleaning directories at /tmp/conpot/__conpot___1_94e1x
+2022-05-11 01:26:04,028 Config file found!
+2022-05-11 01:26:04,030 Starting Conpot using template: /usr/lib/python3.9/site-packages/conpot/templates/IEC104
+2022-05-11 01:26:04,030 Starting Conpot using configuration found in: /etc/conpot/conpot.cfg
+2022-05-11 01:26:04,199 Serving tar:///usr/lib/python3.9/site-packages/conpot/data.tar as file system. File uploads will be kept at : /tmp/conpot
+2022-05-11 01:26:04,199 Opening path /tmp/conpot for persistent storage of files.
+2022-05-11 01:26:04,201 Initializing Virtual File System at /tmp/conpot/__conpot__x7jgf7su. Source specified : tar:///usr/lib/python3.9/site-packages/conpot/data.tar
+ Please wait while the system copies all specified files
+2022-05-11 01:26:04,589 Fetched 34.121.180.85 as external ip.
+2022-05-11 01:26:04,599 IEC 104 Server up
+2022-05-11 01:26:04,606 Found and enabled IEC104 protocol.
+2022-05-11 01:26:04,611 Found and enabled snmp protocol.
+2022-05-11 01:26:04,619 No proxy template found. Service will remain unconfigured/stopped.
+2022-05-11 01:26:04,620 IEC 60870-5-104 protocol server started on: ('0.0.0.0', 2404)
+2022-05-11 01:26:06,366 Skipped: OID for symbol ifOutUNcastPkts not found in MIB IF-MIB
+2022-05-11 01:26:09,499 SNMP server started on: ('0.0.0.0', 161)
+2022-05-11 02:49:54,868 SNMP Exception: This class is not converted to new architecture
