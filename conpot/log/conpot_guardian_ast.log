@@ -1,17 +1,29 @@
-2022-05-11 15:38:07,570 Config file found!
-2022-05-11 15:38:07,579 Starting Conpot using template: /usr/lib/python3.9/site-packages/conpot/templates/guardian_ast
-2022-05-11 15:38:07,580 Starting Conpot using configuration found in: /etc/conpot/conpot.cfg
-2022-05-11 15:38:07,603 Serving tar:///usr/lib/python3.9/site-packages/conpot/data.tar as file system. File uploads will be kept at : /tmp/conpot
-2022-05-11 15:38:07,605 Opening path /tmp/conpot for persistent storage of files.
-2022-05-11 15:38:07,613 Initializing Virtual File System at /tmp/conpot/__conpot__pz9hczz2. Source specified : tar:///usr/lib/python3.9/site-packages/conpot/data.tar
+2022-05-12 15:39:16,693 Config file found!
+2022-05-12 15:39:16,702 Starting Conpot using template: /usr/lib/python3.9/site-packages/conpot/templates/guardian_ast
+2022-05-12 15:39:16,733 Starting Conpot using configuration found in: /etc/conpot/conpot.cfg
+2022-05-12 15:39:16,740 Serving tar:///usr/lib/python3.9/site-packages/conpot/data.tar as file system. File uploads will be kept at : /tmp/conpot
+2022-05-12 15:39:16,741 Opening path /tmp/conpot for persistent storage of files.
+2022-05-12 15:39:16,746 Initializing Virtual File System at /tmp/conpot/__conpot__iqi0z6ji. Source specified : tar:///usr/lib/python3.9/site-packages/conpot/data.tar
  Please wait while the system copies all specified files
-2022-05-11 15:38:07,914 Fetched 34.121.180.85 as external ip.
-2022-05-11 15:38:07,918 Conpot GuardianAST initialized
-2022-05-11 15:38:07,919 Found and enabled guardian_ast protocol.
-2022-05-11 15:38:07,920 No proxy template found. Service will remain unconfigured/stopped.
-2022-05-11 15:38:07,920 GuardianAST server started on: ('0.0.0.0', 10001)
-2022-05-11 15:51:10,044 New guardian_ast session from 89.248.165.24 (de3d604c-79dc-4413-acb0-2396a5ee2d59)
-2022-05-11 15:51:10,048 New GuardianAST connection from 89.248.165.24:61256. (de3d604c-79dc-4413-acb0-2396a5ee2d59)
-2022-05-11 15:51:10,062 Non ^A command attempt 89.248.165.24:61256. (de3d604c-79dc-4413-acb0-2396a5ee2d59)
-2022-05-11 15:51:10,062 GuardianAST client disconnected 89.248.165.24:61256. (de3d604c-79dc-4413-acb0-2396a5ee2d59)
-2022-05-11 15:51:42,083 Session timed out: de3d604c-79dc-4413-acb0-2396a5ee2d59
+2022-05-12 15:39:18,290 Fetched 34.121.180.85 as external ip.
+2022-05-12 15:39:18,293 Conpot GuardianAST initialized
+2022-05-12 15:39:18,294 Found and enabled guardian_ast protocol.
+2022-05-12 15:39:18,295 No proxy template found. Service will remain unconfigured/stopped.
+2022-05-12 15:39:18,296 GuardianAST server started on: ('0.0.0.0', 10001)
+2022-05-13 00:21:35,731 New guardian_ast session from 194.26.29.31 (1f25e498-9bcc-4297-b096-5689a8e8a604)
+2022-05-13 00:21:35,732 New GuardianAST connection from 194.26.29.31:63943. (1f25e498-9bcc-4297-b096-5689a8e8a604)
+2022-05-13 00:21:35,732 Non ^A command attempt 194.26.29.31:63943. (1f25e498-9bcc-4297-b096-5689a8e8a604)
+2022-05-13 00:21:35,733 GuardianAST client disconnected 194.26.29.31:63943. (1f25e498-9bcc-4297-b096-5689a8e8a604)
+2022-05-13 00:22:07,762 Session timed out: 1f25e498-9bcc-4297-b096-5689a8e8a604
+2022-05-13 03:31:00,407 New guardian_ast session from 162.142.125.212 (c20a6410-14da-4d6f-91ca-b3c6c2230265)
+2022-05-13 03:31:00,408 New GuardianAST connection from 162.142.125.212:38520. (c20a6410-14da-4d6f-91ca-b3c6c2230265)
+2022-05-13 03:31:00,408 I20100 command attempt 162.142.125.212:38520. (c20a6410-14da-4d6f-91ca-b3c6c2230265)
+2022-05-13 03:31:00,419 Unknown Error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/conpot/protocols/guardian_ast/guardian_ast_server.py", line 322, in handle
+    request = sock.recv(4096)
+  File "/usr/lib/python3.9/site-packages/gevent/_socketcommon.py", line 657, in recv
+    return self._sock.recv(*args)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2022-05-13 03:31:00,423 GuardianAST client disconnected 162.142.125.212:38520. (c20a6410-14da-4d6f-91ca-b3c6c2230265)
+2022-05-13 03:31:32,445 Session timed out: c20a6410-14da-4d6f-91ca-b3c6c2230265

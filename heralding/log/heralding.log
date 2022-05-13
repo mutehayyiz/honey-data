@@ -1,56 +1,27 @@
-2022-05-11 15:38:06,486 (root) Initializing Heralding version 1.0.7
-2022-05-11 15:38:06,787 (heralding.honeypot) Using default wordlist file: "/usr/lib/python3.9/site-packages/heralding/wordlist.txt", if you want to customize values please copy this file to the current working directory
-2022-05-11 15:38:06,794 (heralding.reporting.file_logger) File logger: Using /var/log/heralding/auth.csv to log authentication attempts in CSV format.
-2022-05-11 15:38:06,794 (heralding.reporting.file_logger) File logger: Using /var/log/heralding/session.csv to log unified session data in CSV format.
-2022-05-11 15:38:06,828 (heralding.reporting.file_logger) File logger: Using /var/log/heralding/log_session.json to log complete session data in JSON format.
-2022-05-11 15:38:11,336 (heralding.honeypot) Found public ip: 34.121.180.85
-2022-05-11 15:38:11,337 (heralding.honeypot) Started RDP capability listening on port 3389
-2022-05-11 15:38:11,338 (heralding.honeypot) Started Telnet capability listening on port 23
-2022-05-11 15:38:11,339 (heralding.honeypot) Started Pop3 capability listening on port 110
-2022-05-11 15:38:13,370 (heralding.honeypot) Started Pop3S capability listening on port 995
-2022-05-11 15:38:13,371 (heralding.honeypot) Started Http capability listening on port 80
-2022-05-11 15:38:13,372 (heralding.honeypot) Started Imap capability listening on port 143
-2022-05-11 15:38:13,373 (heralding.honeypot) Started MySQL capability listening on port 3306
-2022-05-11 15:38:13,373 (heralding.honeypot) Started Vnc capability listening on port 5900
-2022-05-11 15:38:13,374 (heralding.honeypot) Started PostgreSQL capability listening on port 5432
-2022-05-11 15:38:13,375 (heralding.honeypot) Started smtp capability listening on port 25
-2022-05-11 15:38:13,908 (heralding.honeypot) Started https capability listening on port 443
-2022-05-11 15:38:13,909 (heralding.honeypot) Started Socks5 capability listening on port 1080
-2022-05-11 15:38:15,417 (heralding.honeypot) Started Imaps capability listening on port 993
-2022-05-11 15:38:16,774 (heralding.honeypot) Started SSH capability listening on port 22
-2022-05-11 15:38:19,492 (heralding.honeypot) Started smtps capability listening on port 465
-2022-05-11 15:38:19,493 (heralding.honeypot) Started ftp capability listening on port 21
-2022-05-11 16:38:11,570 (heralding.honeypot) Found public ip: 34.121.180.85
-2022-05-11 17:38:11,838 (heralding.honeypot) Found public ip: 34.121.180.85
-2022-05-11 18:38:12,106 (heralding.honeypot) Found public ip: 34.121.180.85
-2022-05-11 18:53:30,064 (asyncio) Task exception was never retrieved
-future: <Task finished name='Task-161' coro=<HandlerBase.handle_session() done, defined at /usr/lib/python3.9/site-packages/heralding/capabilities/handlerbase.py:74> exception=SSLError(1, '[SSL: UNEXPECTED_RECORD] unexpected record (_ssl.c:2633)')>
-Traceback (most recent call last):
-  File "/usr/lib/python3.9/site-packages/heralding/capabilities/handlerbase.py", line 86, in handle_session
-    await asyncio.wait_for(
-  File "/usr/lib/python3.9/asyncio/tasks.py", line 481, in wait_for
-    return fut.result()
-  File "/usr/lib/python3.9/site-packages/heralding/capabilities/pop3.py", line 33, in execute_capability
-    await self._handle_session(session, reader, writer)
-  File "/usr/lib/python3.9/site-packages/heralding/capabilities/pop3.py", line 40, in _handle_session
-    raw_msg = await reader.readline()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 540, in readline
-    line = await self.readuntil(sep)
-  File "/usr/lib/python3.9/asyncio/streams.py", line 632, in readuntil
-    await self._wait_for_data('readuntil')
-  File "/usr/lib/python3.9/asyncio/streams.py", line 517, in _wait_for_data
-    await self._waiter
-  File "/usr/lib/python3.9/asyncio/sslproto.py", line 528, in data_received
-    ssldata, appdata = self._sslpipe.feed_ssldata(data)
-  File "/usr/lib/python3.9/asyncio/sslproto.py", line 199, in feed_ssldata
-    chunk = self._sslobj.read(self.max_size)
-  File "/usr/lib/python3.9/ssl.py", line 888, in read
-    v = self._sslobj.read(len)
-ssl.SSLError: [SSL: UNEXPECTED_RECORD] unexpected record (_ssl.c:2633)
-2022-05-12 05:31:45,342 (heralding.honeypot) Found public ip: 34.121.180.85
-2022-05-12 06:31:45,568 (heralding.honeypot) Found public ip: 34.121.180.85
-2022-05-12 07:31:45,796 (heralding.honeypot) Found public ip: 34.121.180.85
-2022-05-12 08:31:46,021 (heralding.honeypot) Found public ip: 34.121.180.85
-2022-05-12 09:31:46,254 (heralding.honeypot) Found public ip: 34.121.180.85
-2022-05-12 10:31:46,481 (heralding.honeypot) Found public ip: 34.121.180.85
-2022-05-12 11:31:46,700 (heralding.honeypot) Found public ip: 34.121.180.85
+2022-05-12 15:39:24,234 (root) Initializing Heralding version 1.0.7
+2022-05-12 15:39:24,458 (heralding.honeypot) Using default wordlist file: "/usr/lib/python3.9/site-packages/heralding/wordlist.txt", if you want to customize values please copy this file to the current working directory
+2022-05-12 15:39:24,480 (heralding.reporting.file_logger) File logger: Using /var/log/heralding/auth.csv to log authentication attempts in CSV format.
+2022-05-12 15:39:24,489 (heralding.reporting.file_logger) File logger: Using /var/log/heralding/session.csv to log unified session data in CSV format.
+2022-05-12 15:39:24,490 (heralding.reporting.file_logger) File logger: Using /var/log/heralding/log_session.json to log complete session data in JSON format.
+2022-05-12 15:39:26,843 (heralding.honeypot) Found public ip: 34.121.180.85
+2022-05-12 15:39:26,844 (heralding.honeypot) Started RDP capability listening on port 3389
+2022-05-12 15:39:26,845 (heralding.honeypot) Started Telnet capability listening on port 23
+2022-05-12 15:39:26,846 (heralding.honeypot) Started Pop3 capability listening on port 110
+2022-05-12 15:39:29,895 (heralding.honeypot) Started Pop3S capability listening on port 995
+2022-05-12 15:39:29,896 (heralding.honeypot) Started Http capability listening on port 80
+2022-05-12 15:39:29,897 (heralding.honeypot) Started Imap capability listening on port 143
+2022-05-12 15:39:29,898 (heralding.honeypot) Started MySQL capability listening on port 3306
+2022-05-12 15:39:29,899 (heralding.honeypot) Started Vnc capability listening on port 5900
+2022-05-12 15:39:29,901 (heralding.honeypot) Started PostgreSQL capability listening on port 5432
+2022-05-12 15:39:29,902 (heralding.honeypot) Started smtp capability listening on port 25
+2022-05-12 15:39:30,980 (heralding.honeypot) Started https capability listening on port 443
+2022-05-12 15:39:30,981 (heralding.honeypot) Started Socks5 capability listening on port 1080
+2022-05-12 15:39:34,976 (heralding.honeypot) Started Imaps capability listening on port 993
+2022-05-12 15:39:36,616 (heralding.honeypot) Started SSH capability listening on port 22
+2022-05-12 15:39:37,090 (heralding.honeypot) Started smtps capability listening on port 465
+2022-05-12 15:39:37,092 (heralding.honeypot) Started ftp capability listening on port 21
+2022-05-12 16:39:27,111 (heralding.honeypot) Found public ip: 34.121.180.85
+2022-05-13 00:08:34,851 (heralding.honeypot) Found public ip: 34.121.180.85
+2022-05-13 01:08:35,072 (heralding.honeypot) Found public ip: 34.121.180.85
+2022-05-13 02:08:35,309 (heralding.honeypot) Found public ip: 34.121.180.85
+2022-05-13 03:08:35,539 (heralding.honeypot) Found public ip: 34.121.180.85
