@@ -6,61 +6,32 @@ Changes not staged for commit:
 	modified:   adbhoney/log/adbhoney.json
 	modified:   adbhoney/log/adbhoney.log
 	modified:   ciscoasa/log/ciscoasa.log
-	modified:   conpot/log/conpot_IEC104.json
 	modified:   conpot/log/conpot_IEC104.log
 	modified:   cowrie/log/cowrie.json
-	modified:   ddospot/bl/blacklist-chargen-daily.txt
-	modified:   ddospot/bl/blacklist-chargen-full.txt
-	modified:   ddospot/bl/blacklist-chargen-weekly.txt
 	modified:   ddospot/db/dnspot.sqlite3
 	modified:   ddospot/db/ntpot.sqlite3
-	modified:   ddospot/db/ssdpot.sqlite3
-	modified:   ddospot/log/chargenpot.log
 	modified:   ddospot/log/dnspot.log
 	modified:   ddospot/log/ntpot.log
-	modified:   ddospot/log/ssdpot.log
+	modified:   dionaea/dionaea-errors.log
 	modified:   dionaea/log/dionaea.json
 	modified:   dionaea/log/dionaea.sqlite
-	deleted:    elk/data/_state/_1wb.cfe
-	deleted:    elk/data/_state/_1wb.cfs
-	deleted:    elk/data/_state/_1wb.si
-	deleted:    elk/data/_state/_1wb_4.liv
-	deleted:    elk/data/_state/_1wc.cfe
-	deleted:    elk/data/_state/_1wc.cfs
-	deleted:    elk/data/_state/_1wc.si
-	deleted:    elk/data/_state/_1wc_3.liv
-	deleted:    elk/data/_state/_1wd.cfe
-	deleted:    elk/data/_state/_1wd.cfs
-	deleted:    elk/data/_state/_1wd.si
-	deleted:    elk/data/_state/_1we.cfe
-	deleted:    elk/data/_state/_1we.cfs
-	deleted:    elk/data/_state/_1we.si
-	deleted:    elk/data/_state/_1wf.cfe
-	deleted:    elk/data/_state/_1wf.cfs
-	deleted:    elk/data/_state/_1wf.si
-	deleted:    elk/data/_state/_1wh.cfe
-	deleted:    elk/data/_state/_1wh.cfs
-	deleted:    elk/data/_state/_1wh.si
-	deleted:    elk/data/_state/_1wi.cfe
-	deleted:    elk/data/_state/_1wi.cfs
-	deleted:    elk/data/_state/_1wi.si
-	deleted:    elk/data/_state/_1wj.cfe
-	deleted:    elk/data/_state/_1wj.cfs
-	deleted:    elk/data/_state/_1wj.si
-	deleted:    elk/data/_state/manifest-26.st
-	deleted:    elk/data/_state/node-26.st
-	deleted:    elk/data/_state/segments_1xy
-	deleted:    elk/data/snapshot_cache/segments_r
+	deleted:    elk/data/_state/_1wl.cfe
+	deleted:    elk/data/_state/_1wl.cfs
+	deleted:    elk/data/_state/_1wl.si
+	deleted:    elk/data/_state/manifest-27.st
+	deleted:    elk/data/_state/node-27.st
+	deleted:    elk/data/_state/segments_1y2
+	deleted:    elk/data/snapshot_cache/segments_t
 	modified:   elk/log/tpotcluster.log
 	modified:   elk/log/tpotcluster_deprecation.json
 	modified:   elk/log/tpotcluster_server.json
 	modified:   fatt/log/fatt.log
 	modified:   git_backup.log
-	modified:   heralding/log/log_session.json
-	modified:   heralding/log/session.csv
+	modified:   heralding/log/heralding.log
 	modified:   honeytrap/log/attacker.log
 	modified:   honeytrap/log/attackers.json
 	modified:   honeytrap/log/honeytrap.log
+	modified:   mailoney/log/commands.log
 	modified:   p0f/log/p0f.json
 	modified:   redishoneypot/log/redishoneypot.log
 	modified:   sentrypeer/log/sentrypeer.db
@@ -69,88 +40,15 @@ Changes not staged for commit:
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-	dionaea/bistreams/2022-05-15/ftpd-172.28.0.2-21-205.210.31.13-47513-2022-05-15T22:20:15.692926-DhZZkf
-	dionaea/bistreams/2022-05-15/httpd-172.28.0.2-81-149.57.221.120-49818-2022-05-15T22:20:15.712761-vtppgh
-	dionaea/bistreams/2022-05-15/httpd-172.28.0.2-81-192.241.222.155-38236-2022-05-15T22:20:15.723910-faFLLf
-	dionaea/bistreams/2022-05-15/mysqld-172.28.0.2-3306-185.162.235.162-52582-2022-05-15T19:57:15.762498-ULwtmi
-	dionaea/bistreams/2022-05-15/smbd-172.28.0.2-445-192.241.212.154-56698-2022-05-15T22:20:15.758997-hSsFLf
-	dionaea/bistreams/2022-05-15/smbd-172.28.0.2-445-192.241.212.154-60162-2022-05-15T22:20:15.766614-HFNQ1h
-	dionaea/bistreams/2022-05-15/smbd-172.28.0.2-445-198.235.24.27-41787-2022-05-15T22:20:15.774675-edBHWf
-	elk/data/_state/_1wl.cfe
-	elk/data/_state/_1wl.cfs
-	elk/data/_state/_1wl.si
-	elk/data/_state/manifest-27.st
-	elk/data/_state/node-27.st
-	elk/data/_state/segments_1y2
-	elk/data/snapshot_cache/segments_t
-	honeytrap/attacks/from_port_10354-tcp_11779_2022-05-15_md5_a796e80568d9e97878b327e7b0ed0d10
-	honeytrap/attacks/from_port_12025-tcp_11481_2022-05-15_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_12406-tcp_11476_2022-05-15_md5_1f5ea395215e5322a0ada021ee511e91
-	honeytrap/attacks/from_port_18054-tcp_11678_2022-05-15_md5_40e120950d2d4df7e643155110313e98
-	honeytrap/attacks/from_port_18081-tcp_11453_2022-05-15_md5_de2d6568245980ed2e4b049615a4f4bd
-	honeytrap/attacks/from_port_20001-tcp_11483_2022-05-15_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_3105-tcp_11496_2022-05-15_md5_17985aad45434c54f935764ffb4e50d0
-	honeytrap/attacks/from_port_5678-tcp_11632_2022-05-15_md5_c1896a67f5b92c47df9185f85bcaaf22
-	honeytrap/attacks/from_port_8080-tcp_11486_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11488_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11490_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11494_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11498_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11504_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11506_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11509_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11511_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11513_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11515_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11519_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11523_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11529_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11533_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11536_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11541_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11545_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11551_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11556_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11562_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11566_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11578_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11587_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11594_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11598_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11601_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11605_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11608_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11612_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11615_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11620_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11623_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11626_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11629_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11634_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11636_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11638_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11642_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11644_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11648_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11651_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11654_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11657_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11660_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11662_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11665_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11669_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11680_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11686_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11689_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11692_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11695_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11698_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11702_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11705_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11709_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11711_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_8080-tcp_11716_2022-05-15_md5_0a986294c226383a13010e69e3182bcb
-	honeytrap/attacks/from_port_9061-tcp_11780_2022-05-15_md5_a796e80568d9e97878b327e7b0ed0d10
-	honeytrap/attacks/from_port_9433-tcp_11679_2022-05-15_md5_4dd293ac8c794d839948db534b334eb5
+	dionaea/bistreams/2022-05-16/
+	elk/data/_state/_1wn.cfe
+	elk/data/_state/_1wn.cfs
+	elk/data/_state/_1wn.si
+	elk/data/_state/manifest-28.st
+	elk/data/_state/node-28.st
+	elk/data/_state/segments_1y6
+	elk/data/snapshot_cache/segments_u
+	honeytrap/attacks/from_port_4747-tcp_12065_2022-05-15_md5_f686739674dd9ab51724bb1c111344d3
+	honeytrap/attacks/from_port_4747-tcp_12067_2022-05-15_md5_f686739674dd9ab51724bb1c111344d3
 
 no changes added to commit (use "git add" and/or "git commit -a")
