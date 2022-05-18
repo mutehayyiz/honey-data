@@ -13,3 +13,24 @@
 2022-05-18 15:38:29,481 IEC 60870-5-104 protocol server started on: ('0.0.0.0', 2404)
 2022-05-18 15:38:30,994 Skipped: OID for symbol ifOutUNcastPkts not found in MIB IF-MIB
 2022-05-18 15:38:34,482 SNMP server started on: ('0.0.0.0', 161)
+2022-05-18 16:08:32,650 New snmp session from 147.203.255.20 (ceb735ee-0e4f-44fb-b399-d764ee4c543a)
+2022-05-18 16:08:32,652 SNMPv1 Get request from ('147.203.255.20', 47113): 1.3.6.1.2.1.1.1.0 
+2022-05-18 16:08:32,652 SNMPv1 Get response to ('147.203.255.20', 47113): 1.3.6.1.2.1.1.1.0 Siemens, SIMATIC, S7-300
+2022-05-18 16:09:04,682 Session timed out: ceb735ee-0e4f-44fb-b399-d764ee4c543a
+2022-05-18 16:15:15,371 New snmp session from 205.210.31.140 (e6d1efd6-56de-42cb-9355-071f542e899a)
+2022-05-18 16:15:15,372 SNMPv1 Get request from ('205.210.31.140', 62142): 1.3.6.1.2.1.1.1.0 
+2022-05-18 16:15:15,372 SNMPv1 Get response to ('205.210.31.140', 62142): 1.3.6.1.2.1.1.1.0 Siemens, SIMATIC, S7-300
+2022-05-18 16:15:45,398 Session timed out: e6d1efd6-56de-42cb-9355-071f542e899a
+2022-05-18 17:33:25,627 SNMP Exception: This class is not converted to new architecture
+2022-05-18 17:38:40,535 SNMP Exception: This class is not converted to new architecture
+2022-05-18 17:55:09,044 SNMP Exception: This class is not converted to new architecture
+2022-05-18 19:53:56,218 New IEC104 session from 170.106.35.103 (c06d8bc1-2ae1-4cbf-a87b-7fdef5a87887)
+2022-05-18 19:53:56,227 New IEC 104 connection from 170.106.35.103:45872. (c06d8bc1-2ae1-4cbf-a87b-7fdef5a87887)
+2022-05-18 19:53:56,230 ('170.106.35.103', 45872) ---> u_frame. TESTFR act. (c06d8bc1-2ae1-4cbf-a87b-7fdef5a87887)
+2022-05-18 19:53:56,231 ('170.106.35.103', 45872) <--- u_frame 0x68 0x4 0x83 0x0 0x0 0x0  (c06d8bc1-2ae1-4cbf-a87b-7fdef5a87887)
+2022-05-18 19:53:56,259 ('170.106.35.103', 45872) ---> u_frame. STARTDT act. (c06d8bc1-2ae1-4cbf-a87b-7fdef5a87887)
+2022-05-18 19:53:56,260 ('170.106.35.103', 45872) <--- u_frame 0x68 0x4 0xb 0x0 0x0 0x0  (c06d8bc1-2ae1-4cbf-a87b-7fdef5a87887)
+2022-05-18 19:53:56,290 ('170.106.35.103', 45872) ---> i_frame C_IC_NA_1 with {'TypeID': 100, 'SQ': 0, 'NoO': 1, 'T': 0, 'PN': 0, 'COT': 6, 'OrigAddr': 0, 'COA': 65535} Objects=[{'IOA': 0, 'QOI': 20}]  (c06d8bc1-2ae1-4cbf-a87b-7fdef5a87887)
+2022-05-18 19:53:56,292 ('170.106.35.103', 45872) <--- i_frame C_IC_NA_1 with {'COT': 7, 'COA': 7720} Objects=[{'QOI': 20}]  (c06d8bc1-2ae1-4cbf-a87b-7fdef5a87887)
+2022-05-18 19:53:56,511 ('170.106.35.103', 45872) <--- i_frame M_SP_NA_1 with {'SQ': 0, 'COT': 20, 'NoO': 16, 'COA': 7720} Objects=[{'SIQ': <SIQ  SPI=0x1 |>, 'IOA': 1314048}, {'SIQ': <SIQ  SPI=0x0 |>, 'IOA': 1379584}, {'SIQ': <SIQ  SPI=0x0 |>, 'IOA': 1445120}, {'SIQ': <SIQ  SPI=0x1 |>, 'IOA': 1576192}, {'SIQ': <SIQ  SPI=0x1 |>, 'IOA': 1641728}, {'SIQ': <SIQ  SPI=0x1 |>, 'IOA': 2100480}, {'SIQ': <SIQ  SPI=0x1 |>, 'IOA': 2166016}, {'SIQ': <SIQ  SPI=0x1 |>, 'IOA': 2231552}, {'SIQ': <SIQ  SPI=0x1 |>, 'IOA': 2297088}, {'SIQ': <SIQ  SPI=0x1 |>, 'IOA': 2362624}, {'SIQ': <SIQ  SPI=0x1 |>, 'IOA': 2428160}, {'SIQ': <SIQ  SPI=0x1 |>, 'IOA': 2493696}, {'SIQ': <SIQ  SPI=0x1 |>, 'IOA': 2559232}, {'SIQ': <SIQ  SPI=0x0 |>, 'IOA': 2624768}, {'SIQ': <SIQ  SPI=0x1 |>, 'IOA': 2690304}, {'SIQ': <SIQ  SPI=0x0 |>, 'IOA': 2755840}]  (c06d8bc1-2ae1-4cbf-a87b-7fdef5a87887)
+2022-05-18 19:54:26,269 Session timed out: c06d8bc1-2ae1-4cbf-a87b-7fdef5a87887
